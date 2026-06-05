@@ -89,6 +89,43 @@ Five FracTracker Illinois records are within 1 km of both a PNNL record and a NA
 
 These represent the highest-confidence overlap zones because all three sources place a data center-related record in roughly the same location.
 
+## Operating-Only FracTracker Filter
+
+Because many FracTracker Illinois records are proposed or otherwise non-operating, it is useful to isolate records where `status == Operating`. This reduces the FracTracker Illinois subset from 31 records to 4:
+
+| FracTracker record | City | County | MW | Facility size |
+| --- | --- | --- | ---: | ---: |
+| Stream Data Center: Chicago 1 | Elk Grove Village | Cook | 15 | 126,689 sqft |
+| Stream Data Center: Chicago 2 | Elk Grove Village | Cook | 32 | 226,000 sqft |
+| ORD-01 Data Center | Northlake | Cook | 42 | 220,000 sqft |
+| US Signal Data Center | Aurora | Kane | 1.35-6 | 33,000 sqft |
+
+The operating-only subset aligns much more tightly with PNNL than the full FracTracker Illinois dataset:
+
+| Pair | Within 100 m | Within 500 m | Within 1 km | Within 5 km | Within 10 km |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Operating FracTracker to PNNL | 4 | 4 | 4 | 4 | 4 |
+| Operating FracTracker to NAICS | 1 | 3 | 3 | 4 | 4 |
+
+Median nearest-neighbor distances also become much smaller:
+
+| Pair | Median nearest distance |
+| --- | ---: |
+| Operating FracTracker to PNNL | 0.016 km |
+| Operating FracTracker to NAICS | 0.396 km |
+
+Three of the four operating FracTracker records are within 1 km of both a PNNL and NAICS record:
+
+| FracTracker record | PNNL nearest record | PNNL distance | NAICS nearest record | NAICS distance |
+| --- | --- | ---: | --- | ---: |
+| Stream Data Center: Chicago 1 | Stream Chicago I | 55.6 m | STREAM DATA CENTERS | 58.5 m |
+| Stream Data Center: Chicago 2 | Stream Chicago II | 12.2 m | EQUINIX LLC | 316.6 m |
+| ORD-01 Data Center | Aligned Data Center - Chicago ORD-01 | 19.8 m | ASCENT LLC | 474.5 m |
+
+The fourth operating record, `US Signal Data Center`, is only 8.4 m from a PNNL building record, but its nearest NAICS candidate is about 4.3 km away. This suggests PNNL is the stronger corroborating source for that site.
+
+Filtering FracTracker to operating records therefore makes FracTracker behave much more like PNNL: it becomes a small, high-confidence existing-site layer. The broader FracTracker dataset is still valuable, but mainly because it captures proposed, suspended, cancelled, and under-construction projects that existing-footprint and registry sources may miss.
+
 ## Additional FracTracker to PNNL Matches Within 1 km
 
 | FracTracker record | PNNL nearest record | PNNL layer | County | Distance |
