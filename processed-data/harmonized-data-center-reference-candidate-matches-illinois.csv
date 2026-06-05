@@ -1,0 +1,49 @@
+left_record_uid,right_record_uid,left_source,right_source,left_name,right_name,left_status,right_status,distance_m,name_score,match_rule,is_grouped_match
+NAICS:naics_444,PNNL:building_01219083554,NAICS,PNNL,T5@CHICAGO II LP,T5 Chicago II,Operating/inferred,Operating/inferred,4.215,1.0,spatial_100m,True
+NAICS:naics_436,PNNL:building_00863162825,NAICS,PNNL,STREAM DATA CENTERS,Stream Chicago I,Operating/inferred,Operating/inferred,4.774,1.0,spatial_100m,True
+FracTracker:frac_row_1359,PNNL:building_00124088810,FracTracker,PNNL,US Signal Data Center,Lincoln Rackhouse,Operating,Operating/inferred,8.364,0.0,spatial_100m,True
+FracTracker:frac_row_270,PNNL:building_00863162820,FracTracker,PNNL,Stream Data Center: Chicago 2,Stream Chicago II,Operating,Operating/inferred,12.169,1.0,spatial_100m,True
+FracTracker:frac_row_271,PNNL:building_01219083554,FracTracker,PNNL,T5 Data Center,T5 Chicago II,Approved/Permitted/Under construction,Operating/inferred,12.502,1.0,spatial_100m,True
+NAICS:naics_94,PNNL:building_00377032061,NAICS,PNNL,EQUINIX LLC,Equinix Chicago CH3,Operating/inferred,Operating/inferred,13.633,1.0,spatial_100m,True
+FracTracker:frac_row_271,NAICS:naics_444,FracTracker,NAICS,T5 Data Center,T5@CHICAGO II LP,Approved/Permitted/Under construction,Operating/inferred,16.2,1.0,spatial_100m,True
+FracTracker:frac_row_280,PNNL:building_01217649348,FracTracker,PNNL,ORD-01 Data Center,Aligned Data Center - Chicago ORD-01,Operating,Operating/inferred,19.755,1.0,spatial_100m,True
+FracTracker:frac_row_281,PNNL:building_01217649350,FracTracker,PNNL,ORD-02 Data Center,Aligned Data Center - Chicago ORD-02,Approved/Permitted/Under construction,Operating/inferred,35.424,1.0,spatial_100m,True
+FracTracker:frac_row_269,PNNL:building_00863162825,FracTracker,PNNL,Stream Data Center: Chicago 1,Stream Chicago I,Operating,Operating/inferred,55.625,1.0,spatial_100m,True
+FracTracker:frac_row_269,NAICS:naics_436,FracTracker,NAICS,Stream Data Center: Chicago 1,STREAM DATA CENTERS,Operating,Operating/inferred,58.452,1.0,spatial_100m,True
+NAICS:naics_86,PNNL:building_00384690290,NAICS,PNNL,CHICAGO ENTERPRISE LLC,Element Critical CH1,Operating/inferred,Operating/inferred,70.865,0.0,spatial_100m,True
+NAICS:naics_300,PNNL:building_00209786637,NAICS,PNNL,QUALITY TECHNOLOGY SERVICES LLC,QTS Chicago,Operating/inferred,Operating/inferred,294.612,1.0,name_supported_500m,True
+FracTracker:frac_row_280,PNNL:building_01217649350,FracTracker,PNNL,ORD-01 Data Center,Aligned Data Center - Chicago ORD-02,Operating,Operating/inferred,119.566,1.0,candidate_only_code_conflict,False
+FracTracker:frac_row_281,PNNL:building_01217649348,FracTracker,PNNL,ORD-02 Data Center,Aligned Data Center - Chicago ORD-01,Approved/Permitted/Under construction,Operating/inferred,141.882,1.0,candidate_only_code_conflict,False
+FracTracker:frac_row_269,PNNL:building_00377032058,FracTracker,PNNL,Stream Data Center: Chicago 1,EdgeConneX CHI02,Operating,Operating/inferred,147.754,0.0,candidate_only_code_conflict,False
+NAICS:naics_436,PNNL:building_00377032058,NAICS,PNNL,STREAM DATA CENTERS,EdgeConneX CHI02,Operating/inferred,Operating/inferred,175.433,0.0,candidate_only_low_specificity,False
+NAICS:naics_436,PNNL:building_00174242795,NAICS,PNNL,STREAM DATA CENTERS,EdgeConneX CHI01,Operating/inferred,Operating/inferred,209.312,0.0,candidate_only_low_specificity,False
+NAICS:naics_94,PNNL:building_00377032058,NAICS,PNNL,EQUINIX LLC,EdgeConneX CHI02,Operating/inferred,Operating/inferred,209.446,0.0,candidate_only_low_specificity,False
+FracTracker:frac_row_269,PNNL:building_00174242795,FracTracker,PNNL,Stream Data Center: Chicago 1,EdgeConneX CHI01,Operating,Operating/inferred,230.384,0.0,candidate_only_code_conflict,False
+NAICS:naics_444,PNNL:building_01219083552,NAICS,PNNL,T5@CHICAGO II LP,,Operating/inferred,Operating/inferred,273.293,0.0,candidate_only,False
+FracTracker:frac_row_271,PNNL:building_01219083552,FracTracker,PNNL,T5 Data Center,,Approved/Permitted/Under construction,Operating/inferred,289.057,0.0,candidate_only,False
+FracTracker:frac_row_270,PNNL:building_00377032061,FracTracker,PNNL,Stream Data Center: Chicago 2,Equinix Chicago CH3,Operating,Operating/inferred,303.046,0.2,candidate_only_code_conflict,False
+FracTracker:frac_row_269,NAICS:naics_94,FracTracker,NAICS,Stream Data Center: Chicago 1,EQUINIX LLC,Operating,Operating/inferred,315.408,0.0,candidate_only_low_specificity,False
+FracTracker:frac_row_270,NAICS:naics_94,FracTracker,NAICS,Stream Data Center: Chicago 2,EQUINIX LLC,Operating,Operating/inferred,316.607,0.0,candidate_only_low_specificity,False
+NAICS:naics_94,PNNL:building_00863162820,NAICS,PNNL,EQUINIX LLC,Stream Chicago II,Operating/inferred,Operating/inferred,323.092,0.0,candidate_only_low_specificity,False
+FracTracker:frac_row_269,PNNL:building_00377032061,FracTracker,PNNL,Stream Data Center: Chicago 1,Equinix Chicago CH3,Operating,Operating/inferred,328.903,0.2,candidate_only_code_conflict,False
+NAICS:naics_86,PNNL:building_00377212693,NAICS,PNNL,CHICAGO ENTERPRISE LLC,Element Critical CH2,Operating/inferred,Operating/inferred,333.707,0.0,candidate_only_low_specificity,False
+NAICS:naics_94,PNNL:building_00174242795,NAICS,PNNL,EQUINIX LLC,EdgeConneX CHI01,Operating/inferred,Operating/inferred,358.803,0.0,candidate_only_low_specificity,False
+NAICS:naics_94,PNNL:building_00863162825,NAICS,PNNL,EQUINIX LLC,Stream Chicago I,Operating/inferred,Operating/inferred,359.028,0.0,candidate_only_low_specificity,False
+NAICS:naics_436,PNNL:building_00377032061,NAICS,PNNL,STREAM DATA CENTERS,Equinix Chicago CH3,Operating/inferred,Operating/inferred,376.759,0.0,candidate_only_low_specificity,False
+FracTracker:frac_row_270,PNNL:building_00377032058,FracTracker,PNNL,Stream Data Center: Chicago 2,EdgeConneX CHI02,Operating,Operating/inferred,499.746,0.0,candidate_only_code_conflict,False
+FracTracker:frac_row_270,PNNL:building_00713433204,FracTracker,PNNL,Stream Data Center: Chicago 2,Digital Realty CH2,Operating,Operating/inferred,533.185,0.0,candidate_only_code_conflict,False
+FracTracker:frac_row_262,PNNL:building_01312792613,FracTracker,PNNL,Karis Critical Data Center,,Proposed,Operating/inferred,539.338,0.0,candidate_only,False
+FracTracker:frac_row_270,PNNL:building_00174242795,FracTracker,PNNL,Stream Data Center: Chicago 2,EdgeConneX CHI01,Operating,Operating/inferred,603.712,0.0,candidate_only_code_conflict,False
+FracTracker:frac_row_262,PNNL:building_01312792611,FracTracker,PNNL,Karis Critical Data Center,,Proposed,Operating/inferred,612.567,0.0,candidate_only,False
+FracTracker:frac_row_269,PNNL:building_00863162820,FracTracker,PNNL,Stream Data Center: Chicago 1,Stream Chicago II,Operating,Operating/inferred,632.339,1.0,candidate_only_code_conflict,False
+FracTracker:frac_row_270,PNNL:building_00128499684,FracTracker,PNNL,Stream Data Center: Chicago 2,Digital Realty CH1,Operating,Operating/inferred,664.294,0.0,candidate_only_code_conflict,False
+FracTracker:frac_row_270,PNNL:building_00863162825,FracTracker,PNNL,Stream Data Center: Chicago 2,Stream Chicago I,Operating,Operating/inferred,665.442,1.0,candidate_only_code_conflict,False
+FracTracker:frac_row_270,NAICS:naics_436,FracTracker,NAICS,Stream Data Center: Chicago 2,STREAM DATA CENTERS,Operating,Operating/inferred,670.132,1.0,candidate_only_low_specificity,False
+NAICS:naics_436,PNNL:building_00863162820,NAICS,PNNL,STREAM DATA CENTERS,Stream Chicago II,Operating/inferred,Operating/inferred,674.538,1.0,candidate_only_low_specificity,False
+FracTracker:frac_row_262,PNNL:campus_01019770124,FracTracker,PNNL,Karis Critical Data Center,DeKalb Meta Data Center,Proposed,Operating/inferred,763.713,0.0,candidate_only,False
+NAICS:naics_94,PNNL:building_00713433204,NAICS,PNNL,EQUINIX LLC,Digital Realty CH2,Operating/inferred,Operating/inferred,788.315,0.0,candidate_only_low_specificity,False
+FracTracker:frac_row_270,PNNL:building_00713428715,FracTracker,PNNL,Stream Data Center: Chicago 2,Digital Realty CH3,Operating,Operating/inferred,796.181,0.0,candidate_only_code_conflict,False
+FracTracker:frac_row_270,PNNL:building_00377345296,FracTracker,PNNL,Stream Data Center: Chicago 2,Centersquare Elk Grove Village Data Center Campus ORD2,Operating,Operating/inferred,804.831,0.0,candidate_only_code_conflict,False
+FracTracker:frac_row_262,PNNL:building_01312792612,FracTracker,PNNL,Karis Critical Data Center,,Proposed,Operating/inferred,900.309,0.0,candidate_only,False
+NAICS:naics_94,PNNL:building_00128499684,NAICS,PNNL,EQUINIX LLC,Digital Realty CH1,Operating/inferred,Operating/inferred,976.141,0.0,candidate_only_low_specificity,False
+FracTracker:frac_row_261,PNNL:point_10910879065,FracTracker,PNNL,HydraVault Data Center,Centersquare Chicago Data Center - ORD1,Approved/Permitted/Under construction,Operating/inferred,990.235,0.0,candidate_only,False

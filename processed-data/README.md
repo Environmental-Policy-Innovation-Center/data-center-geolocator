@@ -11,6 +11,15 @@ This directory contains generated outputs from `scripts/harmonize_reference_data
 | `harmonized-data-center-reference-candidate-matches.csv` | One row per cross-source candidate pair within 1 km | Candidate match audit table, including distance, name score, rule, and whether the pair was grouped |
 | `harmonized-data-center-reference-sites.geojson` | One point per harmonized site group with valid coordinates | Mapping-friendly point export of the harmonized site table |
 
+Illinois-only extracts are also provided:
+
+| File | Grain | Description |
+| --- | --- | --- |
+| `harmonized-data-center-reference-sites-illinois.csv` | One row per Illinois harmonized site group | Illinois subset of the harmonized site table, filtered to `state == IL` |
+| `harmonized-data-center-reference-members-illinois.csv` | One row per source record attached to an Illinois site group | Source-member audit table for Illinois site groups |
+| `harmonized-data-center-reference-candidate-matches-illinois.csv` | One row per Illinois cross-source candidate pair | Candidate match audit table where both records are attached to Illinois site groups |
+| `harmonized-data-center-reference-sites-illinois.geojson` | One point per Illinois harmonized site group with valid coordinates | Mapping-friendly Illinois point export |
+
 ## Matching Approach
 
 The harmonization uses spatial proximity plus name/operator evidence. Candidate pairs are generated across source families within 1 km using projected distances in `EPSG:5070`.
