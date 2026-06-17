@@ -1,28 +1,20 @@
-# Finding Data Centers in Illinois with Satellite Embeddings — Findings & Operational Guidance
+# Finding Data Centers in Illinois with Satellite Embeddings 
 
 *A retrieval study over SkyCLIP/NAIP and SSL4EO/Sentinel-2 embeddings, evaluated against 50
-confirmed Illinois data centers. Companion to [`design.md`](design.md) (full method) and the code
-in `dceval/` + `scripts/`.*
+confirmed Illinois data centers. 
 
 ---
 
 ## Executive summary
-
+- **Use high-resolution NAIP/SkyCLIP, not Sentinel-2.** Whitened NAIP gets **recall@1000 = 0.80**
+  vs **0.56** for Sentinel-2; combining the two adds essentially nothing (one extra site). S2 is
+  only competitive on large warehouse-style roofs and is worth considering only where sub-meter
+  imagery is unavailable.
 - **Embeddings can find data centers — but only after one critical fix.** Out of the box, nearest-
   neighbour search over SkyCLIP/NAIP embeddings recovers just **36%** of held-out data centers in
   the top 1000 of 2.9 M candidate tiles. **Whitening the embedding space first lifts that to 80%**
   (and 96% by the top 10,000). Whitening is the single highest-leverage decision in the whole
   pipeline.
-- **Use high-resolution NAIP/SkyCLIP, not Sentinel-2.** Whitened NAIP gets **recall@1000 = 0.80**
-  vs **0.56** for Sentinel-2; combining the two adds essentially nothing (one extra site). S2 is
-  only competitive on large warehouse-style roofs and is worth considering only where sub-meter
-  imagery is unavailable.
-- **With whitening, query from *all* your confirmed sites.** A naive all-sites prototype is biased
-  toward the majority (warehouse-style) class *in raw space*, where a single-archetype
-  `large_purpose_built` prototype does better — but whitening removes that bias, and the whitened
-  all-50 prototype (recall@1000 = 0.80) then beats the `large_purpose_built`-only one (0.74). Use a
-  single canonical archetype only as a cold-start, or to deliberately bias toward big purpose-built
-  campuses.
 - **You can bootstrap with zero labels.** A SkyCLIP *text* prompt ensemble ("a data center …")
   reaches **0.36** with no examples at all — useful to seed the first candidates before you have
   confirmed sites.
