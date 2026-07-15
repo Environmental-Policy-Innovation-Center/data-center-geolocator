@@ -1,0 +1,1861 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.21709086831733,
+          41.77216480463177
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_00343",
+        "canonical_name": "Lincoln Rackhouse",
+        "operator_summary": null,
+        "status_summary": "Operating",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "DuPage County",
+        "city": "Aurora",
+        "latitude": 41.77216480463177,
+        "longitude": -88.21709086831733,
+        "facility_size_sqft": 33000.0,
+        "campus_area_sqft": null,
+        "mw_summary": "1.35-6",
+        "facility_size_bucket": "<75k",
+        "reference_confidence": "multi_source",
+        "source_count": 2,
+        "sources": "FracTracker|PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00124088810",
+        "name_aliases": "Lincoln Rackhouse|US Signal Data Center",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "small_retrofit_edge_or_pop",
+        "taxonomy_group_name": "Small retrofit / edge site / point-of-presence",
+        "taxonomy_findability_s2": "very_low",
+        "taxonomy_findability_naip": "very_low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.95113481547399,
+          42.00260065820328
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_00614",
+        "canonical_name": "Stream Chicago I",
+        "operator_summary": "Stream",
+        "status_summary": "Operating",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": "Elk Grove Village",
+        "latitude": 42.00260065820328,
+        "longitude": -87.95113481547399,
+        "facility_size_sqft": 126689.0,
+        "campus_area_sqft": null,
+        "mw_summary": "15",
+        "facility_size_bucket": "<150k",
+        "reference_confidence": "multi_source",
+        "source_count": 3,
+        "sources": "FracTracker|NAICS|PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00863162825",
+        "name_aliases": "STREAM DATA CENTERS|Stream Chicago I|Stream Data Center: Chicago 1",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "industrial_park_warehouse_style_colo",
+        "taxonomy_group_name": "Industrial-park, warehouse-style colo",
+        "taxonomy_findability_s2": "low",
+        "taxonomy_findability_naip": "moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.95776458161538,
+          41.99912438131275
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_00616",
+        "canonical_name": "Stream Chicago II",
+        "operator_summary": "Stream",
+        "status_summary": "Operating",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": "Elk Grove Village",
+        "latitude": 41.99912438131275,
+        "longitude": -87.95776458161538,
+        "facility_size_sqft": 226000.0,
+        "campus_area_sqft": null,
+        "mw_summary": "32",
+        "facility_size_bucket": "<300k",
+        "reference_confidence": "multi_source",
+        "source_count": 2,
+        "sources": "FracTracker|PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00863162820",
+        "name_aliases": "Stream Chicago II|Stream Data Center: Chicago 2",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "industrial_park_warehouse_style_colo",
+        "taxonomy_group_name": "Industrial-park, warehouse-style colo",
+        "taxonomy_findability_s2": "low",
+        "taxonomy_findability_naip": "moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.97555687597257,
+          42.02304233326569
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_00617",
+        "canonical_name": "T5 Chicago II",
+        "operator_summary": "T5 Data Centers",
+        "status_summary": "Approved/Permitted/Under construction",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": "Elk Grove Village",
+        "latitude": 42.02304233326569,
+        "longitude": -87.97555687597257,
+        "facility_size_sqft": 250000.0,
+        "campus_area_sqft": null,
+        "mw_summary": "36",
+        "facility_size_bucket": "<300k",
+        "reference_confidence": "multi_source",
+        "source_count": 3,
+        "sources": "FracTracker|NAICS|PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_01219083554",
+        "name_aliases": "T5 Chicago II|T5 Data Center|T5@CHICAGO II LP",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "industrial_park_warehouse_style_colo",
+        "taxonomy_group_name": "Industrial-park, warehouse-style colo",
+        "taxonomy_findability_s2": "low",
+        "taxonomy_findability_naip": "moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.91746545885744,
+          41.91398308559336
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_00627",
+        "canonical_name": "Aligned Data Center - Chicago ORD-01",
+        "operator_summary": "Aligned|Aligned Data Centers",
+        "status_summary": "Operating",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": "Northlake",
+        "latitude": 41.91398308559336,
+        "longitude": -87.91746545885744,
+        "facility_size_sqft": 220000.0,
+        "campus_area_sqft": null,
+        "mw_summary": "42",
+        "facility_size_bucket": "<300k",
+        "reference_confidence": "multi_source",
+        "source_count": 2,
+        "sources": "FracTracker|PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_01217649348",
+        "name_aliases": "Aligned Data Center - Chicago ORD-01|ORD-01 Data Center",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "large_purpose_built_data_center",
+        "taxonomy_group_name": "Large purpose-built wholesale / colocation data center",
+        "taxonomy_findability_s2": "moderate",
+        "taxonomy_findability_naip": "very_high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.91749234723224,
+          41.91296223024628
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_00628",
+        "canonical_name": "Aligned Data Center - Chicago ORD-02",
+        "operator_summary": "Aligned|Aligned Data Centers",
+        "status_summary": "Approved/Permitted/Under construction",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": "Northlake",
+        "latitude": 41.91296223024628,
+        "longitude": -87.91749234723224,
+        "facility_size_sqft": 111422.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<150k",
+        "reference_confidence": "multi_source",
+        "source_count": 2,
+        "sources": "FracTracker|PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_01217649350",
+        "name_aliases": "Aligned Data Center - Chicago ORD-02|ORD-02 Data Center",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": null,
+        "taxonomy_group_name": null,
+        "taxonomy_findability_s2": null,
+        "taxonomy_findability_naip": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66900814712955,
+          41.84218652884067
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_01560",
+        "canonical_name": "QTS Chicago",
+        "operator_summary": "Quality Technology Services",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": null,
+        "latitude": 41.84218652884067,
+        "longitude": -87.66900814712955,
+        "facility_size_sqft": 267112.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<300k",
+        "reference_confidence": "multi_source",
+        "source_count": 2,
+        "sources": "NAICS|PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00209786637",
+        "name_aliases": "QTS Chicago|QUALITY TECHNOLOGY SERVICES LLC",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "industrial_park_warehouse_style_colo",
+        "taxonomy_group_name": "Industrial-park, warehouse-style colo",
+        "taxonomy_findability_s2": "low",
+        "taxonomy_findability_naip": "moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.96468543810447,
+          41.97576175006559
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_01834",
+        "canonical_name": "Element Critical CH1",
+        "operator_summary": "Element Critical",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "DuPage County",
+        "city": null,
+        "latitude": 41.97576175006559,
+        "longitude": -87.96468543810447,
+        "facility_size_sqft": 92076.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<150k",
+        "reference_confidence": "multi_source",
+        "source_count": 2,
+        "sources": "NAICS|PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00384690290",
+        "name_aliases": "CHICAGO ENTERPRISE LLC|Element Critical CH1",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "industrial_park_warehouse_style_colo",
+        "taxonomy_group_name": "Industrial-park, warehouse-style colo",
+        "taxonomy_findability_s2": "low",
+        "taxonomy_findability_naip": "moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.95521312428228,
+          42.001158707879654
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_01842",
+        "canonical_name": "Equinix Chicago CH3",
+        "operator_summary": "Equinix",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": null,
+        "latitude": 42.001158707879654,
+        "longitude": -87.95521312428228,
+        "facility_size_sqft": 135800.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<150k",
+        "reference_confidence": "multi_source",
+        "source_count": 2,
+        "sources": "NAICS|PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00377032061",
+        "name_aliases": "EQUINIX LLC|Equinix Chicago CH3",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "industrial_park_warehouse_style_colo",
+        "taxonomy_group_name": "Industrial-park, warehouse-style colo",
+        "taxonomy_findability_s2": "low",
+        "taxonomy_findability_naip": "moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.96217216116061,
+          41.9942374288397
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_01881",
+        "canonical_name": "Digital Realty CH1",
+        "operator_summary": "Digital Realty",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": null,
+        "latitude": 41.9942374288397,
+        "longitude": -87.96217216116061,
+        "facility_size_sqft": 469756.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": ">=300k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00128499684",
+        "name_aliases": "Digital Realty CH1",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "industrial_park_warehouse_style_colo",
+        "taxonomy_group_name": "Industrial-park, warehouse-style colo",
+        "taxonomy_findability_s2": "low",
+        "taxonomy_findability_naip": "moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.24203140069088,
+          40.09525910728646
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_01885",
+        "canonical_name": "NCSA Petascale Computing Facility",
+        "operator_summary": null,
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Champaign County",
+        "city": null,
+        "latitude": 40.09525910728646,
+        "longitude": -88.24203140069088,
+        "facility_size_sqft": 45620.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<75k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00138260136",
+        "name_aliases": "NCSA Petascale Computing Facility",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "institutional_research_hpc",
+        "taxonomy_group_name": "Institutional / research HPC facility",
+        "taxonomy_findability_s2": "low",
+        "taxonomy_findability_naip": "moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6299544230129,
+          41.87429345515449
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_01887",
+        "canonical_name": "Digital Realty ORD11",
+        "operator_summary": "Digital Realty",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": null,
+        "latitude": 41.87429345515449,
+        "longitude": -87.6299544230129,
+        "facility_size_sqft": 9092.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<25k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00149379943",
+        "name_aliases": "Digital Realty ORD11",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "small_retrofit_edge_or_pop",
+        "taxonomy_group_name": "Small retrofit / edge site / point-of-presence",
+        "taxonomy_findability_s2": "very_low",
+        "taxonomy_findability_naip": "very_low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.64014138667577,
+          41.87094383200688
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_01891",
+        "canonical_name": "Serverfarm CH1",
+        "operator_summary": "Serverfarm",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": null,
+        "latitude": 41.87094383200688,
+        "longitude": -87.64014138667577,
+        "facility_size_sqft": 56419.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<75k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00152449872",
+        "name_aliases": "Serverfarm CH1",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "urban_carrier_hotel_multitenant",
+        "taxonomy_group_name": "Urban carrier hotel / multi-tenant interconnection",
+        "taxonomy_findability_s2": "very_low",
+        "taxonomy_findability_naip": "low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6183592533761,
+          41.85365260504632
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_01893",
+        "canonical_name": "Lakeside Technology Center",
+        "operator_summary": null,
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": null,
+        "latitude": 41.85365260504632,
+        "longitude": -87.6183592533761,
+        "facility_size_sqft": 129156.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<150k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00156520409",
+        "name_aliases": "Lakeside Technology Center",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "urban_carrier_hotel_multitenant",
+        "taxonomy_group_name": "Urban carrier hotel / multi-tenant interconnection",
+        "taxonomy_findability_s2": "very_low",
+        "taxonomy_findability_naip": "low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9507686963863,
+          42.00077520139855
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_01897",
+        "canonical_name": "EdgeConneX CHI01",
+        "operator_summary": "EdgeConneX",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": null,
+        "latitude": 42.00077520139855,
+        "longitude": -87.9507686963863,
+        "facility_size_sqft": 120191.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<150k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00174242795",
+        "name_aliases": "EdgeConneX CHI01",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "industrial_park_warehouse_style_colo",
+        "taxonomy_group_name": "Industrial-park, warehouse-style colo",
+        "taxonomy_findability_s2": "low",
+        "taxonomy_findability_naip": "moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.24360276085451,
+          41.796710709040994
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_01911",
+        "canonical_name": "CyrusOne Chicago Aurora CME",
+        "operator_summary": "CyrusOne",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "DuPage County",
+        "city": null,
+        "latitude": 41.796710709040994,
+        "longitude": -88.24360276085451,
+        "facility_size_sqft": 483103.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": ">=300k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00199252950",
+        "name_aliases": "CyrusOne Chicago Aurora CME",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "large_purpose_built_data_center",
+        "taxonomy_group_name": "Large purpose-built wholesale / colocation data center",
+        "taxonomy_findability_s2": "moderate",
+        "taxonomy_findability_naip": "very_high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.64550983406528,
+          41.84879669155961
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_01928",
+        "canonical_name": "Iron Mountain Data & Record Storage",
+        "operator_summary": "Iron Mountain",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": null,
+        "latitude": 41.84879669155961,
+        "longitude": -87.64550983406528,
+        "facility_size_sqft": 106033.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<150k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00210222970",
+        "name_aliases": "Iron Mountain Data & Record Storage",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "industrial_park_warehouse_style_colo",
+        "taxonomy_group_name": "Industrial-park, warehouse-style colo",
+        "taxonomy_findability_s2": "low",
+        "taxonomy_findability_naip": "moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9728434935898,
+          41.812557111453394
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_01940",
+        "canonical_name": "Equinix Chicago Data CH7",
+        "operator_summary": "Equinix",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "DuPage County",
+        "city": null,
+        "latitude": 41.812557111453394,
+        "longitude": -87.9728434935898,
+        "facility_size_sqft": 47336.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<75k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00243242167",
+        "name_aliases": "Equinix Chicago Data CH7",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "industrial_park_warehouse_style_colo",
+        "taxonomy_group_name": "Industrial-park, warehouse-style colo",
+        "taxonomy_findability_s2": "low",
+        "taxonomy_findability_naip": "moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.95284650862307,
+          42.216756536018735
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_01977",
+        "canonical_name": "VISA",
+        "operator_summary": "VISA",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Lake County",
+        "city": null,
+        "latitude": 42.216756536018735,
+        "longitude": -87.95284650862307,
+        "facility_size_sqft": 55001.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<75k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00317466755",
+        "name_aliases": "VISA",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "enterprise_corporate_campus",
+        "taxonomy_group_name": "Enterprise / corporate-campus data center",
+        "taxonomy_findability_s2": "very_low",
+        "taxonomy_findability_naip": "low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.21951394141162,
+          41.90535458903981
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_01991",
+        "canonical_name": null,
+        "operator_summary": null,
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "DuPage County",
+        "city": null,
+        "latitude": 41.90535458903981,
+        "longitude": -88.21951394141162,
+        "facility_size_sqft": 14550.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<25k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00343593591",
+        "name_aliases": null,
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "small_retrofit_edge_or_pop",
+        "taxonomy_group_name": "Small retrofit / edge site / point-of-presence",
+        "taxonomy_findability_s2": "very_low",
+        "taxonomy_findability_naip": "very_low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.95256335815348,
+          42.001494373393264
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02007",
+        "canonical_name": "EdgeConneX CHI02",
+        "operator_summary": "EdgeConneX",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": null,
+        "latitude": 42.001494373393264,
+        "longitude": -87.95256335815348,
+        "facility_size_sqft": 64358.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<75k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00377032058",
+        "name_aliases": "EdgeConneX CHI02",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "industrial_park_warehouse_style_colo",
+        "taxonomy_group_name": "Industrial-park, warehouse-style colo",
+        "taxonomy_findability_s2": "low",
+        "taxonomy_findability_naip": "moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9671757623118,
+          41.97422731222964
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02008",
+        "canonical_name": "Element Critical CH2",
+        "operator_summary": "Element Critical",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "DuPage County",
+        "city": null,
+        "latitude": 41.97422731222964,
+        "longitude": -87.9671757623118,
+        "facility_size_sqft": 44358.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<75k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00377212693",
+        "name_aliases": "Element Critical CH2",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "industrial_park_warehouse_style_colo",
+        "taxonomy_group_name": "Industrial-park, warehouse-style colo",
+        "taxonomy_findability_s2": "low",
+        "taxonomy_findability_naip": "moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.95817200961845,
+          41.99204041535667
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02009",
+        "canonical_name": "Centersquare Elk Grove Village Data Center Campus ORD2",
+        "operator_summary": "Centersquare",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "DuPage County",
+        "city": null,
+        "latitude": 41.99204041535667,
+        "longitude": -87.95817200961845,
+        "facility_size_sqft": 198323.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<300k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00377345296",
+        "name_aliases": "Centersquare Elk Grove Village Data Center Campus ORD2",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "industrial_park_warehouse_style_colo",
+        "taxonomy_group_name": "Industrial-park, warehouse-style colo",
+        "taxonomy_findability_s2": "low",
+        "taxonomy_findability_naip": "moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9735185179455,
+          41.99366849754896
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02019",
+        "canonical_name": "Skybox Chicago I",
+        "operator_summary": "Skybox",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": null,
+        "latitude": 41.99366849754896,
+        "longitude": -87.9735185179455,
+        "facility_size_sqft": 174575.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<300k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00383545769",
+        "name_aliases": "Skybox Chicago I",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "industrial_park_warehouse_style_colo",
+        "taxonomy_group_name": "Industrial-park, warehouse-style colo",
+        "taxonomy_findability_s2": "low",
+        "taxonomy_findability_naip": "moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.85923594325138,
+          41.92837828612005
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02031",
+        "canonical_name": "Digital Realty Chicago ORD12",
+        "operator_summary": "Digital Realty",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": null,
+        "latitude": 41.92837828612005,
+        "longitude": -87.85923594325138,
+        "facility_size_sqft": 90165.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<150k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00409296605",
+        "name_aliases": "Digital Realty Chicago ORD12",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "industrial_park_warehouse_style_colo",
+        "taxonomy_group_name": "Industrial-park, warehouse-style colo",
+        "taxonomy_findability_s2": "low",
+        "taxonomy_findability_naip": "moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.09488558888414,
+          41.80234062646393
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02109",
+        "canonical_name": "Centersquare Lisle ORD4 Data Center",
+        "operator_summary": "Centersquare",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "DuPage County",
+        "city": null,
+        "latitude": 41.80234062646393,
+        "longitude": -88.09488558888414,
+        "facility_size_sqft": 361205.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": ">=300k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00530024353",
+        "name_aliases": "Centersquare Lisle ORD4 Data Center",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "industrial_park_warehouse_style_colo",
+        "taxonomy_group_name": "Industrial-park, warehouse-style colo",
+        "taxonomy_findability_s2": "low",
+        "taxonomy_findability_naip": "moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.91824122484651,
+          41.923005619536646
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02132",
+        "canonical_name": "Microsoft - Azure Datacenter",
+        "operator_summary": "Microsoft",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": null,
+        "latitude": 41.923005619536646,
+        "longitude": -87.91824122484651,
+        "facility_size_sqft": 306766.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": ">=300k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00578443547",
+        "name_aliases": "Microsoft - Azure Datacenter",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "large_purpose_built_data_center",
+        "taxonomy_group_name": "Large purpose-built wholesale / colocation data center",
+        "taxonomy_findability_s2": "moderate",
+        "taxonomy_findability_naip": "very_high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.96490377244766,
+          41.99439647260606
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02186",
+        "canonical_name": "Digital Realty CH3",
+        "operator_summary": "Digital Realty",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": null,
+        "latitude": 41.99439647260606,
+        "longitude": -87.96490377244766,
+        "facility_size_sqft": 348220.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": ">=300k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00713428715",
+        "name_aliases": "Digital Realty CH3",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "industrial_park_warehouse_style_colo",
+        "taxonomy_group_name": "Industrial-park, warehouse-style colo",
+        "taxonomy_findability_s2": "low",
+        "taxonomy_findability_naip": "moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.95773561339534,
+          41.994463823169475
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02187",
+        "canonical_name": "Digital Realty CH2",
+        "operator_summary": "Digital Realty",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": null,
+        "latitude": 41.994463823169475,
+        "longitude": -87.95773561339534,
+        "facility_size_sqft": 302974.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": ">=300k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00713433204",
+        "name_aliases": "Digital Realty CH2",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "industrial_park_warehouse_style_colo",
+        "taxonomy_group_name": "Industrial-park, warehouse-style colo",
+        "taxonomy_findability_s2": "low",
+        "taxonomy_findability_naip": "moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.64130393635244,
+          41.86279831305618
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02244",
+        "canonical_name": "CoreSite Chicago Data Center (CH2)",
+        "operator_summary": "CoreSite",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": null,
+        "latitude": 41.86279831305618,
+        "longitude": -87.64130393635244,
+        "facility_size_sqft": 61773.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<75k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00841813139",
+        "name_aliases": "CoreSite Chicago Data Center (CH2)",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "urban_carrier_hotel_multitenant",
+        "taxonomy_group_name": "Urban carrier hotel / multi-tenant interconnection",
+        "taxonomy_findability_s2": "very_low",
+        "taxonomy_findability_naip": "low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.96519018575371,
+          42.006843875852
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02253",
+        "canonical_name": "STACK Chicago CHI01",
+        "operator_summary": "Stack Infrastructure",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": null,
+        "latitude": 42.006843875852,
+        "longitude": -87.96519018575371,
+        "facility_size_sqft": 298471.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<300k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_00863162822",
+        "name_aliases": "STACK Chicago CHI01",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "large_purpose_built_data_center",
+        "taxonomy_group_name": "Large purpose-built wholesale / colocation data center",
+        "taxonomy_findability_s2": "moderate",
+        "taxonomy_findability_naip": "very_high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.94870327621621,
+          38.81056014127996
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02364",
+        "canonical_name": null,
+        "operator_summary": null,
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Madison County",
+        "city": null,
+        "latitude": 38.81056014127996,
+        "longitude": -89.94870327621621,
+        "facility_size_sqft": 204.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<25k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_01133944585",
+        "name_aliases": null,
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "small_retrofit_edge_or_pop",
+        "taxonomy_group_name": "Small retrofit / edge site / point-of-presence",
+        "taxonomy_findability_s2": "very_low",
+        "taxonomy_findability_naip": "very_low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.97595597595401,
+          41.707134165979966
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02371",
+        "canonical_name": "Datacenter (386)",
+        "operator_summary": "UChicago Argonne LLC",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "DuPage County",
+        "city": null,
+        "latitude": 41.707134165979966,
+        "longitude": -87.97595597595401,
+        "facility_size_sqft": 12413.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<25k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_01154349280",
+        "name_aliases": "Datacenter (386)",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "institutional_research_hpc",
+        "taxonomy_group_name": "Institutional / research HPC facility",
+        "taxonomy_findability_s2": "low",
+        "taxonomy_findability_naip": "moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.00726495418601,
+          41.98791937605658
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02375",
+        "canonical_name": "NTT Chicago CH1",
+        "operator_summary": "NTT",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "DuPage County",
+        "city": null,
+        "latitude": 41.98791937605658,
+        "longitude": -88.00726495418601,
+        "facility_size_sqft": 113535.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<150k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_01154636644",
+        "name_aliases": "NTT Chicago CH1",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "large_purpose_built_data_center",
+        "taxonomy_group_name": "Large purpose-built wholesale / colocation data center",
+        "taxonomy_findability_s2": "moderate",
+        "taxonomy_findability_naip": "very_high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.97218622171744,
+          42.02314332706365
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02399",
+        "canonical_name": null,
+        "operator_summary": null,
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": null,
+        "latitude": 42.02314332706365,
+        "longitude": -87.97218622171744,
+        "facility_size_sqft": 110471.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<150k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_01219083552",
+        "name_aliases": null,
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "industrial_park_warehouse_style_colo",
+        "taxonomy_group_name": "Industrial-park, warehouse-style colo",
+        "taxonomy_findability_s2": "low",
+        "taxonomy_findability_naip": "moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.00725702699874,
+          41.98896681192547
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02435",
+        "canonical_name": "NTT Chicago CH2",
+        "operator_summary": "NTT",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "DuPage County",
+        "city": null,
+        "latitude": 41.98896681192547,
+        "longitude": -88.00725702699874,
+        "facility_size_sqft": 115555.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<150k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_01271571726",
+        "name_aliases": "NTT Chicago CH2",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": null,
+        "taxonomy_group_name": null,
+        "taxonomy_findability_s2": null,
+        "taxonomy_findability_naip": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.72185807435966,
+          41.88853040860736
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02465",
+        "canonical_name": null,
+        "operator_summary": "Meta",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "DeKalb County",
+        "city": null,
+        "latitude": 41.88853040860736,
+        "longitude": -88.72185807435966,
+        "facility_size_sqft": 568454.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": ">=300k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_01312792611",
+        "name_aliases": null,
+        "n_chips_ok": 7,
+        "taxonomy_group_id": null,
+        "taxonomy_group_name": null,
+        "taxonomy_findability_s2": null,
+        "taxonomy_findability_naip": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.73105377072714,
+          41.88928381978822
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02466",
+        "canonical_name": null,
+        "operator_summary": "Meta",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "DeKalb County",
+        "city": null,
+        "latitude": 41.88928381978822,
+        "longitude": -88.73105377072714,
+        "facility_size_sqft": 568442.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": ">=300k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_01312792612",
+        "name_aliases": null,
+        "n_chips_ok": 7,
+        "taxonomy_group_id": null,
+        "taxonomy_group_name": null,
+        "taxonomy_findability_s2": null,
+        "taxonomy_findability_naip": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.72635519613044,
+          41.89027497092366
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02467",
+        "canonical_name": null,
+        "operator_summary": "Meta",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "DeKalb County",
+        "city": null,
+        "latitude": 41.89027497092366,
+        "longitude": -88.72635519613044,
+        "facility_size_sqft": 320184.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": ">=300k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_01312792613",
+        "name_aliases": null,
+        "n_chips_ok": 7,
+        "taxonomy_group_id": null,
+        "taxonomy_group_name": null,
+        "taxonomy_findability_s2": null,
+        "taxonomy_findability_naip": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2469228118375,
+          41.795384289880126
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02530",
+        "canonical_name": null,
+        "operator_summary": null,
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "DuPage County",
+        "city": null,
+        "latitude": 41.795384289880126,
+        "longitude": -88.2469228118375,
+        "facility_size_sqft": 169253.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<300k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_01426146790",
+        "name_aliases": null,
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "large_purpose_built_data_center",
+        "taxonomy_group_name": "Large purpose-built wholesale / colocation data center",
+        "taxonomy_findability_s2": "moderate",
+        "taxonomy_findability_naip": "very_high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.00800375413563,
+          41.98691359199497
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02554",
+        "canonical_name": "NTT Chicago CH3",
+        "operator_summary": "NTT",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "DuPage County",
+        "city": null,
+        "latitude": 41.98691359199497,
+        "longitude": -88.00800375413563,
+        "facility_size_sqft": 83897.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<150k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_01446350367",
+        "name_aliases": "NTT Chicago CH3",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": null,
+        "taxonomy_group_name": null,
+        "taxonomy_findability_s2": null,
+        "taxonomy_findability_naip": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.00476482597362,
+          41.98909513231781
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02555",
+        "canonical_name": "NTT Chicago CH4",
+        "operator_summary": "NTT",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "DuPage County",
+        "city": null,
+        "latitude": 41.98909513231781,
+        "longitude": -88.00476482597362,
+        "facility_size_sqft": 101346.0,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "<150k",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:building_01446350370",
+        "name_aliases": "NTT Chicago CH4",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": null,
+        "taxonomy_group_name": null,
+        "taxonomy_findability_s2": null,
+        "taxonomy_findability_naip": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.13389076420349,
+          42.07695198404611
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02613",
+        "canonical_name": "Microsoft Data Center - Hoffman Estates",
+        "operator_summary": null,
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": null,
+        "latitude": 42.07695198404611,
+        "longitude": -88.13389076420349,
+        "facility_size_sqft": null,
+        "campus_area_sqft": 2105271.0,
+        "mw_summary": null,
+        "facility_size_bucket": "unknown_size",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:campus_00998245264",
+        "name_aliases": "Microsoft Data Center - Hoffman Estates",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "hyperscale_greenfield_campus",
+        "taxonomy_group_name": "Hyperscale greenfield campus",
+        "taxonomy_findability_s2": "high",
+        "taxonomy_findability_naip": "very_high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.72856898056978,
+          41.889040347505414
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02615",
+        "canonical_name": "DeKalb Meta Data Center",
+        "operator_summary": "Meta Platforms",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "DeKalb County",
+        "city": null,
+        "latitude": 41.889040347505414,
+        "longitude": -88.72856898056978,
+        "facility_size_sqft": null,
+        "campus_area_sqft": 12793294.0,
+        "mw_summary": null,
+        "facility_size_bucket": "unknown_size",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:campus_01019770124",
+        "name_aliases": "DeKalb Meta Data Center",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "hyperscale_greenfield_campus",
+        "taxonomy_group_name": "Hyperscale greenfield campus",
+        "taxonomy_findability_s2": "high",
+        "taxonomy_findability_naip": "very_high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.63344,
+          41.8728811
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02678",
+        "canonical_name": "Netrality",
+        "operator_summary": "Netrality",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": null,
+        "latitude": 41.8728811,
+        "longitude": -87.63344,
+        "facility_size_sqft": null,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "unknown_size",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:point_10537283366",
+        "name_aliases": "Netrality",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "urban_carrier_hotel_multitenant",
+        "taxonomy_group_name": "Urban carrier hotel / multi-tenant interconnection",
+        "taxonomy_findability_s2": "very_low",
+        "taxonomy_findability_naip": "low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6183067,
+          41.8533507
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02685",
+        "canonical_name": "Digital Realty ORD10",
+        "operator_summary": "Digital Realty",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": null,
+        "latitude": 41.8533507,
+        "longitude": -87.6183067,
+        "facility_size_sqft": null,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "unknown_size",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:point_10910879064",
+        "name_aliases": "Digital Realty ORD10",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "urban_carrier_hotel_multitenant",
+        "taxonomy_group_name": "Urban carrier hotel / multi-tenant interconnection",
+        "taxonomy_findability_s2": "very_low",
+        "taxonomy_findability_naip": "low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6186071,
+          41.8533827
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02686",
+        "canonical_name": "Centersquare Chicago Data Center - ORD1",
+        "operator_summary": "Centersquare",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": null,
+        "latitude": 41.8533827,
+        "longitude": -87.6186071,
+        "facility_size_sqft": null,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "unknown_size",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:point_10910879065",
+        "name_aliases": "Centersquare Chicago Data Center - ORD1",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": null,
+        "taxonomy_group_name": null,
+        "taxonomy_findability_s2": null,
+        "taxonomy_findability_naip": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6359383,
+          41.8805271
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02688",
+        "canonical_name": "West Monroe",
+        "operator_summary": null,
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": null,
+        "latitude": 41.8805271,
+        "longitude": -87.6359383,
+        "facility_size_sqft": null,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "unknown_size",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:point_10945121336",
+        "name_aliases": "West Monroe",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "urban_carrier_hotel_multitenant",
+        "taxonomy_group_name": "Urban carrier hotel / multi-tenant interconnection",
+        "taxonomy_findability_s2": "very_low",
+        "taxonomy_findability_naip": "low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6314655,
+          41.8759405
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02690",
+        "canonical_name": "CoreSite Chicago Data Center (CH1)",
+        "operator_summary": "CoreSite",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": null,
+        "latitude": 41.8759405,
+        "longitude": -87.6314655,
+        "facility_size_sqft": null,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "unknown_size",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:point_11098469355",
+        "name_aliases": "CoreSite Chicago Data Center (CH1)",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": "urban_carrier_hotel_multitenant",
+        "taxonomy_group_name": "Urban carrier hotel / multi-tenant interconnection",
+        "taxonomy_findability_s2": "very_low",
+        "taxonomy_findability_naip": "low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6180475,
+          41.8535578
+        ]
+      },
+      "properties": {
+        "site_group_id": "site_02716",
+        "canonical_name": "Equinix Chicago Data Center - CH1",
+        "operator_summary": "Equinix",
+        "status_summary": "Operating/inferred",
+        "is_currently_built": true,
+        "state": "IL",
+        "county": "Cook County",
+        "city": null,
+        "latitude": 41.8535578,
+        "longitude": -87.6180475,
+        "facility_size_sqft": null,
+        "campus_area_sqft": null,
+        "mw_summary": null,
+        "facility_size_bucket": "unknown_size",
+        "reference_confidence": "single_source_geometry",
+        "source_count": 1,
+        "sources": "PNNL",
+        "primary_source": "PNNL",
+        "primary_record_uid": "PNNL:point_12695496267",
+        "name_aliases": "Equinix Chicago Data Center - CH1",
+        "n_chips_ok": 7,
+        "taxonomy_group_id": null,
+        "taxonomy_group_name": null,
+        "taxonomy_findability_s2": null,
+        "taxonomy_findability_naip": null
+      }
+    }
+  ]
+}
