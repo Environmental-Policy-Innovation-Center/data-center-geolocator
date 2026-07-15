@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="DocuWare">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link rel="shortcut icon" href="/DocuWare/Resources/Shared/images/favicon.f89e1e63599428d1.ico">
+    <link rel="icon" sizes="192x192" href="/DocuWare/Resources/Shared/images/TouchIcon/touch-icon-192.43d7b2720957cf04.png">
+    <link rel="apple-touch-icon" href="/DocuWare/Resources/Shared/images/TouchIcon/apple-touch-icon-60.61c644b8c38cc1c2.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/DocuWare/Resources/Shared/images/TouchIcon/apple-touch-icon-76.9dd593e03087f27b.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/DocuWare/Resources/Shared/images/TouchIcon/apple-touch-icon-120.acadb6bb6baa92e7.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/DocuWare/Resources/Shared/images/TouchIcon/apple-touch-icon-152.2551f5390443477d.png">
+    <link rel="apple-touch-startup-image" href="/DocuWare/Resources/Shared/images/TouchIcon/touch-icon-192.43d7b2720957cf04.png">
+
+
+    
+    <title>DocuWare</title>
+    <style type="text/css">
+        /* Center the loader */
+        #app-root {
+            opacity: 0;
+        }
+        #loader {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            z-index: 1;
+            width: 86px;
+            height: 86px;
+            margin: -43px 0 0 -43px;
+        }
+            #loader div {
+                transform-origin: 40px 44px;
+                animation: dw-spinner 1s linear infinite;
+            }
+                #loader div:after {
+                    content: " ";
+                    display: block;
+                    position: absolute;
+                    top: 0px;
+                    left: 36px;
+                    width: 9px;
+                    height: 23px;
+                    border-radius: 20px;
+                    background: #0089cf;
+                }
+                #loader div:nth-child(1) {
+                    transform: rotate(0deg);
+                    animation-delay: -0.91666s;
+                }
+                #loader div:nth-child(2) {
+                    transform: rotate(30deg);
+                    animation-delay: -0.83333s;
+                }
+                #loader div:nth-child(3) {
+                    transform: rotate(60deg);
+                    animation-delay: -0.75s;
+                }
+                #loader div:nth-child(4) {
+                    transform: rotate(90deg);
+                    animation-delay: -0.66666s;
+                }
+                #loader div:nth-child(5) {
+                    transform: rotate(120deg);
+                    animation-delay: -0.58333s;
+                }
+                #loader div:nth-child(6) {
+                    transform: rotate(150deg);
+                    animation-delay: -0.5s;
+                }
+                #loader div:nth-child(7) {
+                    transform: rotate(180deg);
+                    animation-delay: -0.41666s;
+                }
+                #loader div:nth-child(8) {
+                    transform: rotate(210deg);
+                    animation-delay: -0.33333s;
+                }
+                #loader div:nth-child(9) {
+                    transform: rotate(240deg);
+                    animation-delay: -0.25s;
+                }
+                #loader div:nth-child(10) {
+                    transform: rotate(270deg);
+                    animation-delay: -0.16666s;
+                }
+                #loader div:nth-child(11) {
+                    transform: rotate(300deg);
+                    animation-delay: -0.08333s;
+                }
+                #loader div:nth-child(12) {
+                    transform: rotate(330deg);
+                    animation-delay: 0s;
+                }
+        @keyframes dw-spinner {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0.3;
+            }
+        }
+    </style>
+    
+    <link href="/DocuWare/Resources/Shared/css/dwtheme.414d92c3bda5a0db.css" rel="stylesheet" />
+    <link href="/DocuWare/Resources/WebClient/css/shared.0d5cd44b06bd9fcd.css" rel="stylesheet" />
+
+    
+    <script type="text/javascript">es6s =  ({...{a:23}}).a === 23 && Promise.prototype.finally && (Array.prototype.values === Array.prototype[Symbol.iterator]) && (function *(a=1,){yield a})(2).next().value === 2</script><script type="text/javascript">if (!window.es6s) {document.location = '/DocuWare/PlatformRO/WebClient/Client/UpdateBrowser';};delete window.es6s;</script>
+    <script src="/DocuWare/Resources/Shared/js/tracking-service.8fe2340de9eddcdd.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    <div id="app-root">
+        
+
+<div id="ContextMenuHolder" style="width: 0px; height: 0px; z-index: -1000; position: static"></div>
+<div id="HeaderMenuHolder" style="width: 0px; height: 0px; z-index: -1000; position: static"></div>
+
+    </div>
+    
+    <script type="text/javascript">
+        window.clientStartTimestamp = Date.now();
+        var DWOidc = {
+            Startup: {
+                settings: {"IdentityServiceUrl":"https://docuware7.illinois.gov/DocuWare/Identity","BaseUrl":"/DocuWare/PlatformRO/WebClient","LoginRedirectCallbackPath":"/DocuWare/PlatformRO/WebClient/Client/LoginCallback","SilentRenewPath":"/DocuWare/PlatformRO/WebClient/Client/SilentRenew","ClientId":"docuware.platform.webclient","OidsState":"Index","ExtraQueryParams":{"intgParams":"ZXA9NzdCYjhLT1RTbUZLRzVGZGhHZ1VWMjJCWnYxYkRtUUY5cFNzR3BMZHA0N2o4d3BQLVM1MVZseWhWTGhqd2dwTEc5ZHpqMjRqdFo2T1pfTVREQy0tYUsyQ2NKY215SFIwcC1Sa2lmaXV2WHU0RVRkS0l2andlOS1wQWNiVkdSak1LVmsySklLWHFXOGhsckhoNG9vcEZFdmNyQm41WmotVjRjNXJEQXlFTHJ1Z2kxOGJocUZ6dm80bVUzMWNpX3VKQU0wXzJabjVETDdkblZKaGtCMDdkOFpEMlJ0RTdiNk94d0lPOVVGQWc4QkJNSWZSRHEydDE0QllMRDhVTjEyMFVfUmlNR2hyOU5CSHZQM09WVzdDN2dzRTdNdVpsLWV4Y2tsdGlDZkhCWkpIZDFsSHB0cUR3MU1SVWdIY04xQjUw0"}},
+                bootstrap: function () {
+                    return new DW.ClientStartup({
+                        "viewType": "result",
+                        "baseUrl": "/DocuWare/PlatformRO/WebClient",
+                        "settingsUrl": "/DocuWare/PlatformRO/WebClient/Settings/Result",
+                        "uiCultureUrl": "/DocuWare/PlatformRO/WebClient/Settings/UICulture",
+                        "params": {"intgParams":"ZXA9NzdCYjhLT1RTbUZLRzVGZGhHZ1VWMjJCWnYxYkRtUUY5cFNzR3BMZHA0N2o4d3BQLVM1MVZseWhWTGhqd2dwTEc5ZHpqMjRqdFo2T1pfTVREQy0tYUsyQ2NKY215SFIwcC1Sa2lmaXV2WHU0RVRkS0l2andlOS1wQWNiVkdSak1LVmsySklLWHFXOGhsckhoNG9vcEZFdmNyQm41WmotVjRjNXJEQXlFTHJ1Z2kxOGJocUZ6dm80bVUzMWNpX3VKQU0wXzJabjVETDdkblZKaGtCMDdkOFpEMlJ0RTdiNk94d0lPOVVGQWc4QkJNSWZSRHEydDE0QllMRDhVTjEyMFVfUmlNR2hyOU5CSHZQM09WVzdDN2dzRTdNdVpsLWV4Y2tsdGlDZkhCWkpIZDFsSHB0cUR3MU1SVWdIY04xQjUw0","rl":"2d2dccfc-3bea-4f96-824c-30f8f49b9214","q":"[IEPAID]=\u0022170000063561\u0022 AND [CATEGORY]=\u002208\u0022 AND [KEYWORD]=\u0022CCA EXECUTED\u0022","tw":"Results","displayOneDoc":false,"queryInInvariantCulture":false}
+                    });
+                }
+            }
+        };
+    </script>
+    <script src="/DocuWare/Resources/Shared/js/external.a88e8eafb9339df2.js" type="text/javascript"></script>
+    <script src="/DocuWare/Resources/Shared/js/locales/en/dw-core.4606d7416268249b.js" type="text/javascript"></script><script src="/DocuWare/Resources/Shared/js/dw-core.be63f8e9aaca25f1.js" type="text/javascript"></script>
+    <script src="/DocuWare/Resources/Shared/js/locales/en/dw-ui.f249fc1c6e10716a.js" type="text/javascript"></script><script src="/DocuWare/Resources/Shared/js/dw-ui.16bc8593983fd57c.js" type="text/javascript"></script>
+    <script src="/DocuWare/Resources/Shared/js/locales/en/app-assignusersandroles.3c3f0e863a1d7b40.js" type="text/javascript"></script><script src="/DocuWare/Resources/Shared/js/app-assignusersandroles.4d461e3ab9863a64.js" type="text/javascript"></script>
+    <script src="/DocuWare/Resources/Shared/js/locales/en/app-auditreport.2fa7fc4ed9fdf443.js" type="text/javascript"></script><script src="/DocuWare/Resources/Shared/js/app-auditreport.d3ceead5b2c0824b.js" type="text/javascript"></script>
+    <script src="/DocuWare/Resources/Shared/js/locales/en/app-systemfields.c9c2389c53dd2163.js" type="text/javascript"></script>
+    <script src="/DocuWare/Resources/WebClient/js/locales/en/shared.257e58d633769056.js" type="text/javascript"></script><script src="/DocuWare/Resources/WebClient/js/shared.a0166a77fec9e6ac.js" type="text/javascript"></script>
+    <script src="/DocuWare/Resources/WebClient/js/startup.c1abd7b577caf68b.js" type="text/javascript"></script>
+    <script src="/DocuWare/Resources/WebClient/js/external.443c4c0078c1eadc.js" type="text/javascript"></script>
+    <script src="/DocuWare/Resources/WebClient/js/client.b9f0b7c1dc44d1fd.js" type="text/javascript"></script>
+    <script src="/DocuWare/Resources/WebClient/js/viewer.4026c62f7ab8c78c.js" type="text/javascript"></script>
+    
+
+    
+</body>
+</html>
