@@ -431,7 +431,13 @@ def main() -> None:
                 "notes": identity_notes,
             }
             permits_limits.append(permit_row)
-            air_document_details.append({"agency_id": agency_id, "document_id": document_id, "date": document_date, "permit_type": ptype})
+            air_document_details.append({
+                "agency_id": agency_id,
+                "document_id": document_id,
+                "date": document_date,
+                "permit_type": ptype,
+                "eligible_for_current_inventory": identity_status != "Confirmed mismatch",
+            })
             for index, candidate in enumerate(generator_candidates(ocr_text), start=1):
                 generators.append({
                     "generator_record_id": f"GEN-{document_id}-{index:02d}",
@@ -484,7 +490,11 @@ def main() -> None:
 
     latest_operating_by_agency: dict[str, str] = {}
     for detail in air_document_details:
-        if "operating" not in detail["permit_type"].lower() or not detail["date"]:
+        if (
+            not detail["eligible_for_current_inventory"]
+            or "operating" not in detail["permit_type"].lower()
+            or not detail["date"]
+        ):
             continue
         previous = latest_operating_by_agency.get(detail["agency_id"])
         if previous is None or detail["date"] > document_lookup[previous]["document_date"]:
@@ -508,7 +518,12 @@ def main() -> None:
     selected_documents_by_agency: dict[str, set[str]] = defaultdict(set)
     for agency_id in manifests:
         latest = latest_operating_by_agency.get(agency_id)
-        agency_generators = [row for row in generators if row["agency_id"] == agency_id]
+        agency_generators = [
+            row
+            for row in generators
+            if row["agency_id"] == agency_id
+            and document_lookup[row["document_id"]]["index_match_status"] != "Confirmed mismatch"
+        ]
         if latest and any(row["document_id"] == latest for row in agency_generators):
             selected_documents_by_agency[agency_id].add(latest)
             baseline_date = document_lookup[latest]["document_date"]
@@ -529,10 +544,10 @@ def main() -> None:
     for generator in generators:
         generator["selected_for_workbook"] = generator["document_id"] in selected_documents_by_agency[generator["agency_id"]]
 
-    # Do not treat a permit that was filed under the wrong DocuWare index as a
-    # second current inventory when the same facility has its own index.
+    # Retain generator evidence from misfiled permits for provenance, but never
+    # allow it into the selected current inventory.
     for generator in generators:
-        if generator["document_id"] == "DOC-170000063561-AIR-005":
+        if document_lookup[generator["document_id"]]["index_match_status"] == "Confirmed mismatch":
             generator["selected_for_workbook"] = False
             generator["evidence_role"] = "Misfiled duplicate - retained in document catalog"
 
@@ -572,6 +587,21 @@ def main() -> None:
         row["extraction_method"] = "OCR + manual verification"
         row["review_status"] = "Reviewed"
         row["confidence"] = "High"
+
+    # Regression guard: an agency with eligible extracted generator evidence
+    # must retain at least one selected record after mismatch and OCR-duplicate
+    # filtering. This catches selection gaps such as the former IL_N_1 issue.
+    for agency_id in manifests:
+        eligible = [
+            row
+            for row in generators
+            if row["agency_id"] == agency_id
+            and document_lookup[row["document_id"]]["index_match_status"] != "Confirmed mismatch"
+        ]
+        if eligible and not any(row["selected_for_workbook"] for row in eligible):
+            raise RuntimeError(
+                f"No generator inventory selected for agency {agency_id} despite eligible evidence"
+            )
 
     # Manually reviewed compliance records. The workbook retains the CCA's allegation language.
     compliance = []

@@ -415,12 +415,21 @@ def build_charts(data: dict) -> tuple[Path, Path, Path, dict]:
     large_units = sum(int(row.get("quantity") or 0) for row in selected if (row.get("rated_kw_each") or 0) >= 2500)
     reviewed_groups = sum(row.get("review_status") == "Reviewed" for row in selected)
     top5_capacity = sum(item[1] for item in ranked[:5])
+    latest_selected_year_by_agency: dict[str, int] = {}
+    for row in selected:
+        permit_date = row.get("permit_date") or ""
+        if len(permit_date) >= 4 and permit_date[:4].isdigit():
+            latest_selected_year_by_agency[row["agency_id"]] = max(
+                latest_selected_year_by_agency.get(row["agency_id"], 0),
+                int(permit_date[:4]),
+            )
     metrics_out = {
         "total_units": total_units,
         "total_capacity_mw": total_capacity_mw,
         "agency_count": len(agency),
         "top5_share": top5_capacity / total_capacity_mw,
         "known_units": known_units,
+        "missing_kw_units": total_units - known_units,
         "large_units": large_units,
         "elk_units": elk_units,
         "elk_capacity_mw": elk_capacity_mw,
@@ -429,6 +438,9 @@ def build_charts(data: dict) -> tuple[Path, Path, Path, dict]:
         "selected_groups": len(selected),
         "air_docs": sum(years.values()),
         "air_docs_2024plus": sum(value for year, value in years.items() if year >= 2024),
+        "selected_agencies_2024plus": sum(
+            year >= 2024 for year in latest_selected_year_by_agency.values()
+        ),
     }
     return top_path, concentration_path, timeline_path, metrics_out
 
@@ -468,7 +480,7 @@ def build_report() -> None:
     add_callout(
         doc,
         "CENTRAL FINDING",
-        "The listed data centers collectively resemble a large, geographically concentrated diesel-generation fleet. The selected regulatory inventories describe about 504 generators and at least 1.24 GW of standby nameplate capacity, even though the units are regulated facility by facility as emergency equipment.",
+        f"The listed data centers collectively resemble a large, geographically concentrated diesel-generation fleet. The selected regulatory inventories describe about {m['total_units']:,} generators and at least {m['total_capacity_mw'] / 1000:.2f} GW of standby nameplate capacity, even though the units are regulated facility by facility as emergency equipment.",
     )
 
     kpi = doc.add_table(rows=1, cols=4)
@@ -495,7 +507,7 @@ def build_report() -> None:
 
     doc.add_heading("Executive summary", level=1)
     add_bullet(doc, "Scale: The selected inventories document a fleet whose nameplate capacity is numerically comparable to a large power station, although it is not a continuously operating power source.", "Scale:")
-    add_bullet(doc, f"Concentration: Eight listed facilities with Elk Grove-area addresses account for {m['elk_units']:,} units and {m['elk_capacity_mw']:,.1f} MW - roughly 42% of documented capacity.", "Concentration:")
+    add_bullet(doc, f"Concentration: Eight listed facilities with Elk Grove-area addresses account for {m['elk_units']:,} units and {m['elk_capacity_mw']:,.1f} MW - roughly {m['elk_capacity_mw'] / m['total_capacity_mw']:.0%} of documented capacity.", "Concentration:")
     add_bullet(doc, f"Modern build-out: {m['air_docs_2024plus']} of {m['air_docs']} air-permit documents are dated 2024 or later, indicating that the regulatory picture is changing quickly.", "Modern build-out:")
     add_bullet(doc, "Accountability: Compliance agreements include alleged emissions-limit exceedances, late emissions reports, missed deviation reporting, and construction of generators before obtaining a permit.", "Accountability:")
 
@@ -503,7 +515,7 @@ def build_report() -> None:
 
     doc.add_heading("1 | A large and concentrated standby fleet", level=1)
     p = doc.add_paragraph(
-        "The strongest signal is cumulative scale. Across 20 unique Document Explorer records with a selected generator inventory, the workbook identifies 504 units and 1,238 MW of known electrical nameplate capacity. The shared ORD-01/ORD-02 record is counted once in these totals. Five records contain about 55% of the capacity."
+        f"The strongest signal is cumulative scale. Across {m['agency_count']} unique Document Explorer records with a selected generator inventory, the workbook identifies {m['total_units']:,} units and {m['total_capacity_mw']:,.0f} MW of known electrical nameplate capacity. The shared ORD-01/ORD-02 record is counted once in these totals. Five records contain about {m['top5_share']:.0%} of the capacity."
     )
     add_figure(
         doc,
@@ -518,7 +530,7 @@ def build_report() -> None:
     r = p.add_run("Generator count alone can mislead. ")
     set_run_font(r, 11, NAVY, bold=True)
     r = p.add_run(
-        "Edged's selected inventory contains 66 relatively small units totaling about 45 MW, while CyrusOne's 90-unit inventory totals 210 MW. Among the 499 units with a recovered kW rating, roughly 63% are rated at 2,500 kW or more. Capacity, engine technology, operating hours, and location are therefore more useful screening variables than unit count by itself."
+        f"Edged's selected inventory contains 66 relatively small units totaling about 45 MW, while CyrusOne's 90-unit inventory totals 210 MW. Among the {m['known_units']:,} units with a recovered kW rating, roughly {m['large_units'] / m['known_units']:.0%} are rated at 2,500 kW or more. Capacity, engine technology, operating hours, and location are therefore more useful screening variables than unit count by itself."
     )
     set_run_font(r, 11, INK)
 
@@ -528,7 +540,7 @@ def build_report() -> None:
         concentration_chart,
         6.15,
         "Two bar charts comparing selected generator capacity and generator count in the Elk Grove area with all other listed areas.",
-        "Figure 2. Elk Grove-area facilities contain about 42% of selected capacity and 37% of selected units.",
+        f"Figure 2. Elk Grove-area facilities contain about {m['elk_capacity_mw'] / m['total_capacity_mw']:.0%} of selected capacity and {m['elk_units'] / m['total_units']:.0%} of selected units.",
     )
     add_source(doc, "Source: Facility manifest addresses and selected generator records. 'Elk Grove area' includes addresses containing Elk Grove or Elk Grove Village.")
 
@@ -540,7 +552,7 @@ def build_report() -> None:
 
     doc.add_heading("2 | A rapidly changing regulatory landscape", level=1)
     p = doc.add_paragraph(
-        "The document set spans 2007 through May 2026, but recent activity is substantial: 22 of 73 final air-permit documents are dated 2024 or later. Eleven of the 20 selected regulatory inventories rely on permit evidence from 2024 or later. Any public-facing inventory should therefore be maintained as a time series rather than treated as a one-time census."
+        f"The document set spans 2007 through May 2026, but recent activity is substantial: {m['air_docs_2024plus']} of {m['air_docs']} final air-permit documents are dated 2024 or later. {m['selected_agencies_2024plus']} of the {m['agency_count']} selected regulatory inventories rely on permit evidence from 2024 or later. Any public-facing inventory should therefore be maintained as a time series rather than treated as a one-time census."
     )
     add_figure(
         doc,
@@ -607,7 +619,7 @@ def build_report() -> None:
         "This is a 25-facility screening sample, not a statewide census of all Illinois data centers.",
         f"Only {m['reviewed_groups']} of {m['selected_groups']} selected generator-group records are marked Reviewed; the others remain OCR-derived and require confirmation.",
         "Selected inventory means the latest extractable operating-permit inventory plus later construction additions, or the most recent extractable permit when no operating inventory was available.",
-        "Five selected units lack a recovered kW rating and therefore contribute zero to the reported capacity total; 1.24 GW should be treated as a minimum known value.",
+        f"{m['missing_kw_units']} selected units lack a recovered kW rating and therefore contribute zero to the reported capacity total; {m['total_capacity_mw'] / 1000:.2f} GW should be treated as a minimum known value.",
         "A permit's presence does not establish that every authorized unit was constructed, remains installed, or operates during a given event.",
         "ORD-01 and ORD-02 share one regulatory record; this report counts that record once, but the allocation of its equipment between the two addresses remains unresolved.",
     ]
