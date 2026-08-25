@@ -1,0 +1,16 @@
+.DS_Store
+**/.DS_Store
+__pycache__/
+*.py[cod]
+
+# Codex/runtime scratch files and generated QA artifacts
+.codex-audit/
+tmp/
+output/
+outputs/
+
+# Re-creatable IEPA source corpus and OCR derivatives
+pdf-scraping/iepa_pdfs/**/*.pdf
+pdf-scraping/iepa_pdfs/**/manifest.json
+pdf-scraping/iepa_pdfs/clean_permit_data_batch_manifest.json
+pdf-scraping/iepa_ocr_text/

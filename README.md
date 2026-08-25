@@ -12,3 +12,5 @@ Data on datacenters is sparse, particularly cite level characteristics like foot
 
 - Data center location datasets are stored in `raw-data/data-center-locations/`.
 - Imagery source notes are stored in `raw-data/imagery-sources/`.
+- Illinois EPA permit downloading, OCR, and regulatory dataset assembly are
+  documented in `pdf-scraping/README.md`.

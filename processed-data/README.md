@@ -1,5 +1,10 @@
 # Harmonized Data Center Reference Dataset
 
+The directory also contains
+`illinois-data-center-regulatory-inventory.xlsx`, a screening workbook derived
+from Illinois EPA Document Explorer records. Its pipeline and reproducibility
+notes are documented in `pdf-scraping/README.md`.
+
 This directory contains generated outputs from `scripts/harmonize_reference_datasets.py`. The script combines the raw reference datasets in `raw-data/data-center-locations` into auditable harmonized site groups.
 
 ## Outputs
