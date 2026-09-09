@@ -1,0 +1,146 @@
+[
+  {
+    "analysis_unit_id": "aligned_northlake_ord01_ord02",
+    "polygon_count": 2,
+    "built_surface_area_m2": 94525.1,
+    "built_surface_area_acres": 23.36
+  },
+  {
+    "analysis_unit_id": "aurora_cyrusone_chi1_chi2",
+    "polygon_count": 1,
+    "built_surface_area_m2": 147719.7,
+    "built_surface_area_acres": 36.5
+  },
+  {
+    "analysis_unit_id": "edgeconnex_elk_grove_chi01_chi02",
+    "polygon_count": 1,
+    "built_surface_area_m2": 154509.6,
+    "built_surface_area_acres": 38.18
+  },
+  {
+    "analysis_unit_id": "element_critical_wood_dale_ch1_ch2",
+    "polygon_count": 1,
+    "built_surface_area_m2": 135863.3,
+    "built_surface_area_acres": 33.57
+  },
+  {
+    "analysis_unit_id": "meta_dekalb_campus",
+    "polygon_count": 11,
+    "built_surface_area_m2": 90801.3,
+    "built_surface_area_acres": 22.44
+  },
+  {
+    "analysis_unit_id": "microsoft_elk_grove_campus",
+    "polygon_count": 1,
+    "built_surface_area_m2": 381769.5,
+    "built_surface_area_acres": 94.34
+  },
+  {
+    "analysis_unit_id": "ntt_itasca_chicago_campus",
+    "polygon_count": 3,
+    "built_surface_area_m2": 204574.1,
+    "built_surface_area_acres": 50.55
+  },
+  {
+    "analysis_unit_id": "site_00614",
+    "polygon_count": 1,
+    "built_surface_area_m2": 111018.7,
+    "built_surface_area_acres": 27.43
+  },
+  {
+    "analysis_unit_id": "site_00616",
+    "polygon_count": 1,
+    "built_surface_area_m2": 134031.5,
+    "built_surface_area_acres": 33.12
+  },
+  {
+    "analysis_unit_id": "site_00617",
+    "polygon_count": 1,
+    "built_surface_area_m2": 134947.0,
+    "built_surface_area_acres": 33.35
+  },
+  {
+    "analysis_unit_id": "site_01560",
+    "polygon_count": 3,
+    "built_surface_area_m2": 97598.4,
+    "built_surface_area_acres": 24.12
+  },
+  {
+    "analysis_unit_id": "site_01842",
+    "polygon_count": 1,
+    "built_surface_area_m2": 117552.1,
+    "built_surface_area_acres": 29.05
+  },
+  {
+    "analysis_unit_id": "site_01881",
+    "polygon_count": 1,
+    "built_surface_area_m2": 164546.3,
+    "built_surface_area_acres": 40.66
+  },
+  {
+    "analysis_unit_id": "site_01928",
+    "polygon_count": 1,
+    "built_surface_area_m2": 91265.5,
+    "built_surface_area_acres": 22.55
+  },
+  {
+    "analysis_unit_id": "site_01940",
+    "polygon_count": 1,
+    "built_surface_area_m2": 71228.7,
+    "built_surface_area_acres": 17.6
+  },
+  {
+    "analysis_unit_id": "site_02009",
+    "polygon_count": 1,
+    "built_surface_area_m2": 99458.1,
+    "built_surface_area_acres": 24.58
+  },
+  {
+    "analysis_unit_id": "site_02019",
+    "polygon_count": 1,
+    "built_surface_area_m2": 128254.4,
+    "built_surface_area_acres": 31.69
+  },
+  {
+    "analysis_unit_id": "site_02031",
+    "polygon_count": 1,
+    "built_surface_area_m2": 98587.6,
+    "built_surface_area_acres": 24.36
+  },
+  {
+    "analysis_unit_id": "site_02109",
+    "polygon_count": 1,
+    "built_surface_area_m2": 123427.8,
+    "built_surface_area_acres": 30.5
+  },
+  {
+    "analysis_unit_id": "site_02132",
+    "polygon_count": 2,
+    "built_surface_area_m2": 145630.3,
+    "built_surface_area_acres": 35.99
+  },
+  {
+    "analysis_unit_id": "site_02186",
+    "polygon_count": 1,
+    "built_surface_area_m2": 157718.0,
+    "built_surface_area_acres": 38.97
+  },
+  {
+    "analysis_unit_id": "site_02187",
+    "polygon_count": 1,
+    "built_surface_area_m2": 137826.3,
+    "built_surface_area_acres": 34.06
+  },
+  {
+    "analysis_unit_id": "site_02253",
+    "polygon_count": 1,
+    "built_surface_area_m2": 165330.9,
+    "built_surface_area_acres": 40.85
+  },
+  {
+    "analysis_unit_id": "site_02613",
+    "polygon_count": 2,
+    "built_surface_area_m2": 115271.5,
+    "built_surface_area_acres": 28.48
+  }
+]

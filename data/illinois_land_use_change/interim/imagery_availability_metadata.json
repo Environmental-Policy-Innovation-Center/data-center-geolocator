@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-09-09T03:11:44.849396+00:00",
+  "catalog": "https://planetarycomputer.microsoft.com/api/stac/v1",
+  "query_zone_count": 13,
+  "analysis_unit_count": 24,
+  "collections": {
+    "naip": {
+      "collection": "naip",
+      "start": "2003-01-01",
+      "end": "2026-09-09",
+      "cloud_query": null
+    },
+    "sentinel2_l2a": {
+      "collection": "sentinel-2-l2a",
+      "start": "2015-01-01",
+      "end": "2026-09-09",
+      "cloud_query": {
+        "eo:cloud_cover": {
+          "lt": 60
+        }
+      }
+    },
+    "landsat_c2_l2": {
+      "collection": "landsat-c2-l2",
+      "start": "1984-01-01",
+      "end": "2026-09-09",
+      "cloud_query": {
+        "eo:cloud_cover": {
+          "lt": 60
+        }
+      }
+    }
+  },
+  "note": "Availability is inventoried by shared spatial query zone; item cloud cover is scene-level and does not replace local clear-pixel review."
+}

@@ -1,0 +1,14 @@
+{
+  "seed_record_count": 27,
+  "analysis_unit_count": 24,
+  "completed_analysis_unit_count": 1,
+  "pending_analysis_unit_count": 23,
+  "resolved_or_documented_count": 8,
+  "provisional_single_record_count": 16,
+  "crosswalk_record_count": 34,
+  "notes": [
+    "Reference geometry is not a parcel, fence, disturbance, or final campus boundary.",
+    "Related non-seed buildings are included only when operator or campus evidence supports the relationship.",
+    "Microsoft Elk Grove requires current-footprint expansion beyond the single PNNL seed building."
+  ]
+}

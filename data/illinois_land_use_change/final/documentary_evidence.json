@@ -1,0 +1,1682 @@
+[
+  {
+    "evidence_id": "aligned_northlake_ord01_ord02_doc_01",
+    "analysis_unit_id": "aligned_northlake_ord01_ord02",
+    "source": "https://aligneddc.com/press-release/aligned-breaks-ground-on-chicago-hyperscale-data-center-campus/",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "ORD01 broke ground 28 Apr 2021; ORD01 launched and adjacent ORD02 broke ground 19 Apr 2022."
+  },
+  {
+    "evidence_id": "aligned_northlake_ord01_ord02_doc_02",
+    "analysis_unit_id": "aligned_northlake_ord01_ord02",
+    "source": "https://aligneddc.com/es/press-release/aligned-launches-chicago-hyperscale-data-center-campus-and-breaks-ground-on-second-adjacent-facility/",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "ORD01 broke ground 28 Apr 2021; ORD01 launched and adjacent ORD02 broke ground 19 Apr 2022."
+  },
+  {
+    "evidence_id": "aligned_northlake_ord01_ord02_doc_03",
+    "analysis_unit_id": "aligned_northlake_ord01_ord02",
+    "source": "https://aligneddc.com/chicago-data-centers/",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "ORD01 broke ground 28 Apr 2021; ORD01 launched and adjacent ORD02 broke ground 19 Apr 2022."
+  },
+  {
+    "evidence_id": "aligned_northlake_ord01_ord02_pnnl_osm",
+    "analysis_unit_id": "aligned_northlake_ord01_ord02",
+    "source": "PNNL IM3 Open Source Data Center Atlas 2026-02-09 (derived from OpenStreetMap)",
+    "evidence_type": "mapped_geometry",
+    "supports": "identity|mapped_roof_or_campus_geometry",
+    "note": "Source geometry can be incomplete or stale; geometry role is recorded in the analysis-unit table."
+  },
+  {
+    "evidence_id": "aligned_northlake_ord01_ord02_overture",
+    "analysis_unit_id": "aligned_northlake_ord01_ord02",
+    "source": "Overture Maps Buildings release 2026-08-19.0",
+    "evidence_type": "mapped_geometry_candidates",
+    "supports": "current_roof_review",
+    "note": "Candidate search results only; candidate area is not an accepted footprint total."
+  },
+  {
+    "evidence_id": "aligned_northlake_ord01_ord02_nlcd",
+    "analysis_unit_id": "aligned_northlake_ord01_ord02",
+    "source": "USGS/NLCD_RELEASES/2019_REL/NLCD and 2021_REL/NLCD via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "prior_land_use_corroboration",
+    "note": "Broad-class proportions are stored in the statewide record and annual Parquet table."
+  },
+  {
+    "evidence_id": "aligned_northlake_ord01_ord02_cdl",
+    "analysis_unit_id": "aligned_northlake_ord01_ord02",
+    "source": "USDA/NASS/CDL via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "crop_or_pasture_corroboration",
+    "note": "CDL is independent of Dynamic World but remains a 30 m categorical screening product."
+  },
+  {
+    "evidence_id": "aurora_cyrusone_chi1_chi2_doc_01",
+    "analysis_unit_id": "aurora_cyrusone_chi1_chi2",
+    "source": "reports/aurora_land_use_change/aurora_data_center_land_use_change_report.pdf",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Aurora proof-of-concept timeline and phase metrics retained as the reviewed regression fixture."
+  },
+  {
+    "evidence_id": "aurora_cyrusone_chi1_chi2_pnnl_osm",
+    "analysis_unit_id": "aurora_cyrusone_chi1_chi2",
+    "source": "PNNL IM3 Open Source Data Center Atlas 2026-02-09 (derived from OpenStreetMap)",
+    "evidence_type": "mapped_geometry",
+    "supports": "identity|mapped_roof_or_campus_geometry",
+    "note": "Source geometry can be incomplete or stale; geometry role is recorded in the analysis-unit table."
+  },
+  {
+    "evidence_id": "aurora_cyrusone_chi1_chi2_overture",
+    "analysis_unit_id": "aurora_cyrusone_chi1_chi2",
+    "source": "Overture Maps Buildings release 2026-08-19.0",
+    "evidence_type": "mapped_geometry_candidates",
+    "supports": "current_roof_review",
+    "note": "Candidate search results only; candidate area is not an accepted footprint total."
+  },
+  {
+    "evidence_id": "aurora_cyrusone_chi1_chi2_nlcd",
+    "analysis_unit_id": "aurora_cyrusone_chi1_chi2",
+    "source": "USGS/NLCD_RELEASES/2019_REL/NLCD and 2021_REL/NLCD via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "prior_land_use_corroboration",
+    "note": "Broad-class proportions are stored in the statewide record and annual Parquet table."
+  },
+  {
+    "evidence_id": "aurora_cyrusone_chi1_chi2_cdl",
+    "analysis_unit_id": "aurora_cyrusone_chi1_chi2",
+    "source": "USDA/NASS/CDL via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "crop_or_pasture_corroboration",
+    "note": "CDL is independent of Dynamic World but remains a 30 m categorical screening product."
+  },
+  {
+    "evidence_id": "edgeconnex_elk_grove_chi01_chi02_doc_01",
+    "analysis_unit_id": "edgeconnex_elk_grove_chi01_chi02",
+    "source": "https://www.edgeconnex.com/wp-content/uploads/2024/09/Chicago-Data-Sheet.pdf",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "CHI01 and CHI02 are documented as one operating Chicago campus; exact conversion/construction dates remain unresolved."
+  },
+  {
+    "evidence_id": "edgeconnex_elk_grove_chi01_chi02_pnnl_osm",
+    "analysis_unit_id": "edgeconnex_elk_grove_chi01_chi02",
+    "source": "PNNL IM3 Open Source Data Center Atlas 2026-02-09 (derived from OpenStreetMap)",
+    "evidence_type": "mapped_geometry",
+    "supports": "identity|mapped_roof_or_campus_geometry",
+    "note": "Source geometry can be incomplete or stale; geometry role is recorded in the analysis-unit table."
+  },
+  {
+    "evidence_id": "edgeconnex_elk_grove_chi01_chi02_overture",
+    "analysis_unit_id": "edgeconnex_elk_grove_chi01_chi02",
+    "source": "Overture Maps Buildings release 2026-08-19.0",
+    "evidence_type": "mapped_geometry_candidates",
+    "supports": "current_roof_review",
+    "note": "Candidate search results only; candidate area is not an accepted footprint total."
+  },
+  {
+    "evidence_id": "edgeconnex_elk_grove_chi01_chi02_nlcd",
+    "analysis_unit_id": "edgeconnex_elk_grove_chi01_chi02",
+    "source": "USGS/NLCD_RELEASES/2019_REL/NLCD and 2021_REL/NLCD via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "prior_land_use_corroboration",
+    "note": "Broad-class proportions are stored in the statewide record and annual Parquet table."
+  },
+  {
+    "evidence_id": "edgeconnex_elk_grove_chi01_chi02_cdl",
+    "analysis_unit_id": "edgeconnex_elk_grove_chi01_chi02",
+    "source": "USDA/NASS/CDL via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "crop_or_pasture_corroboration",
+    "note": "CDL is independent of Dynamic World but remains a 30 m categorical screening product."
+  },
+  {
+    "evidence_id": "element_critical_wood_dale_ch1_ch2_doc_01",
+    "analysis_unit_id": "element_critical_wood_dale_ch1_ch2",
+    "source": "https://elementcritical.com/data-centers/chicago-one/",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Former ComDisco/SunGard facilities were purchased in 2014 and modernized; this is reuse, not greenfield construction."
+  },
+  {
+    "evidence_id": "element_critical_wood_dale_ch1_ch2_doc_02",
+    "analysis_unit_id": "element_critical_wood_dale_ch1_ch2",
+    "source": "https://elementcritical.com/private-colocation-suite-solutions-for-wood-dale-businesses/",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Former ComDisco/SunGard facilities were purchased in 2014 and modernized; this is reuse, not greenfield construction."
+  },
+  {
+    "evidence_id": "element_critical_wood_dale_ch1_ch2_pnnl_osm",
+    "analysis_unit_id": "element_critical_wood_dale_ch1_ch2",
+    "source": "PNNL IM3 Open Source Data Center Atlas 2026-02-09 (derived from OpenStreetMap)",
+    "evidence_type": "mapped_geometry",
+    "supports": "identity|mapped_roof_or_campus_geometry",
+    "note": "Source geometry can be incomplete or stale; geometry role is recorded in the analysis-unit table."
+  },
+  {
+    "evidence_id": "element_critical_wood_dale_ch1_ch2_overture",
+    "analysis_unit_id": "element_critical_wood_dale_ch1_ch2",
+    "source": "Overture Maps Buildings release 2026-08-19.0",
+    "evidence_type": "mapped_geometry_candidates",
+    "supports": "current_roof_review",
+    "note": "Candidate search results only; candidate area is not an accepted footprint total."
+  },
+  {
+    "evidence_id": "element_critical_wood_dale_ch1_ch2_nlcd",
+    "analysis_unit_id": "element_critical_wood_dale_ch1_ch2",
+    "source": "USGS/NLCD_RELEASES/2019_REL/NLCD and 2021_REL/NLCD via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "prior_land_use_corroboration",
+    "note": "Broad-class proportions are stored in the statewide record and annual Parquet table."
+  },
+  {
+    "evidence_id": "element_critical_wood_dale_ch1_ch2_cdl",
+    "analysis_unit_id": "element_critical_wood_dale_ch1_ch2",
+    "source": "USDA/NASS/CDL via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "crop_or_pasture_corroboration",
+    "note": "CDL is independent of Dynamic World but remains a 30 m categorical screening product."
+  },
+  {
+    "evidence_id": "meta_dekalb_campus_doc_01",
+    "analysis_unit_id": "meta_dekalb_campus",
+    "source": "https://datacenters.atmeta.com/2023/11/dekalb-we-are-online/",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Meta broke ground in 2020; Building 2 received final occupancy in summer 2023; the campus began serving traffic in Nov 2023 while later buildings remained under construction."
+  },
+  {
+    "evidence_id": "meta_dekalb_campus_doc_02",
+    "analysis_unit_id": "meta_dekalb_campus",
+    "source": "https://www.cityofdekalb.com/DocumentCenter/View/16872/FY2024-Budget-DRAFT",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Meta broke ground in 2020; Building 2 received final occupancy in summer 2023; the campus began serving traffic in Nov 2023 while later buildings remained under construction."
+  },
+  {
+    "evidence_id": "meta_dekalb_campus_pnnl_osm",
+    "analysis_unit_id": "meta_dekalb_campus",
+    "source": "PNNL IM3 Open Source Data Center Atlas 2026-02-09 (derived from OpenStreetMap)",
+    "evidence_type": "mapped_geometry",
+    "supports": "identity|mapped_roof_or_campus_geometry",
+    "note": "Source geometry can be incomplete or stale; geometry role is recorded in the analysis-unit table."
+  },
+  {
+    "evidence_id": "meta_dekalb_campus_overture",
+    "analysis_unit_id": "meta_dekalb_campus",
+    "source": "Overture Maps Buildings release 2026-08-19.0",
+    "evidence_type": "mapped_geometry_candidates",
+    "supports": "current_roof_review",
+    "note": "Candidate search results only; candidate area is not an accepted footprint total."
+  },
+  {
+    "evidence_id": "meta_dekalb_campus_nlcd",
+    "analysis_unit_id": "meta_dekalb_campus",
+    "source": "USGS/NLCD_RELEASES/2019_REL/NLCD and 2021_REL/NLCD via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "prior_land_use_corroboration",
+    "note": "Broad-class proportions are stored in the statewide record and annual Parquet table."
+  },
+  {
+    "evidence_id": "meta_dekalb_campus_cdl",
+    "analysis_unit_id": "meta_dekalb_campus",
+    "source": "USDA/NASS/CDL via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "crop_or_pasture_corroboration",
+    "note": "CDL is independent of Dynamic World but remains a 30 m categorical screening product."
+  },
+  {
+    "evidence_id": "microsoft_elk_grove_campus_doc_01",
+    "analysis_unit_id": "microsoft_elk_grove_campus",
+    "source": "https://fliphtml5.com/inylu/vgas/2020_Compendium/",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Village reporting says Microsoft began site development in 2020 on a 38-acre former Busse Farm tract; a second of three buildings was reported in 2024."
+  },
+  {
+    "evidence_id": "microsoft_elk_grove_campus_doc_02",
+    "analysis_unit_id": "microsoft_elk_grove_campus",
+    "source": "https://fliphtml5.com/inylu/sqtn/2024_Compendium/",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Village reporting says Microsoft began site development in 2020 on a 38-acre former Busse Farm tract; a second of three buildings was reported in 2024."
+  },
+  {
+    "evidence_id": "microsoft_elk_grove_campus_doc_03",
+    "analysis_unit_id": "microsoft_elk_grove_campus",
+    "source": "https://epa.illinois.gov/content/dam/soi/en/web/epa/topics/environmental-justice/documents/notification-letters/Elk%20Grove%20Village%20%28CHI10-11-12%29%20Data%20Center%20031440AUK%20Construction%2024070017.pdf",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Village reporting says Microsoft began site development in 2020 on a 38-acre former Busse Farm tract; a second of three buildings was reported in 2024."
+  },
+  {
+    "evidence_id": "microsoft_elk_grove_campus_pnnl_osm",
+    "analysis_unit_id": "microsoft_elk_grove_campus",
+    "source": "PNNL IM3 Open Source Data Center Atlas 2026-02-09 (derived from OpenStreetMap)",
+    "evidence_type": "mapped_geometry",
+    "supports": "identity|mapped_roof_or_campus_geometry",
+    "note": "Source geometry can be incomplete or stale; geometry role is recorded in the analysis-unit table."
+  },
+  {
+    "evidence_id": "microsoft_elk_grove_campus_overture",
+    "analysis_unit_id": "microsoft_elk_grove_campus",
+    "source": "Overture Maps Buildings release 2026-08-19.0",
+    "evidence_type": "mapped_geometry_candidates",
+    "supports": "current_roof_review",
+    "note": "Candidate search results only; candidate area is not an accepted footprint total."
+  },
+  {
+    "evidence_id": "microsoft_elk_grove_campus_nlcd",
+    "analysis_unit_id": "microsoft_elk_grove_campus",
+    "source": "USGS/NLCD_RELEASES/2019_REL/NLCD and 2021_REL/NLCD via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "prior_land_use_corroboration",
+    "note": "Broad-class proportions are stored in the statewide record and annual Parquet table."
+  },
+  {
+    "evidence_id": "microsoft_elk_grove_campus_cdl",
+    "analysis_unit_id": "microsoft_elk_grove_campus",
+    "source": "USDA/NASS/CDL via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "crop_or_pasture_corroboration",
+    "note": "CDL is independent of Dynamic World but remains a 30 m categorical screening product."
+  },
+  {
+    "evidence_id": "ntt_itasca_chicago_campus_doc_01",
+    "analysis_unit_id": "ntt_itasca_chicago_campus",
+    "source": "https://services.global.ntt/en-us/newsroom/ntt-opens-two-new-data-centers-in-illinois-and-oregon",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Dynamic World nominates 2019\u20132020 site change; NTT announced the first building open in Feb 2021 and documents a multi-building 19-acre campus."
+  },
+  {
+    "evidence_id": "ntt_itasca_chicago_campus_doc_02",
+    "analysis_unit_id": "ntt_itasca_chicago_campus",
+    "source": "https://services.global.ntt/en-us/services-and-products/global-data-centers/global-locations/americas/chicago-data-centers",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Dynamic World nominates 2019\u20132020 site change; NTT announced the first building open in Feb 2021 and documents a multi-building 19-acre campus."
+  },
+  {
+    "evidence_id": "ntt_itasca_chicago_campus_pnnl_osm",
+    "analysis_unit_id": "ntt_itasca_chicago_campus",
+    "source": "PNNL IM3 Open Source Data Center Atlas 2026-02-09 (derived from OpenStreetMap)",
+    "evidence_type": "mapped_geometry",
+    "supports": "identity|mapped_roof_or_campus_geometry",
+    "note": "Source geometry can be incomplete or stale; geometry role is recorded in the analysis-unit table."
+  },
+  {
+    "evidence_id": "ntt_itasca_chicago_campus_overture",
+    "analysis_unit_id": "ntt_itasca_chicago_campus",
+    "source": "Overture Maps Buildings release 2026-08-19.0",
+    "evidence_type": "mapped_geometry_candidates",
+    "supports": "current_roof_review",
+    "note": "Candidate search results only; candidate area is not an accepted footprint total."
+  },
+  {
+    "evidence_id": "ntt_itasca_chicago_campus_nlcd",
+    "analysis_unit_id": "ntt_itasca_chicago_campus",
+    "source": "USGS/NLCD_RELEASES/2019_REL/NLCD and 2021_REL/NLCD via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "prior_land_use_corroboration",
+    "note": "Broad-class proportions are stored in the statewide record and annual Parquet table."
+  },
+  {
+    "evidence_id": "ntt_itasca_chicago_campus_cdl",
+    "analysis_unit_id": "ntt_itasca_chicago_campus",
+    "source": "USDA/NASS/CDL via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "crop_or_pasture_corroboration",
+    "note": "CDL is independent of Dynamic World but remains a 30 m categorical screening product."
+  },
+  {
+    "evidence_id": "site_00614_doc_01",
+    "analysis_unit_id": "site_00614",
+    "source": "https://www.streamdatacenters.com/locations/chicago-data-centers/",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Stream acquired Chicago I in Dec 2017, reconstructed it, and reported full lease-up/expansion by the end of 2020; another expansion followed in 2024."
+  },
+  {
+    "evidence_id": "site_00614_pnnl_osm",
+    "analysis_unit_id": "site_00614",
+    "source": "PNNL IM3 Open Source Data Center Atlas 2026-02-09 (derived from OpenStreetMap)",
+    "evidence_type": "mapped_geometry",
+    "supports": "identity|mapped_roof_or_campus_geometry",
+    "note": "Source geometry can be incomplete or stale; geometry role is recorded in the analysis-unit table."
+  },
+  {
+    "evidence_id": "site_00614_overture",
+    "analysis_unit_id": "site_00614",
+    "source": "Overture Maps Buildings release 2026-08-19.0",
+    "evidence_type": "mapped_geometry_candidates",
+    "supports": "current_roof_review",
+    "note": "Candidate search results only; candidate area is not an accepted footprint total."
+  },
+  {
+    "evidence_id": "site_00614_nlcd",
+    "analysis_unit_id": "site_00614",
+    "source": "USGS/NLCD_RELEASES/2019_REL/NLCD and 2021_REL/NLCD via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "prior_land_use_corroboration",
+    "note": "Broad-class proportions are stored in the statewide record and annual Parquet table."
+  },
+  {
+    "evidence_id": "site_00614_cdl",
+    "analysis_unit_id": "site_00614",
+    "source": "USDA/NASS/CDL via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "crop_or_pasture_corroboration",
+    "note": "CDL is independent of Dynamic World but remains a 30 m categorical screening product."
+  },
+  {
+    "evidence_id": "site_00616_doc_01",
+    "analysis_unit_id": "site_00616",
+    "source": "https://www.streamdatacenters.com/news/stream-expands-chicago-presence-with-second-data-center/",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Stream acquired a 215,000-square-foot industrial property in 2020, planned construction for Feb 2021, and commissioned phase one in Q3 2022."
+  },
+  {
+    "evidence_id": "site_00616_doc_02",
+    "analysis_unit_id": "site_00616",
+    "source": "https://www.streamdatacenters.com/locations/chicago-data-centers/",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Stream acquired a 215,000-square-foot industrial property in 2020, planned construction for Feb 2021, and commissioned phase one in Q3 2022."
+  },
+  {
+    "evidence_id": "site_00616_pnnl_osm",
+    "analysis_unit_id": "site_00616",
+    "source": "PNNL IM3 Open Source Data Center Atlas 2026-02-09 (derived from OpenStreetMap)",
+    "evidence_type": "mapped_geometry",
+    "supports": "identity|mapped_roof_or_campus_geometry",
+    "note": "Source geometry can be incomplete or stale; geometry role is recorded in the analysis-unit table."
+  },
+  {
+    "evidence_id": "site_00616_overture",
+    "analysis_unit_id": "site_00616",
+    "source": "Overture Maps Buildings release 2026-08-19.0",
+    "evidence_type": "mapped_geometry_candidates",
+    "supports": "current_roof_review",
+    "note": "Candidate search results only; candidate area is not an accepted footprint total."
+  },
+  {
+    "evidence_id": "site_00616_nlcd",
+    "analysis_unit_id": "site_00616",
+    "source": "USGS/NLCD_RELEASES/2019_REL/NLCD and 2021_REL/NLCD via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "prior_land_use_corroboration",
+    "note": "Broad-class proportions are stored in the statewide record and annual Parquet table."
+  },
+  {
+    "evidence_id": "site_00616_cdl",
+    "analysis_unit_id": "site_00616",
+    "source": "USDA/NASS/CDL via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "crop_or_pasture_corroboration",
+    "note": "CDL is independent of Dynamic World but remains a 30 m categorical screening product."
+  },
+  {
+    "evidence_id": "site_00617_doc_01",
+    "analysis_unit_id": "site_00617",
+    "source": "https://t5datacenters.com/resources/t5-chicagoii-final-phase/",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "T5 documents conversion of an existing 164,000-square-foot warehouse and announced the final phase in Nov 2022; the automated 2017\u20132018 signal is neighbor-contaminated."
+  },
+  {
+    "evidence_id": "site_00617_doc_02",
+    "analysis_unit_id": "site_00617",
+    "source": "https://t5datacenters.com/resources/powering-hyperscale-growth-how-t5-data-centers-met-a-30mw-demand-without-missing-a-beat/",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "T5 documents conversion of an existing 164,000-square-foot warehouse and announced the final phase in Nov 2022; the automated 2017\u20132018 signal is neighbor-contaminated."
+  },
+  {
+    "evidence_id": "site_00617_pnnl_osm",
+    "analysis_unit_id": "site_00617",
+    "source": "PNNL IM3 Open Source Data Center Atlas 2026-02-09 (derived from OpenStreetMap)",
+    "evidence_type": "mapped_geometry",
+    "supports": "identity|mapped_roof_or_campus_geometry",
+    "note": "Source geometry can be incomplete or stale; geometry role is recorded in the analysis-unit table."
+  },
+  {
+    "evidence_id": "site_00617_overture",
+    "analysis_unit_id": "site_00617",
+    "source": "Overture Maps Buildings release 2026-08-19.0",
+    "evidence_type": "mapped_geometry_candidates",
+    "supports": "current_roof_review",
+    "note": "Candidate search results only; candidate area is not an accepted footprint total."
+  },
+  {
+    "evidence_id": "site_00617_nlcd",
+    "analysis_unit_id": "site_00617",
+    "source": "USGS/NLCD_RELEASES/2019_REL/NLCD and 2021_REL/NLCD via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "prior_land_use_corroboration",
+    "note": "Broad-class proportions are stored in the statewide record and annual Parquet table."
+  },
+  {
+    "evidence_id": "site_00617_cdl",
+    "analysis_unit_id": "site_00617",
+    "source": "USDA/NASS/CDL via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "crop_or_pasture_corroboration",
+    "note": "CDL is independent of Dynamic World but remains a 30 m categorical screening product."
+  },
+  {
+    "evidence_id": "site_01560_doc_01",
+    "analysis_unit_id": "site_01560",
+    "source": "https://qtsdatacenters.com/wp-content/uploads/2024/07/Sustainability-Report_FINAL_42319.pdf",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "QTS acquired the vacant former Chicago Sun-Times printing plant in 2014 and converted the 990,000-square-foot structure into a data center."
+  },
+  {
+    "evidence_id": "site_01560_pnnl_osm",
+    "analysis_unit_id": "site_01560",
+    "source": "PNNL IM3 Open Source Data Center Atlas 2026-02-09 (derived from OpenStreetMap)",
+    "evidence_type": "mapped_geometry",
+    "supports": "identity|mapped_roof_or_campus_geometry",
+    "note": "Source geometry can be incomplete or stale; geometry role is recorded in the analysis-unit table."
+  },
+  {
+    "evidence_id": "site_01560_overture",
+    "analysis_unit_id": "site_01560",
+    "source": "Overture Maps Buildings release 2026-08-19.0",
+    "evidence_type": "mapped_geometry_candidates",
+    "supports": "current_roof_review",
+    "note": "Candidate search results only; candidate area is not an accepted footprint total."
+  },
+  {
+    "evidence_id": "site_01560_nlcd",
+    "analysis_unit_id": "site_01560",
+    "source": "USGS/NLCD_RELEASES/2019_REL/NLCD and 2021_REL/NLCD via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "prior_land_use_corroboration",
+    "note": "Broad-class proportions are stored in the statewide record and annual Parquet table."
+  },
+  {
+    "evidence_id": "site_01560_cdl",
+    "analysis_unit_id": "site_01560",
+    "source": "USDA/NASS/CDL via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "crop_or_pasture_corroboration",
+    "note": "CDL is independent of Dynamic World but remains a 30 m categorical screening product."
+  },
+  {
+    "evidence_id": "site_01842_doc_01",
+    "analysis_unit_id": "site_01842",
+    "source": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/chicago-data-centers/ch3",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Current Equinix documentation confirms CH3 at 1905 Lunt; the site is developed in every NLCD/CDL checkpoint, but its original conversion date remains unresolved."
+  },
+  {
+    "evidence_id": "site_01842_pnnl_osm",
+    "analysis_unit_id": "site_01842",
+    "source": "PNNL IM3 Open Source Data Center Atlas 2026-02-09 (derived from OpenStreetMap)",
+    "evidence_type": "mapped_geometry",
+    "supports": "identity|mapped_roof_or_campus_geometry",
+    "note": "Source geometry can be incomplete or stale; geometry role is recorded in the analysis-unit table."
+  },
+  {
+    "evidence_id": "site_01842_overture",
+    "analysis_unit_id": "site_01842",
+    "source": "Overture Maps Buildings release 2026-08-19.0",
+    "evidence_type": "mapped_geometry_candidates",
+    "supports": "current_roof_review",
+    "note": "Candidate search results only; candidate area is not an accepted footprint total."
+  },
+  {
+    "evidence_id": "site_01842_nlcd",
+    "analysis_unit_id": "site_01842",
+    "source": "USGS/NLCD_RELEASES/2019_REL/NLCD and 2021_REL/NLCD via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "prior_land_use_corroboration",
+    "note": "Broad-class proportions are stored in the statewide record and annual Parquet table."
+  },
+  {
+    "evidence_id": "site_01842_cdl",
+    "analysis_unit_id": "site_01842",
+    "source": "USDA/NASS/CDL via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "crop_or_pasture_corroboration",
+    "note": "CDL is independent of Dynamic World but remains a 30 m categorical screening product."
+  },
+  {
+    "evidence_id": "site_01881_doc_01",
+    "analysis_unit_id": "site_01881",
+    "source": "https://www.spglobal.com/ratings/en/regulatory/article/230622-presale-data-2023-cntr-mortgage-trust-s12758184",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "The 1972 industrial warehouse was converted to data-center use in 2008, with a second phase in 2013."
+  },
+  {
+    "evidence_id": "site_01881_doc_02",
+    "analysis_unit_id": "site_01881",
+    "source": "https://www.digitalrealty.com/data-centers/americas/chicago/ch1",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "The 1972 industrial warehouse was converted to data-center use in 2008, with a second phase in 2013."
+  },
+  {
+    "evidence_id": "site_01881_pnnl_osm",
+    "analysis_unit_id": "site_01881",
+    "source": "PNNL IM3 Open Source Data Center Atlas 2026-02-09 (derived from OpenStreetMap)",
+    "evidence_type": "mapped_geometry",
+    "supports": "identity|mapped_roof_or_campus_geometry",
+    "note": "Source geometry can be incomplete or stale; geometry role is recorded in the analysis-unit table."
+  },
+  {
+    "evidence_id": "site_01881_overture",
+    "analysis_unit_id": "site_01881",
+    "source": "Overture Maps Buildings release 2026-08-19.0",
+    "evidence_type": "mapped_geometry_candidates",
+    "supports": "current_roof_review",
+    "note": "Candidate search results only; candidate area is not an accepted footprint total."
+  },
+  {
+    "evidence_id": "site_01881_nlcd",
+    "analysis_unit_id": "site_01881",
+    "source": "USGS/NLCD_RELEASES/2019_REL/NLCD and 2021_REL/NLCD via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "prior_land_use_corroboration",
+    "note": "Broad-class proportions are stored in the statewide record and annual Parquet table."
+  },
+  {
+    "evidence_id": "site_01881_cdl",
+    "analysis_unit_id": "site_01881",
+    "source": "USDA/NASS/CDL via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "crop_or_pasture_corroboration",
+    "note": "CDL is independent of Dynamic World but remains a 30 m categorical screening product."
+  },
+  {
+    "evidence_id": "site_01928_doc_01",
+    "analysis_unit_id": "site_01928",
+    "source": "https://www.ironmountain.com/data-centers/locations/na/chicago-data-center",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Excluded after identity review: the mapped feature is a South Halsted records-storage warehouse, while Iron Mountain's Chicago data center is CHI-1 at 1680 Touhy Avenue in Des Plaines."
+  },
+  {
+    "evidence_id": "site_01928_doc_02",
+    "analysis_unit_id": "site_01928",
+    "source": "https://mapcarta.com/W210222970",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Excluded after identity review: the mapped feature is a South Halsted records-storage warehouse, while Iron Mountain's Chicago data center is CHI-1 at 1680 Touhy Avenue in Des Plaines."
+  },
+  {
+    "evidence_id": "site_01928_pnnl_osm",
+    "analysis_unit_id": "site_01928",
+    "source": "PNNL IM3 Open Source Data Center Atlas 2026-02-09 (derived from OpenStreetMap)",
+    "evidence_type": "mapped_geometry",
+    "supports": "identity|mapped_roof_or_campus_geometry",
+    "note": "Source geometry can be incomplete or stale; geometry role is recorded in the analysis-unit table."
+  },
+  {
+    "evidence_id": "site_01928_overture",
+    "analysis_unit_id": "site_01928",
+    "source": "Overture Maps Buildings release 2026-08-19.0",
+    "evidence_type": "mapped_geometry_candidates",
+    "supports": "current_roof_review",
+    "note": "Candidate search results only; candidate area is not an accepted footprint total."
+  },
+  {
+    "evidence_id": "site_01928_nlcd",
+    "analysis_unit_id": "site_01928",
+    "source": "USGS/NLCD_RELEASES/2019_REL/NLCD and 2021_REL/NLCD via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "prior_land_use_corroboration",
+    "note": "Broad-class proportions are stored in the statewide record and annual Parquet table."
+  },
+  {
+    "evidence_id": "site_01928_cdl",
+    "analysis_unit_id": "site_01928",
+    "source": "USDA/NASS/CDL via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "crop_or_pasture_corroboration",
+    "note": "CDL is independent of Dynamic World but remains a 30 m categorical screening product."
+  },
+  {
+    "evidence_id": "site_01940_doc_01",
+    "analysis_unit_id": "site_01940",
+    "source": "https://investor.equinix.com/news-events/press-releases/detail/288/equinix-completes-acquisition-of-29-data-centers-from",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "The Westmont facility predates Equinix ownership and became CH7 through Equinix's May 2017 Verizon data-center acquisition."
+  },
+  {
+    "evidence_id": "site_01940_pnnl_osm",
+    "analysis_unit_id": "site_01940",
+    "source": "PNNL IM3 Open Source Data Center Atlas 2026-02-09 (derived from OpenStreetMap)",
+    "evidence_type": "mapped_geometry",
+    "supports": "identity|mapped_roof_or_campus_geometry",
+    "note": "Source geometry can be incomplete or stale; geometry role is recorded in the analysis-unit table."
+  },
+  {
+    "evidence_id": "site_01940_overture",
+    "analysis_unit_id": "site_01940",
+    "source": "Overture Maps Buildings release 2026-08-19.0",
+    "evidence_type": "mapped_geometry_candidates",
+    "supports": "current_roof_review",
+    "note": "Candidate search results only; candidate area is not an accepted footprint total."
+  },
+  {
+    "evidence_id": "site_01940_nlcd",
+    "analysis_unit_id": "site_01940",
+    "source": "USGS/NLCD_RELEASES/2019_REL/NLCD and 2021_REL/NLCD via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "prior_land_use_corroboration",
+    "note": "Broad-class proportions are stored in the statewide record and annual Parquet table."
+  },
+  {
+    "evidence_id": "site_01940_cdl",
+    "analysis_unit_id": "site_01940",
+    "source": "USDA/NASS/CDL via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "crop_or_pasture_corroboration",
+    "note": "CDL is independent of Dynamic World but remains a 30 m categorical screening product."
+  },
+  {
+    "evidence_id": "site_02009_doc_01",
+    "analysis_unit_id": "site_02009",
+    "source": "https://centersquaredc.com/hubfs/CenterSquare/docs/Centersquare-ORD-SpecSheet.pdf",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Current operator documentation confirms a purpose-built, two-story ORD2 facility; exact construction dates remain unresolved and historical imagery is required."
+  },
+  {
+    "evidence_id": "site_02009_pnnl_osm",
+    "analysis_unit_id": "site_02009",
+    "source": "PNNL IM3 Open Source Data Center Atlas 2026-02-09 (derived from OpenStreetMap)",
+    "evidence_type": "mapped_geometry",
+    "supports": "identity|mapped_roof_or_campus_geometry",
+    "note": "Source geometry can be incomplete or stale; geometry role is recorded in the analysis-unit table."
+  },
+  {
+    "evidence_id": "site_02009_overture",
+    "analysis_unit_id": "site_02009",
+    "source": "Overture Maps Buildings release 2026-08-19.0",
+    "evidence_type": "mapped_geometry_candidates",
+    "supports": "current_roof_review",
+    "note": "Candidate search results only; candidate area is not an accepted footprint total."
+  },
+  {
+    "evidence_id": "site_02009_nlcd",
+    "analysis_unit_id": "site_02009",
+    "source": "USGS/NLCD_RELEASES/2019_REL/NLCD and 2021_REL/NLCD via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "prior_land_use_corroboration",
+    "note": "Broad-class proportions are stored in the statewide record and annual Parquet table."
+  },
+  {
+    "evidence_id": "site_02009_cdl",
+    "analysis_unit_id": "site_02009",
+    "source": "USDA/NASS/CDL via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "crop_or_pasture_corroboration",
+    "note": "CDL is independent of Dynamic World but remains a 30 m categorical screening product."
+  },
+  {
+    "evidence_id": "site_02019_doc_01",
+    "analysis_unit_id": "site_02019",
+    "source": "https://www.skyboxdatacenters.com/locations/skybox-chicago",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Skybox/Prologis developed Chicago I on a former warehouse-complex site; contemporary reporting described the 190,000-square-foot facility as open in 2021."
+  },
+  {
+    "evidence_id": "site_02019_doc_02",
+    "analysis_unit_id": "site_02019",
+    "source": "https://skyboxdatacenters.com/news/industrial-sites-start-flipping-to-data-centers-amid-fears-of-logistics-slowdown",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Skybox/Prologis developed Chicago I on a former warehouse-complex site; contemporary reporting described the 190,000-square-foot facility as open in 2021."
+  },
+  {
+    "evidence_id": "site_02019_pnnl_osm",
+    "analysis_unit_id": "site_02019",
+    "source": "PNNL IM3 Open Source Data Center Atlas 2026-02-09 (derived from OpenStreetMap)",
+    "evidence_type": "mapped_geometry",
+    "supports": "identity|mapped_roof_or_campus_geometry",
+    "note": "Source geometry can be incomplete or stale; geometry role is recorded in the analysis-unit table."
+  },
+  {
+    "evidence_id": "site_02019_overture",
+    "analysis_unit_id": "site_02019",
+    "source": "Overture Maps Buildings release 2026-08-19.0",
+    "evidence_type": "mapped_geometry_candidates",
+    "supports": "current_roof_review",
+    "note": "Candidate search results only; candidate area is not an accepted footprint total."
+  },
+  {
+    "evidence_id": "site_02019_nlcd",
+    "analysis_unit_id": "site_02019",
+    "source": "USGS/NLCD_RELEASES/2019_REL/NLCD and 2021_REL/NLCD via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "prior_land_use_corroboration",
+    "note": "Broad-class proportions are stored in the statewide record and annual Parquet table."
+  },
+  {
+    "evidence_id": "site_02019_cdl",
+    "analysis_unit_id": "site_02019",
+    "source": "USDA/NASS/CDL via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "crop_or_pasture_corroboration",
+    "note": "CDL is independent of Dynamic World but remains a 30 m categorical screening product."
+  },
+  {
+    "evidence_id": "site_02031_doc_01",
+    "analysis_unit_id": "site_02031",
+    "source": "https://investor.digitalrealty.com/static-files/18487391-d78b-41c5-a4d9-51d59d6483ba",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Digital Realty acquired the three-building Grand Avenue campus in May 2012 and began redeveloping 9333 Grand (ORD12) in Aug 2012; ENERGY STAR records 2014 as year built."
+  },
+  {
+    "evidence_id": "site_02031_doc_02",
+    "analysis_unit_id": "site_02031",
+    "source": "https://www.digitalrealty.com/data-centers/americas/chicago/ord12",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Digital Realty acquired the three-building Grand Avenue campus in May 2012 and began redeveloping 9333 Grand (ORD12) in Aug 2012; ENERGY STAR records 2014 as year built."
+  },
+  {
+    "evidence_id": "site_02031_pnnl_osm",
+    "analysis_unit_id": "site_02031",
+    "source": "PNNL IM3 Open Source Data Center Atlas 2026-02-09 (derived from OpenStreetMap)",
+    "evidence_type": "mapped_geometry",
+    "supports": "identity|mapped_roof_or_campus_geometry",
+    "note": "Source geometry can be incomplete or stale; geometry role is recorded in the analysis-unit table."
+  },
+  {
+    "evidence_id": "site_02031_overture",
+    "analysis_unit_id": "site_02031",
+    "source": "Overture Maps Buildings release 2026-08-19.0",
+    "evidence_type": "mapped_geometry_candidates",
+    "supports": "current_roof_review",
+    "note": "Candidate search results only; candidate area is not an accepted footprint total."
+  },
+  {
+    "evidence_id": "site_02031_nlcd",
+    "analysis_unit_id": "site_02031",
+    "source": "USGS/NLCD_RELEASES/2019_REL/NLCD and 2021_REL/NLCD via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "prior_land_use_corroboration",
+    "note": "Broad-class proportions are stored in the statewide record and annual Parquet table."
+  },
+  {
+    "evidence_id": "site_02031_cdl",
+    "analysis_unit_id": "site_02031",
+    "source": "USDA/NASS/CDL via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "crop_or_pasture_corroboration",
+    "note": "CDL is independent of Dynamic World but remains a 30 m categorical screening product."
+  },
+  {
+    "evidence_id": "site_02109_doc_01",
+    "analysis_unit_id": "site_02109",
+    "source": "https://centersquaredc.com/hubfs/CenterSquare/docs/Centersquare-ORD-SpecSheet.pdf",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "ORD4 is confirmed at 4513 Western Avenue; the site is developed throughout available categorical history, while the original data-center conversion date remains unresolved."
+  },
+  {
+    "evidence_id": "site_02109_pnnl_osm",
+    "analysis_unit_id": "site_02109",
+    "source": "PNNL IM3 Open Source Data Center Atlas 2026-02-09 (derived from OpenStreetMap)",
+    "evidence_type": "mapped_geometry",
+    "supports": "identity|mapped_roof_or_campus_geometry",
+    "note": "Source geometry can be incomplete or stale; geometry role is recorded in the analysis-unit table."
+  },
+  {
+    "evidence_id": "site_02109_overture",
+    "analysis_unit_id": "site_02109",
+    "source": "Overture Maps Buildings release 2026-08-19.0",
+    "evidence_type": "mapped_geometry_candidates",
+    "supports": "current_roof_review",
+    "note": "Candidate search results only; candidate area is not an accepted footprint total."
+  },
+  {
+    "evidence_id": "site_02109_nlcd",
+    "analysis_unit_id": "site_02109",
+    "source": "USGS/NLCD_RELEASES/2019_REL/NLCD and 2021_REL/NLCD via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "prior_land_use_corroboration",
+    "note": "Broad-class proportions are stored in the statewide record and annual Parquet table."
+  },
+  {
+    "evidence_id": "site_02109_cdl",
+    "analysis_unit_id": "site_02109",
+    "source": "USDA/NASS/CDL via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "crop_or_pasture_corroboration",
+    "note": "CDL is independent of Dynamic World but remains a 30 m categorical screening product."
+  },
+  {
+    "evidence_id": "site_02132_doc_01",
+    "analysis_unit_id": "site_02132",
+    "source": "https://chicagobuildingtrades.org/wp-content/uploads/2024/08/PLA-with-Detail-August-14-2024.pdf",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "A construction labor agreement records Microsoft Data Center Phase 2 at 601 Northwest Avenue in 2016; the Illinois incentive program records Microsoft Northlake in 2021."
+  },
+  {
+    "evidence_id": "site_02132_doc_02",
+    "analysis_unit_id": "site_02132",
+    "source": "https://dceo.illinois.gov/content/dam/soi/en/web/dceo/aboutdceo/reportsrequiredbystatute/2024-data-centers-annual-report-submission.pdf",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "A construction labor agreement records Microsoft Data Center Phase 2 at 601 Northwest Avenue in 2016; the Illinois incentive program records Microsoft Northlake in 2021."
+  },
+  {
+    "evidence_id": "site_02132_pnnl_osm",
+    "analysis_unit_id": "site_02132",
+    "source": "PNNL IM3 Open Source Data Center Atlas 2026-02-09 (derived from OpenStreetMap)",
+    "evidence_type": "mapped_geometry",
+    "supports": "identity|mapped_roof_or_campus_geometry",
+    "note": "Source geometry can be incomplete or stale; geometry role is recorded in the analysis-unit table."
+  },
+  {
+    "evidence_id": "site_02132_overture",
+    "analysis_unit_id": "site_02132",
+    "source": "Overture Maps Buildings release 2026-08-19.0",
+    "evidence_type": "mapped_geometry_candidates",
+    "supports": "current_roof_review",
+    "note": "Candidate search results only; candidate area is not an accepted footprint total."
+  },
+  {
+    "evidence_id": "site_02132_nlcd",
+    "analysis_unit_id": "site_02132",
+    "source": "USGS/NLCD_RELEASES/2019_REL/NLCD and 2021_REL/NLCD via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "prior_land_use_corroboration",
+    "note": "Broad-class proportions are stored in the statewide record and annual Parquet table."
+  },
+  {
+    "evidence_id": "site_02132_cdl",
+    "analysis_unit_id": "site_02132",
+    "source": "USDA/NASS/CDL via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "crop_or_pasture_corroboration",
+    "note": "CDL is independent of Dynamic World but remains a 30 m categorical screening product."
+  },
+  {
+    "evidence_id": "site_02186_doc_01",
+    "analysis_unit_id": "site_02186",
+    "source": "https://www.digitalrealty.com/data-centers/americas/chicago",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Work on CH3 began in 2017 and phase one was completed in Q1 2018; NLCD maps the site as developed before construction."
+  },
+  {
+    "evidence_id": "site_02186_doc_02",
+    "analysis_unit_id": "site_02186",
+    "source": "https://www.spglobal.com/ratings/en/regulatory/article/230622-presale-data-2023-cntr-mortgage-trust-s12758184",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Work on CH3 began in 2017 and phase one was completed in Q1 2018; NLCD maps the site as developed before construction."
+  },
+  {
+    "evidence_id": "site_02186_pnnl_osm",
+    "analysis_unit_id": "site_02186",
+    "source": "PNNL IM3 Open Source Data Center Atlas 2026-02-09 (derived from OpenStreetMap)",
+    "evidence_type": "mapped_geometry",
+    "supports": "identity|mapped_roof_or_campus_geometry",
+    "note": "Source geometry can be incomplete or stale; geometry role is recorded in the analysis-unit table."
+  },
+  {
+    "evidence_id": "site_02186_overture",
+    "analysis_unit_id": "site_02186",
+    "source": "Overture Maps Buildings release 2026-08-19.0",
+    "evidence_type": "mapped_geometry_candidates",
+    "supports": "current_roof_review",
+    "note": "Candidate search results only; candidate area is not an accepted footprint total."
+  },
+  {
+    "evidence_id": "site_02186_nlcd",
+    "analysis_unit_id": "site_02186",
+    "source": "USGS/NLCD_RELEASES/2019_REL/NLCD and 2021_REL/NLCD via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "prior_land_use_corroboration",
+    "note": "Broad-class proportions are stored in the statewide record and annual Parquet table."
+  },
+  {
+    "evidence_id": "site_02186_cdl",
+    "analysis_unit_id": "site_02186",
+    "source": "USDA/NASS/CDL via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "crop_or_pasture_corroboration",
+    "note": "CDL is independent of Dynamic World but remains a 30 m categorical screening product."
+  },
+  {
+    "evidence_id": "site_02187_doc_01",
+    "analysis_unit_id": "site_02187",
+    "source": "https://www.digitalrealty.com/data-centers/americas/chicago",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Digital Realty records CH2 at 2299 Busse as a distinct facility; market documentation places opening in 2015, but a primary construction record remains to be located."
+  },
+  {
+    "evidence_id": "site_02187_doc_02",
+    "analysis_unit_id": "site_02187",
+    "source": "https://investor.digitalrealty.com/static-files/3ebb6f07-8955-45c2-96fa-1c9d14bdb8b7",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Digital Realty records CH2 at 2299 Busse as a distinct facility; market documentation places opening in 2015, but a primary construction record remains to be located."
+  },
+  {
+    "evidence_id": "site_02187_pnnl_osm",
+    "analysis_unit_id": "site_02187",
+    "source": "PNNL IM3 Open Source Data Center Atlas 2026-02-09 (derived from OpenStreetMap)",
+    "evidence_type": "mapped_geometry",
+    "supports": "identity|mapped_roof_or_campus_geometry",
+    "note": "Source geometry can be incomplete or stale; geometry role is recorded in the analysis-unit table."
+  },
+  {
+    "evidence_id": "site_02187_overture",
+    "analysis_unit_id": "site_02187",
+    "source": "Overture Maps Buildings release 2026-08-19.0",
+    "evidence_type": "mapped_geometry_candidates",
+    "supports": "current_roof_review",
+    "note": "Candidate search results only; candidate area is not an accepted footprint total."
+  },
+  {
+    "evidence_id": "site_02187_nlcd",
+    "analysis_unit_id": "site_02187",
+    "source": "USGS/NLCD_RELEASES/2019_REL/NLCD and 2021_REL/NLCD via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "prior_land_use_corroboration",
+    "note": "Broad-class proportions are stored in the statewide record and annual Parquet table."
+  },
+  {
+    "evidence_id": "site_02187_cdl",
+    "analysis_unit_id": "site_02187",
+    "source": "USDA/NASS/CDL via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "crop_or_pasture_corroboration",
+    "note": "CDL is independent of Dynamic World but remains a 30 m categorical screening product."
+  },
+  {
+    "evidence_id": "site_02253_doc_01",
+    "analysis_unit_id": "site_02253",
+    "source": "https://www.stackinfra.com/locations/americas/chicago/chi01/",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "STACK documents CHI01A and CHI01B as a two-building, 14-acre campus; a Dec 2020 operator video confirms the campus by that date."
+  },
+  {
+    "evidence_id": "site_02253_doc_02",
+    "analysis_unit_id": "site_02253",
+    "source": "https://www.stackinfra.com/resources/video/stack-chicago/",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "STACK documents CHI01A and CHI01B as a two-building, 14-acre campus; a Dec 2020 operator video confirms the campus by that date."
+  },
+  {
+    "evidence_id": "site_02253_pnnl_osm",
+    "analysis_unit_id": "site_02253",
+    "source": "PNNL IM3 Open Source Data Center Atlas 2026-02-09 (derived from OpenStreetMap)",
+    "evidence_type": "mapped_geometry",
+    "supports": "identity|mapped_roof_or_campus_geometry",
+    "note": "Source geometry can be incomplete or stale; geometry role is recorded in the analysis-unit table."
+  },
+  {
+    "evidence_id": "site_02253_overture",
+    "analysis_unit_id": "site_02253",
+    "source": "Overture Maps Buildings release 2026-08-19.0",
+    "evidence_type": "mapped_geometry_candidates",
+    "supports": "current_roof_review",
+    "note": "Candidate search results only; candidate area is not an accepted footprint total."
+  },
+  {
+    "evidence_id": "site_02253_nlcd",
+    "analysis_unit_id": "site_02253",
+    "source": "USGS/NLCD_RELEASES/2019_REL/NLCD and 2021_REL/NLCD via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "prior_land_use_corroboration",
+    "note": "Broad-class proportions are stored in the statewide record and annual Parquet table."
+  },
+  {
+    "evidence_id": "site_02253_cdl",
+    "analysis_unit_id": "site_02253",
+    "source": "USDA/NASS/CDL via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "crop_or_pasture_corroboration",
+    "note": "CDL is independent of Dynamic World but remains a 30 m categorical screening product."
+  },
+  {
+    "evidence_id": "site_02613_doc_01",
+    "analysis_unit_id": "site_02613",
+    "source": "https://www.hoffmanestates.org/Documents/Government/Departments/Finance/Financial%20Documents/2024-2028-Capital-Improvements-Program.pdf?t=202509191049100",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Village records state construction began in June 2021; the first building continued build-out and a second building was permitted in 2024. Direct 2019 NAIP review shows a mixed pasture/old-field, woodland, and wetland site\u2014not uniform cropland\u2014consistent with Dynamic World's 61.9% trees and 32.9% crops in 2019 but inconsistent with coarse NLCD/CDL labels."
+  },
+  {
+    "evidence_id": "site_02613_doc_02",
+    "analysis_unit_id": "site_02613",
+    "source": "https://www.hoffmanestates.org/Documents/Government/Departments/Finance/Financial%20Documents/2025-Operating-and-Capital-Budget.pdf?t=202512111326230",
+    "evidence_type": "documentary",
+    "supports": "identity|timeline|prior_land_use",
+    "note": "Village records state construction began in June 2021; the first building continued build-out and a second building was permitted in 2024. Direct 2019 NAIP review shows a mixed pasture/old-field, woodland, and wetland site\u2014not uniform cropland\u2014consistent with Dynamic World's 61.9% trees and 32.9% crops in 2019 but inconsistent with coarse NLCD/CDL labels."
+  },
+  {
+    "evidence_id": "site_02613_pnnl_osm",
+    "analysis_unit_id": "site_02613",
+    "source": "PNNL IM3 Open Source Data Center Atlas 2026-02-09 (derived from OpenStreetMap)",
+    "evidence_type": "mapped_geometry",
+    "supports": "identity|mapped_roof_or_campus_geometry",
+    "note": "Source geometry can be incomplete or stale; geometry role is recorded in the analysis-unit table."
+  },
+  {
+    "evidence_id": "site_02613_overture",
+    "analysis_unit_id": "site_02613",
+    "source": "Overture Maps Buildings release 2026-08-19.0",
+    "evidence_type": "mapped_geometry_candidates",
+    "supports": "current_roof_review",
+    "note": "Candidate search results only; candidate area is not an accepted footprint total."
+  },
+  {
+    "evidence_id": "site_02613_nlcd",
+    "analysis_unit_id": "site_02613",
+    "source": "USGS/NLCD_RELEASES/2019_REL/NLCD and 2021_REL/NLCD via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "prior_land_use_corroboration",
+    "note": "Broad-class proportions are stored in the statewide record and annual Parquet table."
+  },
+  {
+    "evidence_id": "site_02613_cdl",
+    "analysis_unit_id": "site_02613",
+    "source": "USDA/NASS/CDL via Earth Engine",
+    "evidence_type": "categorical_land_cover",
+    "supports": "crop_or_pasture_corroboration",
+    "note": "CDL is independent of Dynamic World but remains a 30 m categorical screening product."
+  },
+  {
+    "evidence_id": "aligned_northlake_ord01_ord02_img_baseline",
+    "analysis_unit_id": "aligned_northlake_ord01_ord02",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "baseline; dates 2019-08-09; local file data/illinois_land_use_change/review/imagery/aligned_northlake_ord01_ord02_baseline_2019.png"
+  },
+  {
+    "evidence_id": "aligned_northlake_ord01_ord02_img_naip_current",
+    "analysis_unit_id": "aligned_northlake_ord01_ord02",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "naip_current; dates 2023-07-10; local file data/illinois_land_use_change/review/imagery/aligned_northlake_ord01_ord02_naip_current_2023.png"
+  },
+  {
+    "evidence_id": "aligned_northlake_ord01_ord02_img_sentinel2_current",
+    "analysis_unit_id": "aligned_northlake_ord01_ord02",
+    "source": "COPERNICUS/S2_SR_HARMONIZED",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "sentinel2_current; dates 2026-05-04, 2026-05-14, 2026-05-29, 2026-06-13, 2026-06-15, 2026-06-18, 2026-06-23, 2026-07-08, 2026-07-13, 2026-08-07, 2026-08-22, 2026-08-27; local file data/illinois_land_use_change/review/imagery/aligned_northlake_ord01_ord02_sentinel2_2026.png"
+  },
+  {
+    "evidence_id": "aurora_cyrusone_chi1_chi2_img_baseline",
+    "analysis_unit_id": "aurora_cyrusone_chi1_chi2",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "baseline; dates 2015-09-16; local file data/illinois_land_use_change/review/imagery/aurora_cyrusone_chi1_chi2_baseline_2015.png"
+  },
+  {
+    "evidence_id": "aurora_cyrusone_chi1_chi2_img_naip_current",
+    "analysis_unit_id": "aurora_cyrusone_chi1_chi2",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "naip_current; dates 2023-08-18; local file data/illinois_land_use_change/review/imagery/aurora_cyrusone_chi1_chi2_naip_current_2023.png"
+  },
+  {
+    "evidence_id": "aurora_cyrusone_chi1_chi2_img_sentinel2_current",
+    "analysis_unit_id": "aurora_cyrusone_chi1_chi2",
+    "source": "COPERNICUS/S2_SR_HARMONIZED",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "sentinel2_current; dates 2026-05-04, 2026-05-24, 2026-06-03, 2026-06-15, 2026-07-08, 2026-07-13, 2026-07-28, 2026-08-07, 2026-08-17, 2026-08-22, 2026-08-27; local file data/illinois_land_use_change/review/imagery/aurora_cyrusone_chi1_chi2_sentinel2_2026.png"
+  },
+  {
+    "evidence_id": "edgeconnex_elk_grove_chi01_chi02_img_baseline",
+    "analysis_unit_id": "edgeconnex_elk_grove_chi01_chi02",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "baseline; dates 2011-08-26; local file data/illinois_land_use_change/review/imagery/edgeconnex_elk_grove_chi01_chi02_baseline_2011.png"
+  },
+  {
+    "evidence_id": "edgeconnex_elk_grove_chi01_chi02_img_naip_current",
+    "analysis_unit_id": "edgeconnex_elk_grove_chi01_chi02",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "naip_current; dates 2023-07-10; local file data/illinois_land_use_change/review/imagery/edgeconnex_elk_grove_chi01_chi02_naip_current_2023.png"
+  },
+  {
+    "evidence_id": "edgeconnex_elk_grove_chi01_chi02_img_sentinel2_current",
+    "analysis_unit_id": "edgeconnex_elk_grove_chi01_chi02",
+    "source": "COPERNICUS/S2_SR_HARMONIZED",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "sentinel2_current; dates 2026-05-04, 2026-05-14, 2026-05-29, 2026-06-13, 2026-06-15, 2026-06-18, 2026-06-23, 2026-07-08, 2026-07-13, 2026-08-07, 2026-08-22, 2026-08-27; local file data/illinois_land_use_change/review/imagery/edgeconnex_elk_grove_chi01_chi02_sentinel2_2026.png"
+  },
+  {
+    "evidence_id": "element_critical_wood_dale_ch1_ch2_img_baseline",
+    "analysis_unit_id": "element_critical_wood_dale_ch1_ch2",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "baseline; dates 2012-06-19; local file data/illinois_land_use_change/review/imagery/element_critical_wood_dale_ch1_ch2_baseline_2012.png"
+  },
+  {
+    "evidence_id": "element_critical_wood_dale_ch1_ch2_img_naip_current",
+    "analysis_unit_id": "element_critical_wood_dale_ch1_ch2",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "naip_current; dates 2023-07-10; local file data/illinois_land_use_change/review/imagery/element_critical_wood_dale_ch1_ch2_naip_current_2023.png"
+  },
+  {
+    "evidence_id": "element_critical_wood_dale_ch1_ch2_img_sentinel2_current",
+    "analysis_unit_id": "element_critical_wood_dale_ch1_ch2",
+    "source": "COPERNICUS/S2_SR_HARMONIZED",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "sentinel2_current; dates 2026-05-04, 2026-05-14, 2026-05-29, 2026-06-13, 2026-06-15, 2026-06-18, 2026-06-23, 2026-07-08, 2026-07-13, 2026-08-07, 2026-08-22, 2026-08-27; local file data/illinois_land_use_change/review/imagery/element_critical_wood_dale_ch1_ch2_sentinel2_2026.png"
+  },
+  {
+    "evidence_id": "meta_dekalb_campus_img_baseline",
+    "analysis_unit_id": "meta_dekalb_campus",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "baseline; dates 2019-09-14; local file data/illinois_land_use_change/review/imagery/meta_dekalb_campus_baseline_2019.png"
+  },
+  {
+    "evidence_id": "meta_dekalb_campus_img_naip_current",
+    "analysis_unit_id": "meta_dekalb_campus",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "naip_current; dates 2023-07-27; local file data/illinois_land_use_change/review/imagery/meta_dekalb_campus_naip_current_2023.png"
+  },
+  {
+    "evidence_id": "meta_dekalb_campus_img_sentinel2_current",
+    "analysis_unit_id": "meta_dekalb_campus",
+    "source": "COPERNICUS/S2_SR_HARMONIZED",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "sentinel2_current; dates 2026-05-04, 2026-05-24, 2026-05-27, 2026-06-03, 2026-06-15, 2026-06-16, 2026-07-01, 2026-07-06, 2026-07-08, 2026-07-08, 2026-07-11, 2026-07-13, 2026-07-16, 2026-07-28, 2026-08-07, 2026-08-07, 2026-08-17, 2026-08-20, 2026-08-22, 2026-08-25, 2026-08-27, 2026-08-27; local file data/illinois_land_use_change/review/imagery/meta_dekalb_campus_sentinel2_2026.png"
+  },
+  {
+    "evidence_id": "microsoft_elk_grove_campus_img_baseline",
+    "analysis_unit_id": "microsoft_elk_grove_campus",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "baseline; dates 2019-08-09; local file data/illinois_land_use_change/review/imagery/microsoft_elk_grove_campus_baseline_2019.png"
+  },
+  {
+    "evidence_id": "microsoft_elk_grove_campus_img_naip_current",
+    "analysis_unit_id": "microsoft_elk_grove_campus",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "naip_current; dates 2023-07-10; local file data/illinois_land_use_change/review/imagery/microsoft_elk_grove_campus_naip_current_2023.png"
+  },
+  {
+    "evidence_id": "microsoft_elk_grove_campus_img_sentinel2_current",
+    "analysis_unit_id": "microsoft_elk_grove_campus",
+    "source": "COPERNICUS/S2_SR_HARMONIZED",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "sentinel2_current; dates 2026-05-04, 2026-05-14, 2026-05-29, 2026-06-13, 2026-06-15, 2026-06-18, 2026-06-23, 2026-07-08, 2026-07-13, 2026-08-07, 2026-08-22, 2026-08-27; local file data/illinois_land_use_change/review/imagery/microsoft_elk_grove_campus_sentinel2_2026.png"
+  },
+  {
+    "evidence_id": "ntt_itasca_chicago_campus_img_baseline",
+    "analysis_unit_id": "ntt_itasca_chicago_campus",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "baseline; dates 2017-07-02, 2017-09-03; local file data/illinois_land_use_change/review/imagery/ntt_itasca_chicago_campus_baseline_2017.png"
+  },
+  {
+    "evidence_id": "ntt_itasca_chicago_campus_img_naip_current",
+    "analysis_unit_id": "ntt_itasca_chicago_campus",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "naip_current; dates 2023-07-10; local file data/illinois_land_use_change/review/imagery/ntt_itasca_chicago_campus_naip_current_2023.png"
+  },
+  {
+    "evidence_id": "ntt_itasca_chicago_campus_img_sentinel2_current",
+    "analysis_unit_id": "ntt_itasca_chicago_campus",
+    "source": "COPERNICUS/S2_SR_HARMONIZED",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "sentinel2_current; dates 2026-05-04, 2026-05-14, 2026-05-29, 2026-06-13, 2026-06-15, 2026-06-18, 2026-06-23, 2026-07-08, 2026-07-13, 2026-08-07, 2026-08-22, 2026-08-27; local file data/illinois_land_use_change/review/imagery/ntt_itasca_chicago_campus_sentinel2_2026.png"
+  },
+  {
+    "evidence_id": "site_00614_img_baseline",
+    "analysis_unit_id": "site_00614",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "baseline; dates 2015-08-22; local file data/illinois_land_use_change/review/imagery/site_00614_baseline_2015.png"
+  },
+  {
+    "evidence_id": "site_00614_img_naip_current",
+    "analysis_unit_id": "site_00614",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "naip_current; dates 2023-07-10; local file data/illinois_land_use_change/review/imagery/site_00614_naip_current_2023.png"
+  },
+  {
+    "evidence_id": "site_00614_img_sentinel2_current",
+    "analysis_unit_id": "site_00614",
+    "source": "COPERNICUS/S2_SR_HARMONIZED",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "sentinel2_current; dates 2026-05-04, 2026-05-14, 2026-05-29, 2026-06-13, 2026-06-15, 2026-06-18, 2026-06-23, 2026-07-08, 2026-07-13, 2026-08-07, 2026-08-22, 2026-08-27; local file data/illinois_land_use_change/review/imagery/site_00614_sentinel2_2026.png"
+  },
+  {
+    "evidence_id": "site_00616_img_baseline",
+    "analysis_unit_id": "site_00616",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "baseline; dates 2019-08-09; local file data/illinois_land_use_change/review/imagery/site_00616_baseline_2019.png"
+  },
+  {
+    "evidence_id": "site_00616_img_naip_current",
+    "analysis_unit_id": "site_00616",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "naip_current; dates 2023-07-10; local file data/illinois_land_use_change/review/imagery/site_00616_naip_current_2023.png"
+  },
+  {
+    "evidence_id": "site_00616_img_sentinel2_current",
+    "analysis_unit_id": "site_00616",
+    "source": "COPERNICUS/S2_SR_HARMONIZED",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "sentinel2_current; dates 2026-05-04, 2026-05-14, 2026-05-29, 2026-06-13, 2026-06-15, 2026-06-18, 2026-06-23, 2026-07-08, 2026-07-13, 2026-08-07, 2026-08-22, 2026-08-27; local file data/illinois_land_use_change/review/imagery/site_00616_sentinel2_2026.png"
+  },
+  {
+    "evidence_id": "site_00617_img_baseline",
+    "analysis_unit_id": "site_00617",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "baseline; dates 2021-09-08; local file data/illinois_land_use_change/review/imagery/site_00617_baseline_2021.png"
+  },
+  {
+    "evidence_id": "site_00617_img_naip_current",
+    "analysis_unit_id": "site_00617",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "naip_current; dates 2023-07-10; local file data/illinois_land_use_change/review/imagery/site_00617_naip_current_2023.png"
+  },
+  {
+    "evidence_id": "site_00617_img_sentinel2_current",
+    "analysis_unit_id": "site_00617",
+    "source": "COPERNICUS/S2_SR_HARMONIZED",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "sentinel2_current; dates 2026-05-04, 2026-05-14, 2026-05-29, 2026-06-13, 2026-06-15, 2026-06-18, 2026-06-23, 2026-07-08, 2026-07-13, 2026-08-07, 2026-08-22, 2026-08-27; local file data/illinois_land_use_change/review/imagery/site_00617_sentinel2_2026.png"
+  },
+  {
+    "evidence_id": "site_01560_img_baseline",
+    "analysis_unit_id": "site_01560",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "baseline; dates 2012-06-19; local file data/illinois_land_use_change/review/imagery/site_01560_baseline_2012.png"
+  },
+  {
+    "evidence_id": "site_01560_img_naip_current",
+    "analysis_unit_id": "site_01560",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "naip_current; dates 2023-07-10; local file data/illinois_land_use_change/review/imagery/site_01560_naip_current_2023.png"
+  },
+  {
+    "evidence_id": "site_01560_img_sentinel2_current",
+    "analysis_unit_id": "site_01560",
+    "source": "COPERNICUS/S2_SR_HARMONIZED",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "sentinel2_current; dates 2026-05-04, 2026-05-14, 2026-05-29, 2026-06-13, 2026-06-15, 2026-06-18, 2026-06-23, 2026-07-08, 2026-07-13, 2026-08-07, 2026-08-22, 2026-08-27; local file data/illinois_land_use_change/review/imagery/site_01560_sentinel2_2026.png"
+  },
+  {
+    "evidence_id": "site_01842_img_baseline",
+    "analysis_unit_id": "site_01842",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "baseline; dates 2011-08-26; local file data/illinois_land_use_change/review/imagery/site_01842_baseline_2011.png"
+  },
+  {
+    "evidence_id": "site_01842_img_naip_current",
+    "analysis_unit_id": "site_01842",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "naip_current; dates 2023-07-10; local file data/illinois_land_use_change/review/imagery/site_01842_naip_current_2023.png"
+  },
+  {
+    "evidence_id": "site_01842_img_sentinel2_current",
+    "analysis_unit_id": "site_01842",
+    "source": "COPERNICUS/S2_SR_HARMONIZED",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "sentinel2_current; dates 2026-05-04, 2026-05-14, 2026-05-29, 2026-06-13, 2026-06-15, 2026-06-18, 2026-06-23, 2026-07-08, 2026-07-13, 2026-08-07, 2026-08-22, 2026-08-27; local file data/illinois_land_use_change/review/imagery/site_01842_sentinel2_2026.png"
+  },
+  {
+    "evidence_id": "site_01881_img_baseline",
+    "analysis_unit_id": "site_01881",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "baseline; dates 2011-08-26; local file data/illinois_land_use_change/review/imagery/site_01881_baseline_2011.png"
+  },
+  {
+    "evidence_id": "site_01881_img_naip_current",
+    "analysis_unit_id": "site_01881",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "naip_current; dates 2023-07-10; local file data/illinois_land_use_change/review/imagery/site_01881_naip_current_2023.png"
+  },
+  {
+    "evidence_id": "site_01881_img_sentinel2_current",
+    "analysis_unit_id": "site_01881",
+    "source": "COPERNICUS/S2_SR_HARMONIZED",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "sentinel2_current; dates 2026-05-04, 2026-05-14, 2026-05-29, 2026-06-13, 2026-06-15, 2026-06-18, 2026-06-23, 2026-07-08, 2026-07-13, 2026-08-07, 2026-08-22, 2026-08-27; local file data/illinois_land_use_change/review/imagery/site_01881_sentinel2_2026.png"
+  },
+  {
+    "evidence_id": "site_01928_img_baseline",
+    "analysis_unit_id": "site_01928",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "baseline; dates 2011-08-26; local file data/illinois_land_use_change/review/imagery/site_01928_baseline_2011.png"
+  },
+  {
+    "evidence_id": "site_01928_img_naip_current",
+    "analysis_unit_id": "site_01928",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "naip_current; dates 2023-07-10; local file data/illinois_land_use_change/review/imagery/site_01928_naip_current_2023.png"
+  },
+  {
+    "evidence_id": "site_01928_img_sentinel2_current",
+    "analysis_unit_id": "site_01928",
+    "source": "COPERNICUS/S2_SR_HARMONIZED",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "sentinel2_current; dates 2026-05-04, 2026-05-14, 2026-05-29, 2026-06-13, 2026-06-15, 2026-06-18, 2026-06-23, 2026-07-08, 2026-07-13, 2026-08-07, 2026-08-22, 2026-08-27; local file data/illinois_land_use_change/review/imagery/site_01928_sentinel2_2026.png"
+  },
+  {
+    "evidence_id": "site_01940_img_baseline",
+    "analysis_unit_id": "site_01940",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "baseline; dates 2011-08-26; local file data/illinois_land_use_change/review/imagery/site_01940_baseline_2011.png"
+  },
+  {
+    "evidence_id": "site_01940_img_naip_current",
+    "analysis_unit_id": "site_01940",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "naip_current; dates 2023-07-10; local file data/illinois_land_use_change/review/imagery/site_01940_naip_current_2023.png"
+  },
+  {
+    "evidence_id": "site_01940_img_sentinel2_current",
+    "analysis_unit_id": "site_01940",
+    "source": "COPERNICUS/S2_SR_HARMONIZED",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "sentinel2_current; dates 2026-05-04, 2026-05-14, 2026-05-29, 2026-06-13, 2026-06-15, 2026-06-18, 2026-06-23, 2026-07-08, 2026-07-13, 2026-08-07, 2026-08-22, 2026-08-27; local file data/illinois_land_use_change/review/imagery/site_01940_sentinel2_2026.png"
+  },
+  {
+    "evidence_id": "site_02009_img_baseline",
+    "analysis_unit_id": "site_02009",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "baseline; dates 2011-08-26; local file data/illinois_land_use_change/review/imagery/site_02009_baseline_2011.png"
+  },
+  {
+    "evidence_id": "site_02009_img_naip_current",
+    "analysis_unit_id": "site_02009",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "naip_current; dates 2023-07-10; local file data/illinois_land_use_change/review/imagery/site_02009_naip_current_2023.png"
+  },
+  {
+    "evidence_id": "site_02009_img_sentinel2_current",
+    "analysis_unit_id": "site_02009",
+    "source": "COPERNICUS/S2_SR_HARMONIZED",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "sentinel2_current; dates 2026-05-04, 2026-05-14, 2026-05-29, 2026-06-13, 2026-06-15, 2026-06-18, 2026-06-23, 2026-07-08, 2026-07-13, 2026-08-07, 2026-08-22, 2026-08-27; local file data/illinois_land_use_change/review/imagery/site_02009_sentinel2_2026.png"
+  },
+  {
+    "evidence_id": "site_02019_img_baseline",
+    "analysis_unit_id": "site_02019",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "baseline; dates 2019-08-09; local file data/illinois_land_use_change/review/imagery/site_02019_baseline_2019.png"
+  },
+  {
+    "evidence_id": "site_02019_img_naip_current",
+    "analysis_unit_id": "site_02019",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "naip_current; dates 2023-07-10; local file data/illinois_land_use_change/review/imagery/site_02019_naip_current_2023.png"
+  },
+  {
+    "evidence_id": "site_02019_img_sentinel2_current",
+    "analysis_unit_id": "site_02019",
+    "source": "COPERNICUS/S2_SR_HARMONIZED",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "sentinel2_current; dates 2026-05-04, 2026-05-14, 2026-05-29, 2026-06-13, 2026-06-15, 2026-06-18, 2026-06-23, 2026-07-08, 2026-07-13, 2026-08-07, 2026-08-22, 2026-08-27; local file data/illinois_land_use_change/review/imagery/site_02019_sentinel2_2026.png"
+  },
+  {
+    "evidence_id": "site_02031_img_baseline",
+    "analysis_unit_id": "site_02031",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "baseline; dates 2011-08-26; local file data/illinois_land_use_change/review/imagery/site_02031_baseline_2011.png"
+  },
+  {
+    "evidence_id": "site_02031_img_naip_current",
+    "analysis_unit_id": "site_02031",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "naip_current; dates 2023-07-10; local file data/illinois_land_use_change/review/imagery/site_02031_naip_current_2023.png"
+  },
+  {
+    "evidence_id": "site_02031_img_sentinel2_current",
+    "analysis_unit_id": "site_02031",
+    "source": "COPERNICUS/S2_SR_HARMONIZED",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "sentinel2_current; dates 2026-05-04, 2026-05-14, 2026-05-29, 2026-06-13, 2026-06-15, 2026-06-18, 2026-06-23, 2026-07-08, 2026-07-13, 2026-08-07, 2026-08-22, 2026-08-27; local file data/illinois_land_use_change/review/imagery/site_02031_sentinel2_2026.png"
+  },
+  {
+    "evidence_id": "site_02109_img_baseline",
+    "analysis_unit_id": "site_02109",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "baseline; dates 2011-08-26; local file data/illinois_land_use_change/review/imagery/site_02109_baseline_2011.png"
+  },
+  {
+    "evidence_id": "site_02109_img_naip_current",
+    "analysis_unit_id": "site_02109",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "naip_current; dates 2023-08-16; local file data/illinois_land_use_change/review/imagery/site_02109_naip_current_2023.png"
+  },
+  {
+    "evidence_id": "site_02109_img_sentinel2_current",
+    "analysis_unit_id": "site_02109",
+    "source": "COPERNICUS/S2_SR_HARMONIZED",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "sentinel2_current; dates 2026-05-04, 2026-05-04, 2026-05-14, 2026-05-24, 2026-05-29, 2026-06-03, 2026-06-13, 2026-06-15, 2026-06-15, 2026-06-18, 2026-06-23, 2026-07-08, 2026-07-08, 2026-07-13, 2026-07-13, 2026-07-28, 2026-08-07, 2026-08-07, 2026-08-17, 2026-08-22, 2026-08-22, 2026-08-27, 2026-08-27; local file data/illinois_land_use_change/review/imagery/site_02109_sentinel2_2026.png"
+  },
+  {
+    "evidence_id": "site_02132_img_baseline",
+    "analysis_unit_id": "site_02132",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "baseline; dates 2015-08-22; local file data/illinois_land_use_change/review/imagery/site_02132_baseline_2015.png"
+  },
+  {
+    "evidence_id": "site_02132_img_naip_current",
+    "analysis_unit_id": "site_02132",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "naip_current; dates 2023-07-10; local file data/illinois_land_use_change/review/imagery/site_02132_naip_current_2023.png"
+  },
+  {
+    "evidence_id": "site_02132_img_sentinel2_current",
+    "analysis_unit_id": "site_02132",
+    "source": "COPERNICUS/S2_SR_HARMONIZED",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "sentinel2_current; dates 2026-05-04, 2026-05-14, 2026-05-29, 2026-06-13, 2026-06-15, 2026-06-18, 2026-06-23, 2026-07-08, 2026-07-13, 2026-08-07, 2026-08-22, 2026-08-27; local file data/illinois_land_use_change/review/imagery/site_02132_sentinel2_2026.png"
+  },
+  {
+    "evidence_id": "site_02186_img_baseline",
+    "analysis_unit_id": "site_02186",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "baseline; dates 2015-08-22; local file data/illinois_land_use_change/review/imagery/site_02186_baseline_2015.png"
+  },
+  {
+    "evidence_id": "site_02186_img_naip_current",
+    "analysis_unit_id": "site_02186",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "naip_current; dates 2023-07-10; local file data/illinois_land_use_change/review/imagery/site_02186_naip_current_2023.png"
+  },
+  {
+    "evidence_id": "site_02186_img_sentinel2_current",
+    "analysis_unit_id": "site_02186",
+    "source": "COPERNICUS/S2_SR_HARMONIZED",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "sentinel2_current; dates 2026-05-04, 2026-05-14, 2026-05-29, 2026-06-13, 2026-06-15, 2026-06-18, 2026-06-23, 2026-07-08, 2026-07-13, 2026-08-07, 2026-08-22, 2026-08-27; local file data/illinois_land_use_change/review/imagery/site_02186_sentinel2_2026.png"
+  },
+  {
+    "evidence_id": "site_02187_img_baseline",
+    "analysis_unit_id": "site_02187",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "baseline; dates 2011-08-26; local file data/illinois_land_use_change/review/imagery/site_02187_baseline_2011.png"
+  },
+  {
+    "evidence_id": "site_02187_img_naip_current",
+    "analysis_unit_id": "site_02187",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "naip_current; dates 2023-07-10; local file data/illinois_land_use_change/review/imagery/site_02187_naip_current_2023.png"
+  },
+  {
+    "evidence_id": "site_02187_img_sentinel2_current",
+    "analysis_unit_id": "site_02187",
+    "source": "COPERNICUS/S2_SR_HARMONIZED",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "sentinel2_current; dates 2026-05-04, 2026-05-14, 2026-05-29, 2026-06-13, 2026-06-15, 2026-06-18, 2026-06-23, 2026-07-08, 2026-07-13, 2026-08-07, 2026-08-22, 2026-08-27; local file data/illinois_land_use_change/review/imagery/site_02187_sentinel2_2026.png"
+  },
+  {
+    "evidence_id": "site_02253_img_baseline",
+    "analysis_unit_id": "site_02253",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "baseline; dates 2011-08-26; local file data/illinois_land_use_change/review/imagery/site_02253_baseline_2011.png"
+  },
+  {
+    "evidence_id": "site_02253_img_naip_current",
+    "analysis_unit_id": "site_02253",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "naip_current; dates 2023-07-10; local file data/illinois_land_use_change/review/imagery/site_02253_naip_current_2023.png"
+  },
+  {
+    "evidence_id": "site_02253_img_sentinel2_current",
+    "analysis_unit_id": "site_02253",
+    "source": "COPERNICUS/S2_SR_HARMONIZED",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "sentinel2_current; dates 2026-05-04, 2026-05-14, 2026-05-29, 2026-06-13, 2026-06-15, 2026-06-18, 2026-06-23, 2026-07-08, 2026-07-13, 2026-08-07, 2026-08-22, 2026-08-27; local file data/illinois_land_use_change/review/imagery/site_02253_sentinel2_2026.png"
+  },
+  {
+    "evidence_id": "site_02613_img_baseline",
+    "analysis_unit_id": "site_02613",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "baseline; dates 2019-09-14; local file data/illinois_land_use_change/review/imagery/site_02613_baseline_2019.png"
+  },
+  {
+    "evidence_id": "site_02613_img_naip_current",
+    "analysis_unit_id": "site_02613",
+    "source": "USDA/NAIP/DOQQ",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "naip_current; dates 2023-08-24; local file data/illinois_land_use_change/review/imagery/site_02613_naip_current_2023.png"
+  },
+  {
+    "evidence_id": "site_02613_img_sentinel2_current",
+    "analysis_unit_id": "site_02613",
+    "source": "COPERNICUS/S2_SR_HARMONIZED",
+    "evidence_type": "dated_open_imagery",
+    "supports": "visual_land_use_and_development_review",
+    "note": "sentinel2_current; dates 2026-05-04, 2026-05-04, 2026-05-14, 2026-05-24, 2026-05-29, 2026-06-03, 2026-06-13, 2026-06-15, 2026-06-15, 2026-06-18, 2026-06-23, 2026-07-08, 2026-07-08, 2026-07-13, 2026-07-13, 2026-07-28, 2026-08-07, 2026-08-07, 2026-08-17, 2026-08-22, 2026-08-22, 2026-08-27, 2026-08-27; local file data/illinois_land_use_change/review/imagery/site_02613_sentinel2_2026.png"
+  }
+]

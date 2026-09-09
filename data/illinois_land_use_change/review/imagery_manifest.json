@@ -1,0 +1,1618 @@
+[
+  {
+    "analysis_unit_id": "aligned_northlake_ord01_ord02",
+    "role": "baseline",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2019,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2019-08-09"
+    ],
+    "bbox_wgs84": [
+      -87.92120428284942,
+      41.91082606909102,
+      -87.9137465358726,
+      41.91639648488876
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/aligned_northlake_ord01_ord02_baseline_2019.png"
+  },
+  {
+    "analysis_unit_id": "aligned_northlake_ord01_ord02",
+    "role": "naip_current",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2023,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2023-07-10"
+    ],
+    "bbox_wgs84": [
+      -87.92120428284942,
+      41.91082606909102,
+      -87.9137465358726,
+      41.91639648488876
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/aligned_northlake_ord01_ord02_naip_current_2023.png"
+  },
+  {
+    "analysis_unit_id": "aligned_northlake_ord01_ord02",
+    "role": "sentinel2_current",
+    "dataset": "COPERNICUS/S2_SR_HARMONIZED",
+    "year": 2026,
+    "item_count": 12,
+    "acquisition_dates": [
+      "2026-05-04",
+      "2026-05-14",
+      "2026-05-29",
+      "2026-06-13",
+      "2026-06-15",
+      "2026-06-18",
+      "2026-06-23",
+      "2026-07-08",
+      "2026-07-13",
+      "2026-08-07",
+      "2026-08-22",
+      "2026-08-27"
+    ],
+    "composite_period": [
+      "2026-05-01",
+      "2026-08-31"
+    ],
+    "bbox_wgs84": [
+      -87.92120428284942,
+      41.91082606909102,
+      -87.9137465358726,
+      41.91639648488876
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/aligned_northlake_ord01_ord02_sentinel2_2026.png"
+  },
+  {
+    "analysis_unit_id": "aurora_cyrusone_chi1_chi2",
+    "role": "baseline",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2015,
+    "item_count": 2,
+    "acquisition_dates": [
+      "2015-09-16"
+    ],
+    "bbox_wgs84": [
+      -88.24825069721014,
+      41.793533136983484,
+      -88.24067794800617,
+      41.79919990716765
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/aurora_cyrusone_chi1_chi2_baseline_2015.png"
+  },
+  {
+    "analysis_unit_id": "aurora_cyrusone_chi1_chi2",
+    "role": "naip_current",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2023,
+    "item_count": 2,
+    "acquisition_dates": [
+      "2023-08-18"
+    ],
+    "bbox_wgs84": [
+      -88.24825069721014,
+      41.793533136983484,
+      -88.24067794800617,
+      41.79919990716765
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/aurora_cyrusone_chi1_chi2_naip_current_2023.png"
+  },
+  {
+    "analysis_unit_id": "aurora_cyrusone_chi1_chi2",
+    "role": "sentinel2_current",
+    "dataset": "COPERNICUS/S2_SR_HARMONIZED",
+    "year": 2026,
+    "item_count": 11,
+    "acquisition_dates": [
+      "2026-05-04",
+      "2026-05-24",
+      "2026-06-03",
+      "2026-06-15",
+      "2026-07-08",
+      "2026-07-13",
+      "2026-07-28",
+      "2026-08-07",
+      "2026-08-17",
+      "2026-08-22",
+      "2026-08-27"
+    ],
+    "composite_period": [
+      "2026-05-01",
+      "2026-08-31"
+    ],
+    "bbox_wgs84": [
+      -88.24825069721014,
+      41.793533136983484,
+      -88.24067794800617,
+      41.79919990716765
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/aurora_cyrusone_chi1_chi2_sentinel2_2026.png"
+  },
+  {
+    "analysis_unit_id": "edgeconnex_elk_grove_chi01_chi02",
+    "role": "baseline",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2011,
+    "item_count": 2,
+    "acquisition_dates": [
+      "2011-08-26"
+    ],
+    "bbox_wgs84": [
+      -87.95513017508954,
+      41.9982396659079,
+      -87.9476592398219,
+      42.00381222665364
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/edgeconnex_elk_grove_chi01_chi02_baseline_2011.png"
+  },
+  {
+    "analysis_unit_id": "edgeconnex_elk_grove_chi01_chi02",
+    "role": "naip_current",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2023,
+    "item_count": 2,
+    "acquisition_dates": [
+      "2023-07-10"
+    ],
+    "bbox_wgs84": [
+      -87.95513017508954,
+      41.9982396659079,
+      -87.9476592398219,
+      42.00381222665364
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/edgeconnex_elk_grove_chi01_chi02_naip_current_2023.png"
+  },
+  {
+    "analysis_unit_id": "edgeconnex_elk_grove_chi01_chi02",
+    "role": "sentinel2_current",
+    "dataset": "COPERNICUS/S2_SR_HARMONIZED",
+    "year": 2026,
+    "item_count": 12,
+    "acquisition_dates": [
+      "2026-05-04",
+      "2026-05-14",
+      "2026-05-29",
+      "2026-06-13",
+      "2026-06-15",
+      "2026-06-18",
+      "2026-06-23",
+      "2026-07-08",
+      "2026-07-13",
+      "2026-08-07",
+      "2026-08-22",
+      "2026-08-27"
+    ],
+    "composite_period": [
+      "2026-05-01",
+      "2026-08-31"
+    ],
+    "bbox_wgs84": [
+      -87.95513017508954,
+      41.9982396659079,
+      -87.9476592398219,
+      42.00381222665364
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/edgeconnex_elk_grove_chi01_chi02_sentinel2_2026.png"
+  },
+  {
+    "analysis_unit_id": "element_critical_wood_dale_ch1_ch2",
+    "role": "baseline",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2012,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2012-06-19"
+    ],
+    "bbox_wgs84": [
+      -87.9692298164837,
+      41.972476091614986,
+      -87.96176074867213,
+      41.97804953126788
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/element_critical_wood_dale_ch1_ch2_baseline_2012.png"
+  },
+  {
+    "analysis_unit_id": "element_critical_wood_dale_ch1_ch2",
+    "role": "naip_current",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2023,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2023-07-10"
+    ],
+    "bbox_wgs84": [
+      -87.9692298164837,
+      41.972476091614986,
+      -87.96176074867213,
+      41.97804953126788
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/element_critical_wood_dale_ch1_ch2_naip_current_2023.png"
+  },
+  {
+    "analysis_unit_id": "element_critical_wood_dale_ch1_ch2",
+    "role": "sentinel2_current",
+    "dataset": "COPERNICUS/S2_SR_HARMONIZED",
+    "year": 2026,
+    "item_count": 12,
+    "acquisition_dates": [
+      "2026-05-04",
+      "2026-05-14",
+      "2026-05-29",
+      "2026-06-13",
+      "2026-06-15",
+      "2026-06-18",
+      "2026-06-23",
+      "2026-07-08",
+      "2026-07-13",
+      "2026-08-07",
+      "2026-08-22",
+      "2026-08-27"
+    ],
+    "composite_period": [
+      "2026-05-01",
+      "2026-08-31"
+    ],
+    "bbox_wgs84": [
+      -87.9692298164837,
+      41.972476091614986,
+      -87.96176074867213,
+      41.97804953126788
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/element_critical_wood_dale_ch1_ch2_sentinel2_2026.png"
+  },
+  {
+    "analysis_unit_id": "meta_dekalb_campus",
+    "role": "baseline",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2019,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2019-09-14"
+    ],
+    "bbox_wgs84": [
+      -88.74218948539168,
+      41.87886371823159,
+      -88.7149526607537,
+      41.89921560991372
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/meta_dekalb_campus_baseline_2019.png"
+  },
+  {
+    "analysis_unit_id": "meta_dekalb_campus",
+    "role": "naip_current",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2023,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2023-07-27"
+    ],
+    "bbox_wgs84": [
+      -88.74218948539168,
+      41.87886371823159,
+      -88.7149526607537,
+      41.89921560991372
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/meta_dekalb_campus_naip_current_2023.png"
+  },
+  {
+    "analysis_unit_id": "meta_dekalb_campus",
+    "role": "sentinel2_current",
+    "dataset": "COPERNICUS/S2_SR_HARMONIZED",
+    "year": 2026,
+    "item_count": 22,
+    "acquisition_dates": [
+      "2026-05-04",
+      "2026-05-24",
+      "2026-05-27",
+      "2026-06-03",
+      "2026-06-15",
+      "2026-06-16",
+      "2026-07-01",
+      "2026-07-06",
+      "2026-07-08",
+      "2026-07-08",
+      "2026-07-11",
+      "2026-07-13",
+      "2026-07-16",
+      "2026-07-28",
+      "2026-08-07",
+      "2026-08-07",
+      "2026-08-17",
+      "2026-08-20",
+      "2026-08-22",
+      "2026-08-25",
+      "2026-08-27",
+      "2026-08-27"
+    ],
+    "composite_period": [
+      "2026-05-01",
+      "2026-08-31"
+    ],
+    "bbox_wgs84": [
+      -88.74218948539168,
+      41.87886371823159,
+      -88.7149526607537,
+      41.89921560991372
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/meta_dekalb_campus_sentinel2_2026.png"
+  },
+  {
+    "analysis_unit_id": "microsoft_elk_grove_campus",
+    "role": "baseline",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2019,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2019-08-09"
+    ],
+    "bbox_wgs84": [
+      -87.9759240361463,
+      42.02035633513163,
+      -87.96844872661687,
+      42.025930205767914
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/microsoft_elk_grove_campus_baseline_2019.png"
+  },
+  {
+    "analysis_unit_id": "microsoft_elk_grove_campus",
+    "role": "naip_current",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2023,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2023-07-10"
+    ],
+    "bbox_wgs84": [
+      -87.9759240361463,
+      42.02035633513163,
+      -87.96844872661687,
+      42.025930205767914
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/microsoft_elk_grove_campus_naip_current_2023.png"
+  },
+  {
+    "analysis_unit_id": "microsoft_elk_grove_campus",
+    "role": "sentinel2_current",
+    "dataset": "COPERNICUS/S2_SR_HARMONIZED",
+    "year": 2026,
+    "item_count": 12,
+    "acquisition_dates": [
+      "2026-05-04",
+      "2026-05-14",
+      "2026-05-29",
+      "2026-06-13",
+      "2026-06-15",
+      "2026-06-18",
+      "2026-06-23",
+      "2026-07-08",
+      "2026-07-13",
+      "2026-08-07",
+      "2026-08-22",
+      "2026-08-27"
+    ],
+    "composite_period": [
+      "2026-05-01",
+      "2026-08-31"
+    ],
+    "bbox_wgs84": [
+      -87.9759240361463,
+      42.02035633513163,
+      -87.96844872661687,
+      42.025930205767914
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/microsoft_elk_grove_campus_sentinel2_2026.png"
+  },
+  {
+    "analysis_unit_id": "ntt_itasca_chicago_campus",
+    "role": "baseline",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2017,
+    "item_count": 2,
+    "acquisition_dates": [
+      "2017-07-02",
+      "2017-09-03"
+    ],
+    "bbox_wgs84": [
+      -88.01053802220781,
+      41.98550736497602,
+      -88.00306393923557,
+      41.991083397088154
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/ntt_itasca_chicago_campus_baseline_2017.png"
+  },
+  {
+    "analysis_unit_id": "ntt_itasca_chicago_campus",
+    "role": "naip_current",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2023,
+    "item_count": 2,
+    "acquisition_dates": [
+      "2023-07-10"
+    ],
+    "bbox_wgs84": [
+      -88.01053802220781,
+      41.98550736497602,
+      -88.00306393923557,
+      41.991083397088154
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/ntt_itasca_chicago_campus_naip_current_2023.png"
+  },
+  {
+    "analysis_unit_id": "ntt_itasca_chicago_campus",
+    "role": "sentinel2_current",
+    "dataset": "COPERNICUS/S2_SR_HARMONIZED",
+    "year": 2026,
+    "item_count": 12,
+    "acquisition_dates": [
+      "2026-05-04",
+      "2026-05-14",
+      "2026-05-29",
+      "2026-06-13",
+      "2026-06-15",
+      "2026-06-18",
+      "2026-06-23",
+      "2026-07-08",
+      "2026-07-13",
+      "2026-08-07",
+      "2026-08-22",
+      "2026-08-27"
+    ],
+    "composite_period": [
+      "2026-05-01",
+      "2026-08-31"
+    ],
+    "bbox_wgs84": [
+      -88.01053802220781,
+      41.98550736497602,
+      -88.00306393923557,
+      41.991083397088154
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/ntt_itasca_chicago_campus_sentinel2_2026.png"
+  },
+  {
+    "analysis_unit_id": "site_00614",
+    "role": "baseline",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2015,
+    "item_count": 2,
+    "acquisition_dates": [
+      "2015-08-22"
+    ],
+    "bbox_wgs84": [
+      -87.954870525089,
+      41.99981432912778,
+      -87.94739942496976,
+      42.0053868739062
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_00614_baseline_2015.png"
+  },
+  {
+    "analysis_unit_id": "site_00614",
+    "role": "naip_current",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2023,
+    "item_count": 2,
+    "acquisition_dates": [
+      "2023-07-10"
+    ],
+    "bbox_wgs84": [
+      -87.954870525089,
+      41.99981432912778,
+      -87.94739942496976,
+      42.0053868739062
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_00614_naip_current_2023.png"
+  },
+  {
+    "analysis_unit_id": "site_00614",
+    "role": "sentinel2_current",
+    "dataset": "COPERNICUS/S2_SR_HARMONIZED",
+    "year": 2026,
+    "item_count": 12,
+    "acquisition_dates": [
+      "2026-05-04",
+      "2026-05-14",
+      "2026-05-29",
+      "2026-06-13",
+      "2026-06-15",
+      "2026-06-18",
+      "2026-06-23",
+      "2026-07-08",
+      "2026-07-13",
+      "2026-08-07",
+      "2026-08-22",
+      "2026-08-27"
+    ],
+    "composite_period": [
+      "2026-05-01",
+      "2026-08-31"
+    ],
+    "bbox_wgs84": [
+      -87.954870525089,
+      41.99981432912778,
+      -87.94739942496976,
+      42.0053868739062
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_00614_sentinel2_2026.png"
+  },
+  {
+    "analysis_unit_id": "site_00616",
+    "role": "baseline",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2019,
+    "item_count": 2,
+    "acquisition_dates": [
+      "2019-08-09"
+    ],
+    "bbox_wgs84": [
+      -87.96150036401673,
+      41.99633784487579,
+      -87.95402911827279,
+      42.001910804980824
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_00616_baseline_2019.png"
+  },
+  {
+    "analysis_unit_id": "site_00616",
+    "role": "naip_current",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2023,
+    "item_count": 2,
+    "acquisition_dates": [
+      "2023-07-10"
+    ],
+    "bbox_wgs84": [
+      -87.96150036401673,
+      41.99633784487579,
+      -87.95402911827279,
+      42.001910804980824
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_00616_naip_current_2023.png"
+  },
+  {
+    "analysis_unit_id": "site_00616",
+    "role": "sentinel2_current",
+    "dataset": "COPERNICUS/S2_SR_HARMONIZED",
+    "year": 2026,
+    "item_count": 12,
+    "acquisition_dates": [
+      "2026-05-04",
+      "2026-05-14",
+      "2026-05-29",
+      "2026-06-13",
+      "2026-06-15",
+      "2026-06-18",
+      "2026-06-23",
+      "2026-07-08",
+      "2026-07-13",
+      "2026-08-07",
+      "2026-08-22",
+      "2026-08-27"
+    ],
+    "composite_period": [
+      "2026-05-01",
+      "2026-08-31"
+    ],
+    "bbox_wgs84": [
+      -87.96150036401673,
+      41.99633784487579,
+      -87.95402911827279,
+      42.001910804980824
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_00616_sentinel2_2026.png"
+  },
+  {
+    "analysis_unit_id": "site_00617",
+    "role": "baseline",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2021,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2021-09-08"
+    ],
+    "bbox_wgs84": [
+      -87.97929482637265,
+      42.02025523608811,
+      -87.97181924515921,
+      42.02582931822162
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_00617_baseline_2021.png"
+  },
+  {
+    "analysis_unit_id": "site_00617",
+    "role": "naip_current",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2023,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2023-07-10"
+    ],
+    "bbox_wgs84": [
+      -87.97929482637265,
+      42.02025523608811,
+      -87.97181924515921,
+      42.02582931822162
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_00617_naip_current_2023.png"
+  },
+  {
+    "analysis_unit_id": "site_00617",
+    "role": "sentinel2_current",
+    "dataset": "COPERNICUS/S2_SR_HARMONIZED",
+    "year": 2026,
+    "item_count": 12,
+    "acquisition_dates": [
+      "2026-05-04",
+      "2026-05-14",
+      "2026-05-29",
+      "2026-06-13",
+      "2026-06-15",
+      "2026-06-18",
+      "2026-06-23",
+      "2026-07-08",
+      "2026-07-13",
+      "2026-08-07",
+      "2026-08-22",
+      "2026-08-27"
+    ],
+    "composite_period": [
+      "2026-05-01",
+      "2026-08-31"
+    ],
+    "bbox_wgs84": [
+      -87.97929482637265,
+      42.02025523608811,
+      -87.97181924515921,
+      42.02582931822162
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_00617_sentinel2_2026.png"
+  },
+  {
+    "analysis_unit_id": "site_01560",
+    "role": "baseline",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2012,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2012-06-19"
+    ],
+    "bbox_wgs84": [
+      -87.67272253471936,
+      41.839409076520326,
+      -87.66529407594675,
+      41.84496386703677
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_01560_baseline_2012.png"
+  },
+  {
+    "analysis_unit_id": "site_01560",
+    "role": "naip_current",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2023,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2023-07-10"
+    ],
+    "bbox_wgs84": [
+      -87.67272253471936,
+      41.839409076520326,
+      -87.66529407594675,
+      41.84496386703677
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_01560_naip_current_2023.png"
+  },
+  {
+    "analysis_unit_id": "site_01560",
+    "role": "sentinel2_current",
+    "dataset": "COPERNICUS/S2_SR_HARMONIZED",
+    "year": 2026,
+    "item_count": 12,
+    "acquisition_dates": [
+      "2026-05-04",
+      "2026-05-14",
+      "2026-05-29",
+      "2026-06-13",
+      "2026-06-15",
+      "2026-06-18",
+      "2026-06-23",
+      "2026-07-08",
+      "2026-07-13",
+      "2026-08-07",
+      "2026-08-22",
+      "2026-08-27"
+    ],
+    "composite_period": [
+      "2026-05-01",
+      "2026-08-31"
+    ],
+    "bbox_wgs84": [
+      -87.67272253471936,
+      41.839409076520326,
+      -87.66529407594675,
+      41.84496386703677
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_01560_sentinel2_2026.png"
+  },
+  {
+    "analysis_unit_id": "site_01842",
+    "role": "baseline",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2011,
+    "item_count": 2,
+    "acquisition_dates": [
+      "2011-08-26"
+    ],
+    "bbox_wgs84": [
+      -87.9589489198623,
+      41.99837225065978,
+      -87.95147764755548,
+      42.00394505109412
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_01842_baseline_2011.png"
+  },
+  {
+    "analysis_unit_id": "site_01842",
+    "role": "naip_current",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2023,
+    "item_count": 2,
+    "acquisition_dates": [
+      "2023-07-10"
+    ],
+    "bbox_wgs84": [
+      -87.9589489198623,
+      41.99837225065978,
+      -87.95147764755548,
+      42.00394505109412
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_01842_naip_current_2023.png"
+  },
+  {
+    "analysis_unit_id": "site_01842",
+    "role": "sentinel2_current",
+    "dataset": "COPERNICUS/S2_SR_HARMONIZED",
+    "year": 2026,
+    "item_count": 12,
+    "acquisition_dates": [
+      "2026-05-04",
+      "2026-05-14",
+      "2026-05-29",
+      "2026-06-13",
+      "2026-06-15",
+      "2026-06-18",
+      "2026-06-23",
+      "2026-07-08",
+      "2026-07-13",
+      "2026-08-07",
+      "2026-08-22",
+      "2026-08-27"
+    ],
+    "composite_period": [
+      "2026-05-01",
+      "2026-08-31"
+    ],
+    "bbox_wgs84": [
+      -87.9589489198623,
+      41.99837225065978,
+      -87.95147764755548,
+      42.00394505109412
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_01842_sentinel2_2026.png"
+  },
+  {
+    "analysis_unit_id": "site_01881",
+    "role": "baseline",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2011,
+    "item_count": 2,
+    "acquisition_dates": [
+      "2011-08-26"
+    ],
+    "bbox_wgs84": [
+      -87.96590783916434,
+      41.99145075496141,
+      -87.95843680210767,
+      41.99702399052627
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_01881_baseline_2011.png"
+  },
+  {
+    "analysis_unit_id": "site_01881",
+    "role": "naip_current",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2023,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2023-07-10"
+    ],
+    "bbox_wgs84": [
+      -87.96590783916434,
+      41.99145075496141,
+      -87.95843680210767,
+      41.99702399052627
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_01881_naip_current_2023.png"
+  },
+  {
+    "analysis_unit_id": "site_01881",
+    "role": "sentinel2_current",
+    "dataset": "COPERNICUS/S2_SR_HARMONIZED",
+    "year": 2026,
+    "item_count": 12,
+    "acquisition_dates": [
+      "2026-05-04",
+      "2026-05-14",
+      "2026-05-29",
+      "2026-06-13",
+      "2026-06-15",
+      "2026-06-18",
+      "2026-06-23",
+      "2026-07-08",
+      "2026-07-13",
+      "2026-08-07",
+      "2026-08-22",
+      "2026-08-27"
+    ],
+    "composite_period": [
+      "2026-05-01",
+      "2026-08-31"
+    ],
+    "bbox_wgs84": [
+      -87.96590783916434,
+      41.99145075496141,
+      -87.95843680210767,
+      41.99702399052627
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_01881_sentinel2_2026.png"
+  },
+  {
+    "analysis_unit_id": "site_01928",
+    "role": "baseline",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2011,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2011-08-26"
+    ],
+    "bbox_wgs84": [
+      -87.64922361662985,
+      41.84601998018724,
+      -87.64179636812108,
+      41.85157328764685
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_01928_baseline_2011.png"
+  },
+  {
+    "analysis_unit_id": "site_01928",
+    "role": "naip_current",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2023,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2023-07-10"
+    ],
+    "bbox_wgs84": [
+      -87.64922361662985,
+      41.84601998018724,
+      -87.64179636812108,
+      41.85157328764685
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_01928_naip_current_2023.png"
+  },
+  {
+    "analysis_unit_id": "site_01928",
+    "role": "sentinel2_current",
+    "dataset": "COPERNICUS/S2_SR_HARMONIZED",
+    "year": 2026,
+    "item_count": 12,
+    "acquisition_dates": [
+      "2026-05-04",
+      "2026-05-14",
+      "2026-05-29",
+      "2026-06-13",
+      "2026-06-15",
+      "2026-06-18",
+      "2026-06-23",
+      "2026-07-08",
+      "2026-07-13",
+      "2026-08-07",
+      "2026-08-22",
+      "2026-08-27"
+    ],
+    "composite_period": [
+      "2026-05-01",
+      "2026-08-31"
+    ],
+    "bbox_wgs84": [
+      -87.64922361662985,
+      41.84601998018724,
+      -87.64179636812108,
+      41.85157328764685
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_01928_sentinel2_2026.png"
+  },
+  {
+    "analysis_unit_id": "site_01940",
+    "role": "baseline",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2011,
+    "item_count": 2,
+    "acquisition_dates": [
+      "2011-08-26"
+    ],
+    "bbox_wgs84": [
+      -87.9765688950474,
+      41.80977012429029,
+      -87.96911840783017,
+      41.815343985337684
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_01940_baseline_2011.png"
+  },
+  {
+    "analysis_unit_id": "site_01940",
+    "role": "naip_current",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2023,
+    "item_count": 2,
+    "acquisition_dates": [
+      "2023-07-10"
+    ],
+    "bbox_wgs84": [
+      -87.9765688950474,
+      41.80977012429029,
+      -87.96911840783017,
+      41.815343985337684
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_01940_naip_current_2023.png"
+  },
+  {
+    "analysis_unit_id": "site_01940",
+    "role": "sentinel2_current",
+    "dataset": "COPERNICUS/S2_SR_HARMONIZED",
+    "year": 2026,
+    "item_count": 12,
+    "acquisition_dates": [
+      "2026-05-04",
+      "2026-05-14",
+      "2026-05-29",
+      "2026-06-13",
+      "2026-06-15",
+      "2026-06-18",
+      "2026-06-23",
+      "2026-07-08",
+      "2026-07-13",
+      "2026-08-07",
+      "2026-08-22",
+      "2026-08-27"
+    ],
+    "composite_period": [
+      "2026-05-01",
+      "2026-08-31"
+    ],
+    "bbox_wgs84": [
+      -87.9765688950474,
+      41.80977012429029,
+      -87.96911840783017,
+      41.815343985337684
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_01940_sentinel2_2026.png"
+  },
+  {
+    "analysis_unit_id": "site_02009",
+    "role": "baseline",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2011,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2011-08-26"
+    ],
+    "bbox_wgs84": [
+      -87.96190738895109,
+      41.98925386657983,
+      -87.95443694876492,
+      41.994826850682635
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02009_baseline_2011.png"
+  },
+  {
+    "analysis_unit_id": "site_02009",
+    "role": "naip_current",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2023,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2023-07-10"
+    ],
+    "bbox_wgs84": [
+      -87.96190738895109,
+      41.98925386657983,
+      -87.95443694876492,
+      41.994826850682635
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02009_naip_current_2023.png"
+  },
+  {
+    "analysis_unit_id": "site_02009",
+    "role": "sentinel2_current",
+    "dataset": "COPERNICUS/S2_SR_HARMONIZED",
+    "year": 2026,
+    "item_count": 12,
+    "acquisition_dates": [
+      "2026-05-04",
+      "2026-05-14",
+      "2026-05-29",
+      "2026-06-13",
+      "2026-06-15",
+      "2026-06-18",
+      "2026-06-23",
+      "2026-07-08",
+      "2026-07-13",
+      "2026-08-07",
+      "2026-08-22",
+      "2026-08-27"
+    ],
+    "composite_period": [
+      "2026-05-01",
+      "2026-08-31"
+    ],
+    "bbox_wgs84": [
+      -87.96190738895109,
+      41.98925386657983,
+      -87.95443694876492,
+      41.994826850682635
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02009_sentinel2_2026.png"
+  },
+  {
+    "analysis_unit_id": "site_02019",
+    "role": "baseline",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2019,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2019-08-09"
+    ],
+    "bbox_wgs84": [
+      -87.97725463939659,
+      41.990881467847764,
+      -87.96978271570894,
+      41.996455415014715
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02019_baseline_2019.png"
+  },
+  {
+    "analysis_unit_id": "site_02019",
+    "role": "naip_current",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2023,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2023-07-10"
+    ],
+    "bbox_wgs84": [
+      -87.97725463939659,
+      41.990881467847764,
+      -87.96978271570894,
+      41.996455415014715
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02019_naip_current_2023.png"
+  },
+  {
+    "analysis_unit_id": "site_02019",
+    "role": "sentinel2_current",
+    "dataset": "COPERNICUS/S2_SR_HARMONIZED",
+    "year": 2026,
+    "item_count": 12,
+    "acquisition_dates": [
+      "2026-05-04",
+      "2026-05-14",
+      "2026-05-29",
+      "2026-06-13",
+      "2026-06-15",
+      "2026-06-18",
+      "2026-06-23",
+      "2026-07-08",
+      "2026-07-13",
+      "2026-08-07",
+      "2026-08-22",
+      "2026-08-27"
+    ],
+    "composite_period": [
+      "2026-05-01",
+      "2026-08-31"
+    ],
+    "bbox_wgs84": [
+      -87.97725463939659,
+      41.990881467847764,
+      -87.96978271570894,
+      41.996455415014715
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02019_sentinel2_2026.png"
+  },
+  {
+    "analysis_unit_id": "site_02031",
+    "role": "baseline",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2011,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2011-08-26"
+    ],
+    "bbox_wgs84": [
+      -87.86296339853762,
+      41.92559484798329,
+      -87.855508805594,
+      41.93116160994847
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02031_baseline_2011.png"
+  },
+  {
+    "analysis_unit_id": "site_02031",
+    "role": "naip_current",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2023,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2023-07-10"
+    ],
+    "bbox_wgs84": [
+      -87.86296339853762,
+      41.92559484798329,
+      -87.855508805594,
+      41.93116160994847
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02031_naip_current_2023.png"
+  },
+  {
+    "analysis_unit_id": "site_02031",
+    "role": "sentinel2_current",
+    "dataset": "COPERNICUS/S2_SR_HARMONIZED",
+    "year": 2026,
+    "item_count": 12,
+    "acquisition_dates": [
+      "2026-05-04",
+      "2026-05-14",
+      "2026-05-29",
+      "2026-06-13",
+      "2026-06-15",
+      "2026-06-18",
+      "2026-06-23",
+      "2026-07-08",
+      "2026-07-13",
+      "2026-08-07",
+      "2026-08-22",
+      "2026-08-27"
+    ],
+    "composite_period": [
+      "2026-05-01",
+      "2026-08-31"
+    ],
+    "bbox_wgs84": [
+      -87.86296339853762,
+      41.92559484798329,
+      -87.855508805594,
+      41.93116160994847
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02031_sentinel2_2026.png"
+  },
+  {
+    "analysis_unit_id": "site_02109",
+    "role": "baseline",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2011,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2011-08-26"
+    ],
+    "bbox_wgs84": [
+      -88.09861547728218,
+      41.79954983518155,
+      -88.09115601605681,
+      41.80513130651555
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02109_baseline_2011.png"
+  },
+  {
+    "analysis_unit_id": "site_02109",
+    "role": "naip_current",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2023,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2023-08-16"
+    ],
+    "bbox_wgs84": [
+      -88.09861547728218,
+      41.79954983518155,
+      -88.09115601605681,
+      41.80513130651555
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02109_naip_current_2023.png"
+  },
+  {
+    "analysis_unit_id": "site_02109",
+    "role": "sentinel2_current",
+    "dataset": "COPERNICUS/S2_SR_HARMONIZED",
+    "year": 2026,
+    "item_count": 23,
+    "acquisition_dates": [
+      "2026-05-04",
+      "2026-05-04",
+      "2026-05-14",
+      "2026-05-24",
+      "2026-05-29",
+      "2026-06-03",
+      "2026-06-13",
+      "2026-06-15",
+      "2026-06-15",
+      "2026-06-18",
+      "2026-06-23",
+      "2026-07-08",
+      "2026-07-08",
+      "2026-07-13",
+      "2026-07-13",
+      "2026-07-28",
+      "2026-08-07",
+      "2026-08-07",
+      "2026-08-17",
+      "2026-08-22",
+      "2026-08-22",
+      "2026-08-27",
+      "2026-08-27"
+    ],
+    "composite_period": [
+      "2026-05-01",
+      "2026-08-31"
+    ],
+    "bbox_wgs84": [
+      -88.09861547728218,
+      41.79954983518155,
+      -88.09115601605681,
+      41.80513130651555
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02109_sentinel2_2026.png"
+  },
+  {
+    "analysis_unit_id": "site_02132",
+    "role": "baseline",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2015,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2015-08-22"
+    ],
+    "bbox_wgs84": [
+      -87.92197084321886,
+      41.92022033012364,
+      -87.91451192364481,
+      41.92579079559082
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02132_baseline_2015.png"
+  },
+  {
+    "analysis_unit_id": "site_02132",
+    "role": "naip_current",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2023,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2023-07-10"
+    ],
+    "bbox_wgs84": [
+      -87.92197084321886,
+      41.92022033012364,
+      -87.91451192364481,
+      41.92579079559082
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02132_naip_current_2023.png"
+  },
+  {
+    "analysis_unit_id": "site_02132",
+    "role": "sentinel2_current",
+    "dataset": "COPERNICUS/S2_SR_HARMONIZED",
+    "year": 2026,
+    "item_count": 12,
+    "acquisition_dates": [
+      "2026-05-04",
+      "2026-05-14",
+      "2026-05-29",
+      "2026-06-13",
+      "2026-06-15",
+      "2026-06-18",
+      "2026-06-23",
+      "2026-07-08",
+      "2026-07-13",
+      "2026-08-07",
+      "2026-08-22",
+      "2026-08-27"
+    ],
+    "composite_period": [
+      "2026-05-01",
+      "2026-08-31"
+    ],
+    "bbox_wgs84": [
+      -87.92197084321886,
+      41.92022033012364,
+      -87.91451192364481,
+      41.92579079559082
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02132_sentinel2_2026.png"
+  },
+  {
+    "analysis_unit_id": "site_02186",
+    "role": "baseline",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2015,
+    "item_count": 2,
+    "acquisition_dates": [
+      "2015-08-22"
+    ],
+    "bbox_wgs84": [
+      -87.96863957462774,
+      41.99160971246058,
+      -87.96116828898933,
+      41.99718311943162
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02186_baseline_2015.png"
+  },
+  {
+    "analysis_unit_id": "site_02186",
+    "role": "naip_current",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2023,
+    "item_count": 2,
+    "acquisition_dates": [
+      "2023-07-10"
+    ],
+    "bbox_wgs84": [
+      -87.96863957462774,
+      41.99160971246058,
+      -87.96116828898933,
+      41.99718311943162
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02186_naip_current_2023.png"
+  },
+  {
+    "analysis_unit_id": "site_02186",
+    "role": "sentinel2_current",
+    "dataset": "COPERNICUS/S2_SR_HARMONIZED",
+    "year": 2026,
+    "item_count": 12,
+    "acquisition_dates": [
+      "2026-05-04",
+      "2026-05-14",
+      "2026-05-29",
+      "2026-06-13",
+      "2026-06-15",
+      "2026-06-18",
+      "2026-06-23",
+      "2026-07-08",
+      "2026-07-13",
+      "2026-08-07",
+      "2026-08-22",
+      "2026-08-27"
+    ],
+    "composite_period": [
+      "2026-05-01",
+      "2026-08-31"
+    ],
+    "bbox_wgs84": [
+      -87.96863957462774,
+      41.99160971246058,
+      -87.96116828898933,
+      41.99718311943162
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02186_sentinel2_2026.png"
+  },
+  {
+    "analysis_unit_id": "site_02187",
+    "role": "baseline",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2011,
+    "item_count": 2,
+    "acquisition_dates": [
+      "2011-08-26"
+    ],
+    "bbox_wgs84": [
+      -87.96147111808665,
+      41.99167728784103,
+      -87.95400042733553,
+      41.99725024509876
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02187_baseline_2011.png"
+  },
+  {
+    "analysis_unit_id": "site_02187",
+    "role": "naip_current",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2023,
+    "item_count": 2,
+    "acquisition_dates": [
+      "2023-07-10"
+    ],
+    "bbox_wgs84": [
+      -87.96147111808665,
+      41.99167728784103,
+      -87.95400042733553,
+      41.99725024509876
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02187_naip_current_2023.png"
+  },
+  {
+    "analysis_unit_id": "site_02187",
+    "role": "sentinel2_current",
+    "dataset": "COPERNICUS/S2_SR_HARMONIZED",
+    "year": 2026,
+    "item_count": 12,
+    "acquisition_dates": [
+      "2026-05-04",
+      "2026-05-14",
+      "2026-05-29",
+      "2026-06-13",
+      "2026-06-15",
+      "2026-06-18",
+      "2026-06-23",
+      "2026-07-08",
+      "2026-07-13",
+      "2026-08-07",
+      "2026-08-22",
+      "2026-08-27"
+    ],
+    "composite_period": [
+      "2026-05-01",
+      "2026-08-31"
+    ],
+    "bbox_wgs84": [
+      -87.96147111808665,
+      41.99167728784103,
+      -87.95400042733553,
+      41.99725024509876
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02187_sentinel2_2026.png"
+  },
+  {
+    "analysis_unit_id": "site_02253",
+    "role": "baseline",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2011,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2011-08-26"
+    ],
+    "bbox_wgs84": [
+      -87.96892673840838,
+      42.00405710609374,
+      -87.96145395235763,
+      42.00963053389573
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02253_baseline_2011.png"
+  },
+  {
+    "analysis_unit_id": "site_02253",
+    "role": "naip_current",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2023,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2023-07-10"
+    ],
+    "bbox_wgs84": [
+      -87.96892673840838,
+      42.00405710609374,
+      -87.96145395235763,
+      42.00963053389573
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02253_naip_current_2023.png"
+  },
+  {
+    "analysis_unit_id": "site_02253",
+    "role": "sentinel2_current",
+    "dataset": "COPERNICUS/S2_SR_HARMONIZED",
+    "year": 2026,
+    "item_count": 12,
+    "acquisition_dates": [
+      "2026-05-04",
+      "2026-05-14",
+      "2026-05-29",
+      "2026-06-13",
+      "2026-06-15",
+      "2026-06-18",
+      "2026-06-23",
+      "2026-07-08",
+      "2026-07-13",
+      "2026-08-07",
+      "2026-08-22",
+      "2026-08-27"
+    ],
+    "composite_period": [
+      "2026-05-01",
+      "2026-08-31"
+    ],
+    "bbox_wgs84": [
+      -87.96892673840838,
+      42.00405710609374,
+      -87.96145395235763,
+      42.00963053389573
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02253_sentinel2_2026.png"
+  },
+  {
+    "analysis_unit_id": "site_02613",
+    "role": "baseline",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2019,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2019-09-14"
+    ],
+    "bbox_wgs84": [
+      -88.13823407113904,
+      42.073716301077624,
+      -88.12954788615933,
+      42.08018752111508
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02613_baseline_2019.png"
+  },
+  {
+    "analysis_unit_id": "site_02613",
+    "role": "naip_current",
+    "dataset": "USDA/NAIP/DOQQ",
+    "year": 2023,
+    "item_count": 1,
+    "acquisition_dates": [
+      "2023-08-24"
+    ],
+    "bbox_wgs84": [
+      -88.13823407113904,
+      42.073716301077624,
+      -88.12954788615933,
+      42.08018752111508
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02613_naip_current_2023.png"
+  },
+  {
+    "analysis_unit_id": "site_02613",
+    "role": "sentinel2_current",
+    "dataset": "COPERNICUS/S2_SR_HARMONIZED",
+    "year": 2026,
+    "item_count": 23,
+    "acquisition_dates": [
+      "2026-05-04",
+      "2026-05-04",
+      "2026-05-14",
+      "2026-05-24",
+      "2026-05-29",
+      "2026-06-03",
+      "2026-06-13",
+      "2026-06-15",
+      "2026-06-15",
+      "2026-06-18",
+      "2026-06-23",
+      "2026-07-08",
+      "2026-07-08",
+      "2026-07-13",
+      "2026-07-13",
+      "2026-07-28",
+      "2026-08-07",
+      "2026-08-07",
+      "2026-08-17",
+      "2026-08-22",
+      "2026-08-22",
+      "2026-08-27",
+      "2026-08-27"
+    ],
+    "composite_period": [
+      "2026-05-01",
+      "2026-08-31"
+    ],
+    "bbox_wgs84": [
+      -88.13823407113904,
+      42.073716301077624,
+      -88.12954788615933,
+      42.08018752111508
+    ],
+    "path": "data/illinois_land_use_change/review/imagery/site_02613_sentinel2_2026.png"
+  }
+]

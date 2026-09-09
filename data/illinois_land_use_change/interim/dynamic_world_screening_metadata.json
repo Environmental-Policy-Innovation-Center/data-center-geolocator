@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-09-09T03:09:17.999998+00:00",
+  "earth_engine_project": "earthindex",
+  "dataset": "GOOGLE/DYNAMICWORLD/V1",
+  "period": [
+    2016,
+    2026
+  ],
+  "analysis_unit_count": 24,
+  "row_count": 2376,
+  "method": "Annual median class-probability composite; 10 m argmax areas inside provisional screening masks",
+  "warning": "Screening masks are not project boundaries; review neighbor-contamination flags before interpreting breakpoints."
+}

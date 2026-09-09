@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-09-09T03:08:17.500573+00:00",
+  "release": "2026-08-19.0",
+  "theme": "buildings",
+  "type": "building",
+  "zones": [
+    {
+      "query_zone_id": "zone_01",
+      "release": "2026-08-19.0",
+      "building_count": 54,
+      "path": "data/illinois_land_use_change/raw/overture/zone_01_buildings.parquet",
+      "bbox_wgs84": "-88.1422518,42.0700830,-88.1255189,42.0838014"
+    },
+    {
+      "query_zone_id": "zone_02",
+      "release": "2026-08-19.0",
+      "building_count": 669,
+      "path": "data/illinois_land_use_change/raw/overture/zone_02_buildings.parquet",
+      "bbox_wgs84": "-87.9830400,42.0182466,-87.9651069,42.0279191"
+    },
+    {
+      "query_zone_id": "zone_03",
+      "release": "2026-08-19.0",
+      "building_count": 1083,
+      "path": "data/illinois_land_use_change/raw/overture/zone_03_buildings.parquet",
+      "bbox_wgs84": "-87.9810277,41.9867669,-87.9435820,42.0118250"
+    },
+    {
+      "query_zone_id": "zone_04",
+      "release": "2026-08-19.0",
+      "building_count": 409,
+      "path": "data/illinois_land_use_change/raw/overture/zone_04_buildings.parquet",
+      "bbox_wgs84": "-88.0149289,41.9819457,-87.9983794,41.9944288"
+    },
+    {
+      "query_zone_id": "zone_05",
+      "release": "2026-08-19.0",
+      "building_count": 583,
+      "path": "data/illinois_land_use_change/raw/overture/zone_05_buildings.parquet",
+      "bbox_wgs84": "-87.9736043,41.9694295,-87.9582116,41.9808126"
+    },
+    {
+      "query_zone_id": "zone_06",
+      "release": "2026-08-19.0",
+      "building_count": 1164,
+      "path": "data/illinois_land_use_change/raw/overture/zone_06_buildings.parquet",
+      "bbox_wgs84": "-87.8659750,41.9234737,-87.8525336,41.9332375"
+    },
+    {
+      "query_zone_id": "zone_07",
+      "release": "2026-08-19.0",
+      "building_count": 269,
+      "path": "data/illinois_land_use_change/raw/overture/zone_07_buildings.parquet",
+      "bbox_wgs84": "-87.9250632,41.9081727,-87.9099690,41.9286859"
+    },
+    {
+      "query_zone_id": "zone_08",
+      "release": "2026-08-19.0",
+      "building_count": 9,
+      "path": "data/illinois_land_use_change/raw/overture/zone_08_buildings.parquet",
+      "bbox_wgs84": "-88.7448761,41.8810795,-88.7133542,41.8972181"
+    },
+    {
+      "query_zone_id": "zone_09",
+      "release": "2026-08-19.0",
+      "building_count": 881,
+      "path": "data/illinois_land_use_change/raw/overture/zone_09_buildings.parquet",
+      "bbox_wgs84": "-87.6524280,41.8437462,-87.6384884,41.8536639"
+    },
+    {
+      "query_zone_id": "zone_10",
+      "release": "2026-08-19.0",
+      "building_count": 424,
+      "path": "data/illinois_land_use_change/raw/overture/zone_10_buildings.parquet",
+      "bbox_wgs84": "-87.6766949,41.8370385,-87.6611953,41.8473420"
+    },
+    {
+      "query_zone_id": "zone_11",
+      "release": "2026-08-19.0",
+      "building_count": 471,
+      "path": "data/illinois_land_use_change/raw/overture/zone_11_buildings.parquet",
+      "bbox_wgs84": "-87.9793110,41.8077710,-87.9663897,41.8173544"
+    },
+    {
+      "query_zone_id": "zone_12",
+      "release": "2026-08-19.0",
+      "building_count": 416,
+      "path": "data/illinois_land_use_change/raw/overture/zone_12_buildings.parquet",
+      "bbox_wgs84": "-88.1020272,41.7969879,-88.0877441,41.8076934"
+    },
+    {
+      "query_zone_id": "zone_13",
+      "release": "2026-08-19.0",
+      "building_count": 232,
+      "path": "data/illinois_land_use_change/raw/overture/zone_13_buildings.parquet",
+      "bbox_wgs84": "-88.2537998,41.7900744,-88.2363035,41.8021789"
+    }
+  ]
+}

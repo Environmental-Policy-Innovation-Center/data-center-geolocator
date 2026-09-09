@@ -1,0 +1,14 @@
+{
+  "last_release": "2026-08-19.0",
+  "last_run": "2026-09-09T03:07:59.455699+00:00",
+  "theme": "buildings",
+  "type": "building",
+  "bbox": {
+    "xmin": -87.979311,
+    "ymin": 41.807771,
+    "xmax": -87.9663897,
+    "ymax": 41.8173544
+  },
+  "backend": "geoparquet",
+  "output": "data/illinois_land_use_change/raw/overture/zone_11_buildings.parquet"
+}

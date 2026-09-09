@@ -1,0 +1,64 @@
+{
+  "analysis_unit_count": 24,
+  "result_counts": {
+    "predates_dynamic_world_or_mature_by_2016": 18,
+    "candidate_construction_or_major_redevelopment": 6
+  },
+  "review_priority_counts": {
+    "historical_imagery_required": 18,
+    "standard": 3,
+    "high_neighbor_overlap": 2,
+    "completed_reference": 1
+  },
+  "candidate_intervals": [
+    {
+      "analysis_unit_id": "aurora_cyrusone_chi1_chi2",
+      "canonical_name": "CyrusOne Aurora CHI1-CHI2",
+      "candidate_start_lower_year": 2016.0,
+      "candidate_start_upper_year": 2017,
+      "development_signal_change_pct_points": 33.06,
+      "neighbor_contamination_flag": false
+    },
+    {
+      "analysis_unit_id": "microsoft_elk_grove_campus",
+      "canonical_name": "Microsoft Elk Grove CHI10-CHI12 campus",
+      "candidate_start_lower_year": 2017.0,
+      "candidate_start_upper_year": 2018,
+      "development_signal_change_pct_points": 18.9,
+      "neighbor_contamination_flag": true
+    },
+    {
+      "analysis_unit_id": "site_00617",
+      "canonical_name": "T5 Chicago II",
+      "candidate_start_lower_year": 2017.0,
+      "candidate_start_upper_year": 2018,
+      "development_signal_change_pct_points": 30.2,
+      "neighbor_contamination_flag": true
+    },
+    {
+      "analysis_unit_id": "meta_dekalb_campus",
+      "canonical_name": "Meta DeKalb Data Center campus",
+      "candidate_start_lower_year": 2019.0,
+      "candidate_start_upper_year": 2020,
+      "development_signal_change_pct_points": 48.61,
+      "neighbor_contamination_flag": false
+    },
+    {
+      "analysis_unit_id": "ntt_itasca_chicago_campus",
+      "canonical_name": "NTT Itasca Chicago campus",
+      "candidate_start_lower_year": 2019.0,
+      "candidate_start_upper_year": 2020,
+      "development_signal_change_pct_points": 17.55,
+      "neighbor_contamination_flag": false
+    },
+    {
+      "analysis_unit_id": "site_02613",
+      "canonical_name": "Microsoft Hoffman Estates data-center campus",
+      "candidate_start_lower_year": 2021.0,
+      "candidate_start_upper_year": 2022,
+      "development_signal_change_pct_points": 71.64,
+      "neighbor_contamination_flag": false
+    }
+  ],
+  "warning": "Breakpoints nominate imagery-review dates only; they are not final construction dates."
+}

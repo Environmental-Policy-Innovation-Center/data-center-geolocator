@@ -1,0 +1,31 @@
+{
+  "analysis_unit_count": 24,
+  "included_count": 23,
+  "excluded_false_positive_count": 1,
+  "qa_complete_count": 1,
+  "screened_not_qa_complete_count": 23,
+  "prior_land_use_counts": {
+    "previously_developed_site": 8,
+    "previously_developed_industrial_building": 3,
+    "agricultural": 1,
+    "previously_developed_industrial_area": 1,
+    "previously_developed_data_center_industrial": 1,
+    "agricultural_row_crop": 1,
+    "former_agricultural_then_serviced_industrial_park": 1,
+    "previously_developed_warehouse": 1,
+    "brownfield_former_printing_plant": 1,
+    "previously_developed_industrial_warehouse": 1,
+    "not_applicable": 1,
+    "previously_developed_data_center": 1,
+    "previously_developed_warehouse_complex": 1,
+    "previously_developed_industrial_site": 1,
+    "greenfield_mixed_pasture_woodland_wetland": 1
+  },
+  "known_disturbance_count": 1,
+  "warnings": [
+    "Only Aurora is QA-complete; statewide values are a documented screening deliverable.",
+    "Mapped roof areas are OSM-derived PNNL source geometries and can be incomplete or stale.",
+    "Overture areas are candidate totals, not accepted roof totals.",
+    "Dynamic World built areas are 10 m built-surface envelopes, not roof footprints."
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "passed": true,
+  "check_count": 21,
+  "failed_count": 0,
+  "checks": [
+    {
+      "check": "seed_count",
+      "passed": true,
+      "detail": "27 taxonomy seeds"
+    },
+    {
+      "check": "all_seeds_crosswalked",
+      "passed": true,
+      "detail": "27 unique seed IDs"
+    },
+    {
+      "check": "analysis_unit_count",
+      "passed": true,
+      "detail": "24 unique units"
+    },
+    {
+      "check": "final_record_count",
+      "passed": true,
+      "detail": "24 final screening records"
+    },
+    {
+      "check": "scope_disposition",
+      "passed": true,
+      "detail": "23 included; 1 excluded false positive"
+    },
+    {
+      "check": "valid_unit_geometry",
+      "passed": true,
+      "detail": "all unit geometries valid and nonempty"
+    },
+    {
+      "check": "campus_not_roof",
+      "passed": true,
+      "detail": "hyperscale campus polygons not reported as roof area"
+    },
+    {
+      "check": "dynamic_world_rows",
+      "passed": true,
+      "detail": "2376 rows"
+    },
+    {
+      "check": "independent_landcover_rows",
+      "passed": true,
+      "detail": "3048 rows"
+    },
+    {
+      "check": "dynamic_world_geometry",
+      "passed": true,
+      "detail": "41 valid built-surface polygons"
+    },
+    {
+      "check": "imagery_manifest_count",
+      "passed": true,
+      "detail": "72 imagery records"
+    },
+    {
+      "check": "evidence_coverage",
+      "passed": true,
+      "detail": "210 evidence records"
+    },
+    {
+      "check": "review_figure_count",
+      "passed": true,
+      "detail": "24 unit figures"
+    },
+    {
+      "check": "statewide_figure",
+      "passed": true,
+      "detail": "statewide map exists"
+    },
+    {
+      "check": "summary_findings_figure",
+      "passed": true,
+      "detail": "summary findings chart exists"
+    },
+    {
+      "check": "hyperscale_dynamic_world_figure",
+      "passed": true,
+      "detail": "hyperscale Dynamic World chart exists"
+    },
+    {
+      "check": "report_exists",
+      "passed": true,
+      "detail": "49756531 bytes"
+    },
+    {
+      "check": "dataset_package",
+      "passed": true,
+      "detail": "221741 bytes"
+    },
+    {
+      "check": "imagery_files",
+      "passed": true,
+      "detail": "all 72 chips exist at 640x640"
+    },
+    {
+      "check": "report_page_count",
+      "passed": true,
+      "detail": "33 pages"
+    },
+    {
+      "check": "report_key_findings",
+      "passed": true,
+      "detail": "key findings and caveats present in extracted report text"
+    }
+  ]
+}

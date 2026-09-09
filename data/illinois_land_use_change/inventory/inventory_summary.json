@@ -1,0 +1,18 @@
+{
+  "source": "visual-taxonomy/il_data_centers_taxonomy.geojson",
+  "target_taxonomy_groups": [
+    "hyperscale_greenfield_campus",
+    "large_purpose_built_data_center",
+    "industrial_park_warehouse_style_colo"
+  ],
+  "seed_record_count": 27,
+  "initial_analysis_unit_count": 26,
+  "completed_aurora_seed_record_count": 2,
+  "completed_aurora_analysis_unit_count": 1,
+  "counts_by_taxonomy_group": {
+    "hyperscale_greenfield_campus": 2,
+    "industrial_park_warehouse_style_colo": 19,
+    "large_purpose_built_data_center": 6
+  },
+  "entity_resolution_note": "Analysis-unit count is provisional until parcel, operator, address, and physical-campus continuity checks are complete statewide."
+}

@@ -1,0 +1,154 @@
+{
+  "overture_release": "2026-08-19.0",
+  "analysis_unit_count": 24,
+  "analysis_units_with_candidates": 24,
+  "analysis_units_without_candidates": [],
+  "candidate_building_count": 204,
+  "by_analysis_unit": [
+    {
+      "analysis_unit_id": "aligned_northlake_ord01_ord02",
+      "candidate_building_count": 5,
+      "candidate_area_m2": 103055.2,
+      "latest_source_update": "2025-06-18T06:01:35.000Z"
+    },
+    {
+      "analysis_unit_id": "aurora_cyrusone_chi1_chi2",
+      "candidate_building_count": 4,
+      "candidate_area_m2": 61775.899999999994,
+      "latest_source_update": "2025-12-01T20:02:18.000Z"
+    },
+    {
+      "analysis_unit_id": "edgeconnex_elk_grove_chi01_chi02",
+      "candidate_building_count": 19,
+      "candidate_area_m2": 172520.2,
+      "latest_source_update": "2025-08-26T00:11:13.000Z"
+    },
+    {
+      "analysis_unit_id": "element_critical_wood_dale_ch1_ch2",
+      "candidate_building_count": 33,
+      "candidate_area_m2": 82648.4,
+      "latest_source_update": "2023-11-29T17:06:17.000Z"
+    },
+    {
+      "analysis_unit_id": "meta_dekalb_campus",
+      "candidate_building_count": 5,
+      "candidate_area_m2": 144152.0,
+      "latest_source_update": "2025-12-10T20:57:29.000Z"
+    },
+    {
+      "analysis_unit_id": "microsoft_elk_grove_campus",
+      "candidate_building_count": 82,
+      "candidate_area_m2": 155698.6,
+      "latest_source_update": "2025-07-28T09:03:19.000Z"
+    },
+    {
+      "analysis_unit_id": "ntt_itasca_chicago_campus",
+      "candidate_building_count": 13,
+      "candidate_area_m2": 67140.1,
+      "latest_source_update": "2026-07-12T14:38:08.000Z"
+    },
+    {
+      "analysis_unit_id": "site_00614",
+      "candidate_building_count": 7,
+      "candidate_area_m2": 27483.3,
+      "latest_source_update": "2025-08-26T00:06:30.000Z"
+    },
+    {
+      "analysis_unit_id": "site_00616",
+      "candidate_building_count": 1,
+      "candidate_area_m2": 20047.0,
+      "latest_source_update": "2023-11-29T16:34:52.000Z"
+    },
+    {
+      "analysis_unit_id": "site_00617",
+      "candidate_building_count": 5,
+      "candidate_area_m2": 19254.7,
+      "latest_source_update": "2025-03-24T00:42:13.000Z"
+    },
+    {
+      "analysis_unit_id": "site_01560",
+      "candidate_building_count": 3,
+      "candidate_area_m2": 25972.5,
+      "latest_source_update": "2023-09-01T00:00:00.000Z"
+    },
+    {
+      "analysis_unit_id": "site_01842",
+      "candidate_building_count": 2,
+      "candidate_area_m2": 22894.6,
+      "latest_source_update": "2023-11-29T17:06:17.000Z"
+    },
+    {
+      "analysis_unit_id": "site_01881",
+      "candidate_building_count": 2,
+      "candidate_area_m2": 75943.7,
+      "latest_source_update": "2023-11-29T16:32:28.000Z"
+    },
+    {
+      "analysis_unit_id": "site_01928",
+      "candidate_building_count": 1,
+      "candidate_area_m2": 9843.7,
+      "latest_source_update": "2026-03-04T23:07:13.000Z"
+    },
+    {
+      "analysis_unit_id": "site_01940",
+      "candidate_building_count": 4,
+      "candidate_area_m2": 27824.6,
+      "latest_source_update": "2025-03-24T00:46:31.000Z"
+    },
+    {
+      "analysis_unit_id": "site_02009",
+      "candidate_building_count": 1,
+      "candidate_area_m2": 18413.0,
+      "latest_source_update": "2024-10-22T17:28:58.000Z"
+    },
+    {
+      "analysis_unit_id": "site_02019",
+      "candidate_building_count": 2,
+      "candidate_area_m2": 24158.0,
+      "latest_source_update": "2025-08-25T23:35:38.000Z"
+    },
+    {
+      "analysis_unit_id": "site_02031",
+      "candidate_building_count": 2,
+      "candidate_area_m2": 34357.1,
+      "latest_source_update": "2023-11-29T15:44:29.000Z"
+    },
+    {
+      "analysis_unit_id": "site_02109",
+      "candidate_building_count": 1,
+      "candidate_area_m2": 33537.1,
+      "latest_source_update": "2024-10-22T17:35:02.000Z"
+    },
+    {
+      "analysis_unit_id": "site_02132",
+      "candidate_building_count": 1,
+      "candidate_area_m2": 28480.8,
+      "latest_source_update": "2023-09-01T00:00:00.000Z"
+    },
+    {
+      "analysis_unit_id": "site_02186",
+      "candidate_building_count": 3,
+      "candidate_area_m2": 79394.5,
+      "latest_source_update": "2023-11-29T16:32:28.000Z"
+    },
+    {
+      "analysis_unit_id": "site_02187",
+      "candidate_building_count": 2,
+      "candidate_area_m2": 44667.399999999994,
+      "latest_source_update": "2023-11-29T16:26:31.000Z"
+    },
+    {
+      "analysis_unit_id": "site_02253",
+      "candidate_building_count": 3,
+      "candidate_area_m2": 52444.9,
+      "latest_source_update": "2024-09-27T23:51:30.000Z"
+    },
+    {
+      "analysis_unit_id": "site_02613",
+      "candidate_building_count": 3,
+      "candidate_area_m2": 23791.7,
+      "latest_source_update": "2026-08-01T22:39:19.000Z"
+    }
+  ],
+  "warning": "Candidates are search results for visual review, not accepted data-center footprints."
+}

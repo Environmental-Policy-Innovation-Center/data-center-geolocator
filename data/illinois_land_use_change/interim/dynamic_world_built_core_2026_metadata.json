@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-09-09T03:16:00.355135+00:00",
+  "dataset": "GOOGLE/DYNAMICWORLD/V1",
+  "period": [
+    "2026-01-01",
+    "2026-09-01"
+  ],
+  "rule": "median-composite argmax built and median built probability >= 0.50",
+  "minimum_patch_m2": 500.0,
+  "warning": "Provisional built-surface envelopes are not roofs and may include pavement or equipment pads."
+}

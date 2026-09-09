@@ -1,0 +1,240 @@
+[
+  {
+    "analysis_unit_id": "aligned_northlake_ord01_ord02",
+    "source_site_group_id": "site_00627",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "resolved_operator_campus"
+  },
+  {
+    "analysis_unit_id": "aligned_northlake_ord01_ord02",
+    "source_site_group_id": "site_00628",
+    "relationship": "related_campus_record",
+    "included": true,
+    "resolution_status": "resolved_operator_campus"
+  },
+  {
+    "analysis_unit_id": "aurora_cyrusone_chi1_chi2",
+    "source_site_group_id": "site_01911",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "resolved_in_aurora_poc"
+  },
+  {
+    "analysis_unit_id": "aurora_cyrusone_chi1_chi2",
+    "source_site_group_id": "site_02530",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "resolved_in_aurora_poc"
+  },
+  {
+    "analysis_unit_id": "edgeconnex_elk_grove_chi01_chi02",
+    "source_site_group_id": "site_01897",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "resolved_operator_campus"
+  },
+  {
+    "analysis_unit_id": "edgeconnex_elk_grove_chi01_chi02",
+    "source_site_group_id": "site_02007",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "resolved_operator_campus"
+  },
+  {
+    "analysis_unit_id": "element_critical_wood_dale_ch1_ch2",
+    "source_site_group_id": "site_01834",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "resolved_operator_campus"
+  },
+  {
+    "analysis_unit_id": "element_critical_wood_dale_ch1_ch2",
+    "source_site_group_id": "site_02008",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "resolved_operator_campus"
+  },
+  {
+    "analysis_unit_id": "meta_dekalb_campus",
+    "source_site_group_id": "site_02465",
+    "relationship": "related_campus_record",
+    "included": true,
+    "resolution_status": "resolved_reference_campus"
+  },
+  {
+    "analysis_unit_id": "meta_dekalb_campus",
+    "source_site_group_id": "site_02466",
+    "relationship": "related_campus_record",
+    "included": true,
+    "resolution_status": "resolved_reference_campus"
+  },
+  {
+    "analysis_unit_id": "meta_dekalb_campus",
+    "source_site_group_id": "site_02467",
+    "relationship": "related_campus_record",
+    "included": true,
+    "resolution_status": "resolved_reference_campus"
+  },
+  {
+    "analysis_unit_id": "meta_dekalb_campus",
+    "source_site_group_id": "site_02615",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "resolved_reference_campus"
+  },
+  {
+    "analysis_unit_id": "microsoft_elk_grove_campus",
+    "source_site_group_id": "site_02399",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "resolved_documentary_campus_seed"
+  },
+  {
+    "analysis_unit_id": "ntt_itasca_chicago_campus",
+    "source_site_group_id": "site_02375",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "resolved_operator_campus"
+  },
+  {
+    "analysis_unit_id": "ntt_itasca_chicago_campus",
+    "source_site_group_id": "site_02435",
+    "relationship": "related_campus_record",
+    "included": true,
+    "resolution_status": "resolved_operator_campus"
+  },
+  {
+    "analysis_unit_id": "ntt_itasca_chicago_campus",
+    "source_site_group_id": "site_02554",
+    "relationship": "related_campus_record",
+    "included": true,
+    "resolution_status": "resolved_operator_campus"
+  },
+  {
+    "analysis_unit_id": "ntt_itasca_chicago_campus",
+    "source_site_group_id": "site_02555",
+    "relationship": "related_campus_record",
+    "included": true,
+    "resolution_status": "resolved_operator_campus"
+  },
+  {
+    "analysis_unit_id": "site_00614",
+    "source_site_group_id": "site_00614",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "provisional_single_record"
+  },
+  {
+    "analysis_unit_id": "site_00616",
+    "source_site_group_id": "site_00616",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "provisional_single_record"
+  },
+  {
+    "analysis_unit_id": "site_00617",
+    "source_site_group_id": "site_00617",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "provisional_single_record"
+  },
+  {
+    "analysis_unit_id": "site_01560",
+    "source_site_group_id": "site_01560",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "provisional_single_record"
+  },
+  {
+    "analysis_unit_id": "site_01842",
+    "source_site_group_id": "site_01842",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "provisional_single_record"
+  },
+  {
+    "analysis_unit_id": "site_01881",
+    "source_site_group_id": "site_01881",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "provisional_single_record"
+  },
+  {
+    "analysis_unit_id": "site_01928",
+    "source_site_group_id": "site_01928",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "provisional_single_record"
+  },
+  {
+    "analysis_unit_id": "site_01940",
+    "source_site_group_id": "site_01940",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "provisional_single_record"
+  },
+  {
+    "analysis_unit_id": "site_02009",
+    "source_site_group_id": "site_02009",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "provisional_single_record"
+  },
+  {
+    "analysis_unit_id": "site_02019",
+    "source_site_group_id": "site_02019",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "provisional_single_record"
+  },
+  {
+    "analysis_unit_id": "site_02031",
+    "source_site_group_id": "site_02031",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "provisional_single_record"
+  },
+  {
+    "analysis_unit_id": "site_02109",
+    "source_site_group_id": "site_02109",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "provisional_single_record"
+  },
+  {
+    "analysis_unit_id": "site_02132",
+    "source_site_group_id": "site_02132",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "provisional_single_record"
+  },
+  {
+    "analysis_unit_id": "site_02186",
+    "source_site_group_id": "site_02186",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "provisional_single_record"
+  },
+  {
+    "analysis_unit_id": "site_02187",
+    "source_site_group_id": "site_02187",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "provisional_single_record"
+  },
+  {
+    "analysis_unit_id": "site_02253",
+    "source_site_group_id": "site_02253",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "provisional_single_record"
+  },
+  {
+    "analysis_unit_id": "site_02613",
+    "source_site_group_id": "site_02613",
+    "relationship": "taxonomy_seed",
+    "included": true,
+    "resolution_status": "resolved_reference_campus"
+  }
+]

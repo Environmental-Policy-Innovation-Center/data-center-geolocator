@@ -1,0 +1,10 @@
+{
+  "analysis_unit_count": 24,
+  "basis_counts": {
+    "reference_building_union_buffer": 21,
+    "reference_campus_geometry": 2,
+    "reviewed_aurora_campus_boundary": 1
+  },
+  "neighbor_contamination_flag_count": 10,
+  "warning": "These masks support breakpoint screening only and are not project, parcel, disturbance, or campus boundaries."
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "analysis_unit_id": "aligned_northlake_ord01_ord02",
+    "query_zone_id": "zone_07"
+  },
+  {
+    "analysis_unit_id": "aurora_cyrusone_chi1_chi2",
+    "query_zone_id": "zone_13"
+  },
+  {
+    "analysis_unit_id": "edgeconnex_elk_grove_chi01_chi02",
+    "query_zone_id": "zone_03"
+  },
+  {
+    "analysis_unit_id": "element_critical_wood_dale_ch1_ch2",
+    "query_zone_id": "zone_05"
+  },
+  {
+    "analysis_unit_id": "meta_dekalb_campus",
+    "query_zone_id": "zone_08"
+  },
+  {
+    "analysis_unit_id": "microsoft_elk_grove_campus",
+    "query_zone_id": "zone_02"
+  },
+  {
+    "analysis_unit_id": "ntt_itasca_chicago_campus",
+    "query_zone_id": "zone_04"
+  },
+  {
+    "analysis_unit_id": "site_00614",
+    "query_zone_id": "zone_03"
+  },
+  {
+    "analysis_unit_id": "site_00616",
+    "query_zone_id": "zone_03"
+  },
+  {
+    "analysis_unit_id": "site_00617",
+    "query_zone_id": "zone_02"
+  },
+  {
+    "analysis_unit_id": "site_01560",
+    "query_zone_id": "zone_10"
+  },
+  {
+    "analysis_unit_id": "site_01842",
+    "query_zone_id": "zone_03"
+  },
+  {
+    "analysis_unit_id": "site_01881",
+    "query_zone_id": "zone_03"
+  },
+  {
+    "analysis_unit_id": "site_01928",
+    "query_zone_id": "zone_09"
+  },
+  {
+    "analysis_unit_id": "site_01940",
+    "query_zone_id": "zone_11"
+  },
+  {
+    "analysis_unit_id": "site_02009",
+    "query_zone_id": "zone_03"
+  },
+  {
+    "analysis_unit_id": "site_02019",
+    "query_zone_id": "zone_03"
+  },
+  {
+    "analysis_unit_id": "site_02031",
+    "query_zone_id": "zone_06"
+  },
+  {
+    "analysis_unit_id": "site_02109",
+    "query_zone_id": "zone_12"
+  },
+  {
+    "analysis_unit_id": "site_02132",
+    "query_zone_id": "zone_07"
+  },
+  {
+    "analysis_unit_id": "site_02186",
+    "query_zone_id": "zone_03"
+  },
+  {
+    "analysis_unit_id": "site_02187",
+    "query_zone_id": "zone_03"
+  },
+  {
+    "analysis_unit_id": "site_02253",
+    "query_zone_id": "zone_03"
+  },
+  {
+    "analysis_unit_id": "site_02613",
+    "query_zone_id": "zone_01"
+  }
+]
