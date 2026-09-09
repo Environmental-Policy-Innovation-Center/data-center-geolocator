@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-09-06T15:10:03.093632-04:00",
+  "catalog": "https://planetarycomputer.microsoft.com/api/stac/v1",
+  "bbox_wgs84": [
+    -88.258,
+    41.79,
+    -88.232,
+    41.813
+  ],
+  "analysis_crs": "EPSG:26916",
+  "notes": "Sentinel scenes selected by local SCL clear fraction; chips are analysis subsets."
+}

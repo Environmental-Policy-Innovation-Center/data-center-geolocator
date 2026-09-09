@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-09-08T11:56:14.637960-04:00",
+  "earth_engine_project": "earthindex",
+  "dataset": "GOOGLE/DYNAMICWORLD/V1",
+  "period": [
+    "2026-01-01",
+    "2026-09-01"
+  ],
+  "core_rule": "median-composite argmax built and median built probability >= 0.50",
+  "inclusive_rule": "median-composite argmax built and median built probability >= 0.30",
+  "minimum_patch_m2": 500.0,
+  "warning": "Built-surface screening polygons are not building footprints; 10 m pixels may include pavement and equipment pads."
+}

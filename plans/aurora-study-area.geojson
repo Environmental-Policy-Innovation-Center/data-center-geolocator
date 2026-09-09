@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "name": "aurora_data_center_land_use_change_aoi",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "aoi_id": "aurora_il_001",
+        "purpose": "Data center land-use change study"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-88.2698027, 41.817842],
+            [-88.2092206, 41.817842],
+            [-88.2092206, 41.7795271],
+            [-88.2698027, 41.7795271],
+            [-88.2698027, 41.817842]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+evidence_id,source_name,uri_or_path,use,source_tier
+repo_harmonized,Local harmonized reference sites,processed-data/harmonized-data-center-reference-sites-illinois.geojson,"Candidate IDs site_00603, site_01911 and site_02530",local
+repo_regulatory,Local Illinois regulatory inventory,processed-data/illinois-data-center-regulatory-facilities.geojson,Edged and CyrusOne facility/generator records,local
+aurora_parcels,City of Aurora Parcels MapServer,https://gis.aurora.il.us/arcgis/rest/services/Parcels/Parcels/MapServer/0,"Ownership, parcel boundaries and acreage",primary
+aurora_edged_plan,Aurora File 23-0044,https://aurora-il.legistar.com/LegislationDetail.aspx?GUID=6D64A5E2-09B6-4786-B142-69F7F0AC4938&ID=6013833,Approved three-building plan and dimensions,primary
+aurora_chi2_plan,Aurora File 17-01180,https://aurora-il.legistar.com/LegislationDetail.aspx?GUID=8558F28D-3318-4388-A645-32A726B9409D&ID=6657046,"CHI2 plan and 316,000 square feet",primary
+edged_groundbreak,Edged groundbreaking release,https://edged.us/news/edged-breaks-ground-on-new-ultra-efficient-waterless-data-center-campus-in-aurora,"May 22, 2023 groundbreaking; 65 acres; three phases",primary
+edged_open,Edged opening release,https://edged.us/news/edged-opens-new-data-center-to-power-chicagos-ai-boom,"February 27, 2025 opening",primary
+edged_ord2_start,Edged expansion release,https://edged.us/news/edged-us-expands-chicagoland-campus,"November 13, 2025 ORD01-2 groundbreaking; Q2 2027 target",primary
+edged_ord2_topout,Edged top-out release,https://edged.us/news/edged-us-tops-out-second-sustainable-data-center-on-edged-chicago-campus,"June 4, 2026 top-out",primary
+cyrus_chi3_start,CyrusOne Aurora campus groundbreaking release,https://www.cyrusone.com/media-coverage-press-releases/cyrusone-breaks-ground-on-new-data-center-in-aurora,"September 2024 groundbreaking; two buildings, 446,000 square feet",primary
+cyrus_chi3_update,CyrusOne Aurora campus construction update,https://www.cyrusone.com/data-centers/north-america/aurora-il-back-up-generator-schedule,June 2026 substantial-completion statement; public naming is potentially ambiguous,primary
+cme_sale,CME Group sale announcement,https://investor.cmegroup.com/news-releases/news-release-details/cme-group-announces-agreement-sell-aurora-ill-data-center,"2016 sale; existing 428,000-square-foot data center",primary
+overture,Overture Maps Buildings,https://docs.overturemaps.org/guides/buildings/,Current roof polygons; release 2026-08-19.0,open_data
+dynamic_world,Google Dynamic World V1,https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1,2016–2026 annual land-cover probabilities and class areas,open_data
+naip,USDA NAIP,https://planetarycomputer.microsoft.com/dataset/naip,"1 m dated aerial imagery, 2011–2023",open_data
+sentinel2,Copernicus Sentinel-2 L2A,https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a,"10 m dated optical imagery, 2016–2026",open_data
+landsat,USGS Landsat Collection 2 Level-2,https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2,"30 m imagery, 2005–2015",open_data
+cdl,USDA Cropland Data Layer,https://developers.google.com/earth-engine/datasets/catalog/USDA_NASS_CDL,30 m land-cover evidence for pre-Dynamic World years,open_data

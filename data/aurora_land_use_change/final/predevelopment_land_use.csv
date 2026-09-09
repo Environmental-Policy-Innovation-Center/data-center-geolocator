@@ -1,0 +1,11 @@
+phase_id,baseline_year,land_use_class,approximate_percent,method,confidence
+cyrus_chi1,2006,agricultural/pasture,74.3,USDA CDL 30 m normalized weighted histogram,medium
+cyrus_chi1,2006,previously developed,18.1,USDA CDL 30 m normalized weighted histogram,medium
+cyrus_chi1,2006,forested,3.2,USDA CDL 30 m normalized weighted histogram,low-medium
+cyrus_chi1,2006,other,4.4,USDA CDL 30 m normalized weighted histogram,low
+cyrus_chi2,2015,forested,42.0,"USDA CDL footprint-buffer approximation, checked against NAIP",medium
+cyrus_chi2,2015,previously developed/open,34.0,"USDA CDL footprint-buffer approximation, checked against NAIP",medium
+cyrus_chi2,2015,agricultural,24.0,"USDA CDL footprint-buffer approximation, checked against NAIP",medium
+edged_ord01_1,2022,agricultural,95.4,Dynamic World parcel-wide argmax area,high
+edged_ord01_2,2022,agricultural,95.4,Dynamic World parcel-wide argmax area,high
+cyrus_chi3,2023,agricultural,98.7,Dynamic World parcel-wide argmax area,high

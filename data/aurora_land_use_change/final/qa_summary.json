@@ -1,0 +1,21 @@
+{
+  "site_count": 3,
+  "current_building_count": 5,
+  "phase_count_including_planned": 7,
+  "all_buildings_within_site_or_boundary_tolerance": true,
+  "site_areas_acres": {
+    "edged_chicago": 65.116,
+    "cyrusone_aurora_chi1_chi2": 41.503,
+    "cyrusone_aurora_iii": 32.155
+  },
+  "roof_footprint_m2": {
+    "edged_chicago": 34513.7,
+    "cyrusone_aurora_chi1_chi2": 60573.5,
+    "cyrusone_aurora_iii": 19765.5
+  },
+  "disturbed_area_acres": {
+    "edged_chicago": 52.72,
+    "cyrusone_aurora_chi1_chi2": 40.79,
+    "cyrusone_aurora_iii": 29.16
+  }
+}

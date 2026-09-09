@@ -1,0 +1,7 @@
+product,site_id,polygon_count,total_area_m2,total_area_acres,large_unmatched_count
+core,cyrusone_aurora_chi1_chi2,1,147719.74752700797,36.502344562894656,0
+core,cyrusone_aurora_iii,1,50028.54752087398,12.362323319393774,0
+core,edged_chicago,2,24491.717179004812,6.0520351163039106,0
+inclusive,cyrusone_aurora_chi1_chi2,1,159856.0465529531,39.501289363300415,0
+inclusive,cyrusone_aurora_iii,1,82636.74166642033,20.41998357268439,1
+inclusive,edged_chicago,2,92831.46955911967,22.939155697563812,2

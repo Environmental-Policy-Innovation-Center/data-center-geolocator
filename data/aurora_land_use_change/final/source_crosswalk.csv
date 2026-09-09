@@ -1,0 +1,5 @@
+repo_site_group_id,repo_record_uid,final_site_id,phase_ids,reconciliation_note
+site_00603,FracTracker:frac_row_259,edged_chicago,edged_ord01_1; edged_ord01_2; edged_ord01_3,Expanded point record to parcel-defined three-phase campus
+site_01911,PNNL:building_00199252950,cyrusone_aurora_chi1_chi2,cyrus_chi1,CME building retained as CHI1
+site_02530,PNNL:building_01426146790,cyrusone_aurora_chi1_chi2,cyrus_chi2,Previously unnamed PNNL building identified as CHI2
+,,cyrusone_aurora_iii,cyrus_chi3; cyrus_chi3_b2,"Additional campus found from parcel ownership, Overture and imagery"

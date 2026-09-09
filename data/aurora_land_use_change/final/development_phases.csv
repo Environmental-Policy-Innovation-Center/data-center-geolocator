@@ -1,0 +1,8 @@
+phase_id,site_id,phase_name,last_preconstruction_observation,construction_start_lower,construction_start_upper,first_structure_observation,completion_or_operation,current_status,basis,confidence
+cyrus_chi1,cyrusone_aurora_chi1_chi2,CHI1 / CME,2006-09-25,2006-01-01,2007-12-31,2009-12-31,2009,operating,Landsat/CDL transition brackets initial site work; third-party year-built record,medium
+cyrus_chi2,cyrusone_aurora_chi1_chi2,CHI2,2015-09-16,2016-12-01,2016-12-31,2017-07-02,2018,operating,NAIP 2015 pre-site; reported December 2016 construction start; roof visible in NAIP 2017,high
+edged_ord01_1,edged_chicago,ORD01-1,2022-06-14,2023-05-22,2023-05-22,2023-08-18,2025-02-27,operating,Official groundbreaking and opening; NAIP confirms 2023 construction,high
+cyrus_chi3,cyrusone_aurora_iii,CHI3 building 1,2023-08-18,2024-09-13,2024-09-13,2024-10-06,2026-06-25,substantially_complete,Official groundbreaking; Sentinel-2 construction sequence; completion source uses campus building naming,medium-high
+edged_ord01_2,edged_chicago,ORD01-2,2025-10-26,2025-11-13,2025-11-13,2026-05-04,2027-Q2 planned,under_construction,Official groundbreaking and top-out; Sentinel-2 roof visible in 2026,high
+edged_ord01_3,edged_chicago,Future building 3,,,,,,planned,Shown on approved preliminary plan; no construction visible as of 2026-08-22,high
+cyrus_chi3_b2,cyrusone_aurora_iii,CHI3 building 2,,,,,,planned,"Two-building 446,000-square-foot campus announced; only one current roof mapped",medium

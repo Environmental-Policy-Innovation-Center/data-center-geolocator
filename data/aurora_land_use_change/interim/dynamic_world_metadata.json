@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-09-06T14:58:01.702065-04:00",
+  "earth_engine_project": "earthindex",
+  "dataset": "GOOGLE/DYNAMICWORLD/V1",
+  "method": "Annual median class-probability composite; argmax class area at 10 m",
+  "classes": [
+    "water",
+    "trees",
+    "grass",
+    "flooded_vegetation",
+    "crops",
+    "shrub_and_scrub",
+    "built",
+    "bare",
+    "snow_and_ice"
+  ]
+}
